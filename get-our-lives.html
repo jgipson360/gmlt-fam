@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMLT - Get My Life Together Project</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            overflow: hidden;
+        }
+
+        .presentation-container {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .slide {
+            display: none;
+            padding: 40px;
+            text-align: center;
+            height: 100vh;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .slide.active {
+            display: flex;
+        }
+
+        .slide h1 {
+            font-size: 3.5rem;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .slide h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #f8f9ff;
+        }
+
+        .slide h3 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #e8ecff;
+        }
+
+        .slide p, .slide li {
+            font-size: 1.3rem;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            max-width: 900px;
+        }
+
+        .slide ul {
+            text-align: left;
+            max-width: 800px;
+        }
+
+        .slide li {
+            margin-bottom: 10px;
+            padding-left: 10px;
+        }
+
+        .epic-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+            max-width: 1200px;
+        }
+
+        .epic-card {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .epic-card h4 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #f0f4ff;
+        }
+
+        .epic-card p {
+            font-size: 1.1rem;
+            margin-bottom: 0;
+        }
+
+        .timeline {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1000px;
+            margin: 30px 0;
+            position: relative;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: rgba(255,255,255,0.3);
+            z-index: 1;
+        }
+
+        .timeline-item {
+            background: rgba(255,255,255,0.2);
+            padding: 15px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255,255,255,0.3);
+            z-index: 2;
+            position: relative;
+        }
+
+        .timeline-item h4 {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+
+        .timeline-item p {
+            font-size: 1rem;
+            margin: 0;
+        }
+
+        .kanban-board {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            max-width: 1000px;
+            margin: 20px 0;
+        }
+
+        .kanban-column {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .kanban-column h4 {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .kanban-card {
+            background: rgba(255,255,255,0.2);
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            border-left: 4px solid #ffeb3b;
+        }
+
+        .controls {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 15px;
+            z-index: 1000;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            background: rgba(255,255,255,0.2);
+            border: 2px solid rgba(255,255,255,0.3);
+            border-radius: 25px;
+            color: white;
+            cursor: pointer;
+            font-size: 1rem;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background: rgba(255,255,255,0.3);
+            transform: translateY(-2px);
+        }
+
+        .slide-counter {
+            position: fixed;
+            top: 30px;
+            right: 30px;
+            background: rgba(255,255,255,0.2);
+            padding: 10px 20px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+
+        .problem-highlight {
+            background: rgba(255,87,87,0.3);
+            padding: 20px;
+            border-radius: 15px;
+            border-left: 5px solid #ff5757;
+            margin: 20px 0;
+            max-width: 800px;
+        }
+
+        .solution-highlight {
+            background: rgba(87,255,87,0.3);
+            padding: 20px;
+            border-radius: 15px;
+            border-left: 5px solid #57ff57;
+            margin: 20px 0;
+            max-width: 800px;
+        }
+
+        .family-roles {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+            max-width: 1000px;
+        }
+
+        .role-card {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .emoji {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="presentation-container">
+        <!-- Slide 1: Title -->
+        <div class="slide active">
+            <h1>🏠 Get My Life Together</h1>
+            <h2>Family Project Kickoff</h2>
+            <p>A systematic approach to eliminating pests and creating an organized, sustainable home</p>
+            <div style="margin-top: 40px;">
+                <p><strong>Project Duration:</strong> 6-8 weeks</p>
+                <p><strong>Family Team:</strong> Everyone participates</p>
+                <p><strong>Goal:</strong> Pest-free, organized home that stays that way</p>
+            </div>
+        </div>
+
+        <!-- Slide 2: The Problem -->
+        <div class="slide">
+            <h2>🐛 Our Current Situation</h2>
+            <div class="problem-highlight">
+                <h3>What We're Facing:</h3>
+                <ul>
+                    <li><strong>Bed Bug Infestation:</strong> Affecting our sleep and comfort</li>
+                    <li><strong>Roach Problem:</strong> Kitchen and common areas compromised</li>
+                    <li><strong>Overwhelming Clutter:</strong> Making cleaning and treatment difficult</li>
+                    <li><strong>Maintenance Challenges:</strong> Repairs and organization needed</li>
+                </ul>
+            </div>
+            <p><strong>Why Act Now:</strong> Problems will only get worse without systematic action</p>
+        </div>
+
+        <!-- Slide 3: The Solution -->
+        <div class="slide">
+            <h2>💡 Our Solution: Project Management Approach</h2>
+            <div class="solution-highlight">
+                <h3>Why Use Project Management?</h3>
+                <ul>
+                    <li><strong>Organized Progress:</strong> Break big problems into manageable tasks</li>
+                    <li><strong>Family Coordination:</strong> Everyone knows their role and timeline</li>
+                    <li><strong>Track Success:</strong> Celebrate wins and adjust when needed</li>
+                    <li><strong>Sustainable Results:</strong> Build systems that prevent future problems</li>
+                </ul>
+            </div>
+            <p>Just like managing work projects, we'll manage our home transformation!</p>
+        </div>
+
+        <!-- Slide 4: Kanban Explained -->
+        <div class="slide">
+            <h2>📋 What is Kanban?</h2>
+            <p>A visual way to track work from start to finish</p>
+            <div class="kanban-board">
+                <div class="kanban-column">
+                    <h4>🔴 TO DO</h4>
+                    <div class="kanban-card">Buy bed bug supplies</div>
+                    <div class="kanban-card">Clear master bedroom</div>
+                    <div class="kanban-card">Deep clean kitchen</div>
+                </div>
+                <div class="kanban-column">
+                    <h4>🔄 IN PROGRESS</h4>
+                    <div class="kanban-card">Install mattress covers</div>
+                    <div class="kanban-card">Wash all clothing</div>
+                </div>
+                <div class="kanban-column">
+                    <h4>⏳ BLOCKED</h4>
+                    <div class="kanban-card">Professional quotes</div>
+                </div>
+                <div class="kanban-column">
+                    <h4>✅ DONE</h4>
+                    <div class="kanban-card">Project planning</div>
+                </div>
+            </div>
+            <p><strong>Benefits:</strong> Everyone can see progress, nothing gets forgotten, celebrate completed work!</p>
+        </div>
+
+        <!-- Slide 5: Epics and Stories -->
+        <div class="slide">
+            <h2>📚 Epics and Stories Explained</h2>
+            <div style="max-width: 900px;">
+                <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 15px; margin-bottom: 20px;">
+                    <h3>🎯 Epic = Big Goal Area</h3>
+                    <p>Example: "Master Bedroom Pest Elimination & Organization"</p>
+                </div>
+                <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 15px;">
+                    <h3>📝 Story = Specific Task</h3>
+                    <p>Example: "Install mattress encasements on all beds"</p>
+                    <ul style="margin-top: 15px;">
+                        <li>Clear instructions on what to do</li>
+                        <li>Who should do it (adults-only, all-family, etc.)</li>
+                        <li>What "done" looks like</li>
+                        <li>How long it should take</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 6: Our 7 Epics -->
+        <div class="slide">
+            <h2>🎯 Our 7 Epic Areas</h2>
+            <div class="epic-grid">
+                <div class="epic-card">
+                    <h4>1. PREP 🚨</h4>
+                    <p>Emergency response & planning (Week 1-2)</p>
+                </div>
+                <div class="epic-card">
+                    <h4>2. MASTER BEDROOM 🛏️</h4>
+                    <p>Mom/Dad sleeping space (Week 2-4)</p>
+                </div>
+                <div class="epic-card">
+                    <h4>3. KITCHEN 🍽️</h4>
+                    <p>Food prep & roach elimination (Week 2-4)</p>
+                </div>
+                <div class="epic-card">
+                    <h4>4. KIDS' ROOMS 🧸</h4>
+                    <p>Gipson Girl's safe spaces (Week 3-5)</p>
+                </div>
+                <div class="epic-card">
+                    <h4>5. LIVING AREAS 🛋️</h4>
+                    <p>Family gathering spaces (Week 4-5)</p>
+                </div>
+                <div class="epic-card">
+                    <h4>6. BATHROOMS 🚿</h4>
+                    <p>Repairs & deep cleaning (Week 4-6)</p>
+                </div>
+                <div class="epic-card">
+                    <h4>7. MAINTENANCE 🔄</h4>
+                    <p>Long-term success systems (Week 6-8)</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 7: Timeline -->
+        <div class="slide">
+            <h2>📅 Our 8-Week Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h4>Week 1-2</h4>
+                    <p>Emergency Response</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Week 3-4</h4>
+                    <p>Major Treatment</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Week 5-6</h4>
+                    <p>Organization</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Week 7-8</h4>
+                    <p>Sustainability</p>
+                </div>
+            </div>
+            <div style="margin-top: 40px; max-width: 800px;">
+                <h3>Key Milestones:</h3>
+                <ul>
+                    <li><strong>Week 2:</strong> Decide DIY vs Professional treatment</li>
+                    <li><strong>Week 4:</strong> Bedrooms and kitchen pest-free</li>
+                    <li><strong>Week 6:</strong> All rooms organized and functional</li>
+                    <li><strong>Week 8:</strong> Family maintaining systems independently</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Slide 8: Family Roles -->
+        <div class="slide">
+            <h2>👨‍👩‍👧‍👦 Everyone Has a Role</h2>
+            <div class="family-roles">
+                <div class="role-card" style="border: 3px solid #FFD700;">
+                    <div class="emoji">👨‍💻</div>
+                    <h4>Dad - Scrum Leader</h4>
+                    <ul>
+                        <li>Manage project timeline</li>
+                        <li>Coordinate family tasks</li>
+                        <li>Run weekly meetings</li>
+                        <li>Remove blockers & obstacles</li>
+                        <li>Track progress & celebrate wins</li>
+                    </ul>
+                </div>
+                <div class="role-card">
+                    <div class="emoji">👩‍💼</div>
+                    <h4>Mom - Co-Lead</h4>
+                    <ul>
+                        <li>Family coordination</li>
+                        <li>Quality assurance</li>
+                        <li>Schedule management</li>
+                        <li>Support & motivation</li>
+                    </ul>
+                </div>
+                <div class="role-card">
+                    <div class="emoji">👦👧</div>
+                    <h4>Teens</h4>
+                    <ul>
+                        <li>Help with physical tasks</li>
+                        <li>Organize personal spaces</li>
+                        <li>Assist with cleaning</li>
+                        <li>Learn responsibility</li>
+                    </ul>
+                </div>
+                <div class="role-card">
+                    <div class="emoji">🧒</div>
+                    <h4>Children</h4>
+                    <ul>
+                        <li>Sort personal belongings</li>
+                        <li>Learn organization skills</li>
+                        <li>Light cleaning tasks</li>
+                        <li>Maintain their spaces</li>
+                    </ul>
+                </div>
+                <div class="role-card">
+                    <div class="emoji">👨‍👩‍👧‍👦</div>
+                    <h4>Whole Family</h4>
+                    <ul>
+                        <li>Prayer</li>
+                        <li>Daily 15-min pickup</li>
+                        <li>Weekly progress meetings</li>
+                        <li>Celebrate milestones</li>
+                        <li>Support each other</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 9: Budget & Investment -->
+        <div class="slide">
+            <h2>💰 Budget & Investment</h2>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; max-width: 1000px;">
+                <div style="background: rgba(255,255,255,0.1); padding: 30px; border-radius: 15px;">
+                    <h3>💡 DIY Route</h3>
+                    <p style="font-size: 2rem; color: #90EE90;">$500-1,000</p>
+                    <ul>
+                        <li>Bed bug supplies: $200-400</li>
+                        <li>Storage solutions: $150-250</li>
+                        <li>Replacements: $200-400</li>
+                        <li>Timeline: 6-8 weeks</li>
+                    </ul>
+                </div>
+                <div style="background: rgba(255,255,255,0.1); padding: 30px; border-radius: 15px;">
+                    <h3>🔥 Professional Route</h3>
+                    <p style="font-size: 2rem; color: #FFB347;">$2,000-5,000</p>
+                    <ul>
+                        <li>Heat treatment: $1,500-4,000</li>
+                        <li>Storage/prep: $200-300</li>
+                        <li>Replacements: $200-400</li>
+                        <li>Timeline: 4-6 weeks</li>
+                    </ul>
+                </div>
+            </div>
+            <p style="margin-top: 30px;"><strong>Decision Point:</strong> Week 2 - Evaluate DIY progress & financing options</p>
+        </div>
+
+        <!-- Slide 10: What Success Looks Like -->
+        <div class="slide">
+            <h2>🎉 What Success Looks Like</h2>
+            <div style="max-width: 900px;">
+                <div style="background: rgba(87,255,87,0.3); padding: 25px; border-radius: 15px; margin-bottom: 25px;">
+                    <h3>🏆 8 Weeks From Now:</h3>
+                    <ul>
+                        <li><strong>Zero Pests:</strong> No bed bugs or roaches for 4+ weeks</li>
+                        <li><strong>Organized Home:</strong> Everything has a place and stays there</li>
+                        <li><strong>Family Skills:</strong> Everyone maintains their responsibilities</li>
+                        <li><strong>Sustainable Systems:</strong> Routines that prevent future problems</li>
+                    </ul>
+                </div>
+                <div style="background: rgba(255,255,255,0.1); padding: 25px; border-radius: 15px;">
+                    <h3>🔄 Long-Term Benefits:</h3>
+                    <ul>
+                        <li>Never face this level of pest problem again</li>
+                        <li>Family has learned life-long organization skills</li>
+                        <li>Home supports our health and happiness</li>
+                        <li>Pride in our achievement and teamwork</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 11: Weekly Progress Meetings -->
+        <div class="slide">
+            <h2>📊 Weekly Family Progress Meetings</h2>
+            <div style="max-width: 800px;">
+                <div style="background: rgba(255,255,255,0.1); padding: 25px; border-radius: 15px; margin-bottom: 25px;">
+                    <h3>🕐 Every [Day] at [Time] - 30 Minutes</h3>
+                    <p>Brief, positive meetings led by Dad (Scrum Leader)</p>
+                </div>
+                <h3>Meeting Agenda (Dad Facilitates):</h3>
+                <ul>
+                    <li>✅ <strong>Celebrate Wins:</strong> What did we accomplish this week?</li>
+                    <li>🔍 <strong>Pest Check:</strong> Any signs we need to address?</li>
+                    <li>📋 <strong>Next Week:</strong> What are our priorities?</li>
+                    <li>🤝 <strong>Problem Solving:</strong> Any challenges to work through?</li>
+                    <li>🎁 <strong>Rewards:</strong> Acknowledge great effort and teamwork</li>
+                </ul>
+                <div style="background: rgba(87,255,87,0.3); padding: 15px; border-radius: 10px; margin-top: 25px;">
+                    <p><strong>Rule:</strong> These meetings are positive and solution-focused. We're a team!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 12: Getting Started -->
+        <div class="slide">
+            <h2>🚀 Getting Started</h2>
+            <div style="max-width: 800px;">
+                <h3>📅 This Week (PREP Epic):</h3>
+                <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 15px; margin: 20px 0;">
+                    <ul>
+                        <li><strong>Today:</strong> Get quotes from 3 pest control companies</li>
+                        <li><strong>Tomorrow:</strong> Buy emergency bed bug supplies & install mattress covers</li>
+                        <li><strong>This Weekend:</strong> Buy storage containers & start kitchen prep</li>
+                        <li><strong>End of Week 2:</strong> Family decision meeting on treatment approach</li>
+                    </ul>
+                </div>
+                <h3>💪 Family Commitment:</h3>
+                <div style="background: rgba(87,255,87,0.3); padding: 20px; border-radius: 15px;">
+                    <ul>
+                        <li>We're all in this together</li>
+                        <li>Everyone participates at their level</li>
+                        <li>We celebrate progress, not perfection</li>
+                        <li>We support each other through challenges</li>
+                        <li>We're building something amazing for our family</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 13: Questions & Discussion -->
+        <div class="slide">
+            <h2>❓ Questions & Discussion</h2>
+            <div style="max-width: 800px;">
+                <div style="background: rgba(255,255,255,0.1); padding: 30px; border-radius: 15px; margin-bottom: 30px;">
+                    <h3>Let's Talk About:</h3>
+                    <ul>
+                        <li>What questions do you have about the project?</li>
+                        <li>What concerns should we address?</li>
+                        <li>What are you most excited about?</li>
+                        <li>How can we support each other best?</li>
+                        <li>What day/time works for weekly meetings?</li>
+                    </ul>
+                </div>
+                <div style="background: rgba(87,255,87,0.3); padding: 20px; border-radius: 15px;">
+                    <p style="font-size: 1.5rem;"><strong>Remember: This is OUR project. Everyone's input matters!</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-counter">
+        <span id="current-slide">1</span> / <span id="total-slides">13</span>
+    </div>
+
+    <div class="controls">
+        <button class="btn" onclick="goToBeginning()">⏮ Beginning</button>
+        <button class="btn" onclick="previousSlide()">← Previous</button>
+        <button class="btn" onclick="nextSlide()">Next →</button>
+        <button class="btn" onclick="toggleFullscreen()">⛶ Fullscreen</button>
+        <button class="btn" onclick="window.open('weekly-meeting-printable.html', '_blank')">📊 Weekly Meeting</button>
+        <button class="btn" onclick="window.open('personal-mission-control-printable.html', '_blank')">🚀 Mission Control</button>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+
+        document.getElementById('total-slides').textContent = totalSlides;
+
+        function showSlide(n) {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (n + totalSlides) % totalSlides;
+            slides[currentSlide].classList.add('active');
+            document.getElementById('current-slide').textContent = currentSlide + 1;
+        }
+
+        function nextSlide() {
+            showSlide(currentSlide + 1);
+        }
+
+        function previousSlide() {
+            showSlide(currentSlide - 1);
+        }
+
+        function goToBeginning() {
+            showSlide(0);
+        }
+
+        function toggleFullscreen() {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen();
+            } else {
+                document.exitFullscreen();
+            }
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowRight' || e.key === ' ') {
+                e.preventDefault();
+                nextSlide();
+            } else if (e.key === 'ArrowLeft') {
+                e.preventDefault();
+                previousSlide();
+            } else if (e.key === 'f' || e.key === 'F') {
+                e.preventDefault();
+                toggleFullscreen();
+            }
+        });
+
+        // Touch/swipe support
+        let startX = 0;
+        let startY = 0;
+        document.addEventListener('touchstart', function(e) {
+            startX = e.touches[0].clientX;
+            startY = e.touches[0].clientY;
+        });
+
+        document.addEventListener('touchend', function(e) {
+            const endX = e.changedTouches[0].clientX;
+            const endY = e.changedTouches[0].clientY;
+            const diffX = startX - endX;
+            const diffY = startY - endY;
+
+            // Only respond to horizontal swipes (ignore vertical scrolling attempts)
+            if (Math.abs(diffX) > Math.abs(diffY) && Math.abs(diffX) > 50) {
+                e.preventDefault();
+                if (diffX > 0) {
+                    nextSlide();
+                } else {
+                    previousSlide();
+                }
+            }
+        });
+
+        // Prevent scrolling on the page
+        document.addEventListener('wheel', function(e) {
+            e.preventDefault();
+        }, { passive: false });
+
+        document.addEventListener('touchmove', function(e) {
+            e.preventDefault();
+        }, { passive: false });
+    </script>
+</body>
+</html>

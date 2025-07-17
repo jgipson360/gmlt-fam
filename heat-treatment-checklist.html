@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMLT Heat Treatment Preparation Checklist</title>
+    <style>
+        @media print {
+            .print-instructions, .page-break, .additional-tasks, .contact-info, .signature-section {
+                display: none;
+            }
+
+            .header, .header h1, .header p {
+                color: black !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            .temperature-warning {
+                color: black !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 15px;
+            background: white;
+            color: #333;
+            line-height: 1.4;
+        }
+
+        .header {
+            text-align: center;
+            background: linear-gradient(135deg, #FF5722 0%, #E64A19 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 26px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            margin: 10px 0 0 0;
+            font-size: 16px;
+            font-style: italic;
+        }
+
+        .info-box {
+            background: #ffecb3;
+            border: 3px solid #FFC107;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-left: 8px solid #FF6F00;
+        }
+
+        .info-box h3 {
+            margin: 0 0 10px 0;
+            color: #E65100;
+            font-size: 18px;
+        }
+
+        .warning-box {
+            background: #ffebee;
+            border: 3px solid #f44336;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-left: 8px solid #d32f2f;
+        }
+
+        .warning-box h3 {
+            margin: 0 0 10px 0;
+            color: #c62828;
+            font-size: 18px;
+        }
+
+        .section {
+            margin-bottom: 25px;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid;
+        }
+
+        .remove-section {
+            background: #ffebee;
+            border-left-color: #f44336;
+        }
+
+        .prepare-section {
+            background: #e3f2fd;
+            border-left-color: #2196F3;
+        }
+
+        .family-section {
+            background: #e8f5e8;
+            border-left-color: #4CAF50;
+        }
+
+        .section h3 {
+            margin: 0 0 15px 0;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .section h3 .emoji {
+            margin-right: 10px;
+            font-size: 24px;
+        }
+
+        .checklist {
+            list-style: none;
+            padding: 0;
+        }
+
+        .checklist li {
+            margin-bottom: 12px;
+            display: flex;
+            align-items: flex-start;
+            padding: 8px;
+            background: rgba(255,255,255,0.7);
+            border-radius: 8px;
+            border-left: 4px solid #FF9800;
+        }
+
+        .checklist input[type="checkbox"] {
+            margin-right: 12px;
+            margin-top: 2px;
+            transform: scale(1.3);
+            flex-shrink: 0;
+        }
+
+        .checklist .task-text {
+            flex: 1;
+        }
+
+        .checklist .family-role {
+            background: #4CAF50;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: bold;
+            margin-left: 10px;
+            flex-shrink: 0;
+        }
+
+        .adults-only { background-color: #f44336; }
+        .teen-help { background-color: #FF9800; }
+        .all-family { background-color: #4CAF50; }
+        .child-safe { background-color: #2196F3; }
+
+        .priority-high {
+            border-left-color: #f44336 !important;
+            background: #ffebee !important;
+        }
+
+        .priority-medium {
+            border-left-color: #FF9800 !important;
+            background: #fff3e0 !important;
+        }
+
+        .sub-checklist {
+            margin-left: 20px;
+            margin-top: 8px;
+        }
+
+        .sub-checklist li {
+            background: rgba(255,255,255,0.5);
+            border-left: 2px solid #ccc;
+            font-size: 14px;
+            padding: 6px;
+        }
+
+        .timeline {
+            background: #e8f5e8;
+            border: 3px solid #4CAF50;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .timeline h3 {
+            margin: 0 0 15px 0;
+            color: #2E7D32;
+            text-align: center;
+        }
+
+        .timeline-item {
+            display: flex;
+            margin-bottom: 10px;
+            padding: 8px;
+            background: rgba(255,255,255,0.8);
+            border-radius: 6px;
+        }
+
+        .timeline-day {
+            font-weight: bold;
+            color: #2E7D32;
+            min-width: 100px;
+        }
+
+        .contact-info {
+            background: #f3e5f5;
+            border: 3px solid #9C27B0;
+            border-radius: 10px;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        .contact-info h3 {
+            margin: 0 0 10px 0;
+            color: #7B1FA2;
+        }
+
+        .signature-section {
+            background: #f5f5f5;
+            border: 2px solid #666;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .signature-line {
+            border-bottom: 2px solid #666;
+            width: 200px;
+            display: inline-block;
+            margin: 10px;
+            padding: 5px;
+        }
+
+        .print-instructions {
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 10px;
+            background: #e3f2fd;
+            border-radius: 5px;
+            border: 1px solid #2196F3;
+        }
+
+        @media print {
+            .print-instructions {
+                display: none;
+            }
+        }
+
+        .temperature-warning {
+            background: linear-gradient(135deg, #FF5722 0%, #D84315 100%);
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        .prep-checklist {
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 20px;
+            border: 4px solid #FF5722;
+            border-radius: 15px;
+            background: linear-gradient(145deg, #fff3e0 0%, #ffffff 100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="prep-checklist">
+        <div class="header">
+            <h1>🔥 HEAT TREATMENT PREPARATION CHECKLIST</h1>
+            <p>GMLT Family Project - Professional Heat Treatment Prep</p>
+            <p>🙏 "I can do all things through Christ who strengthens me." - Philippians 4:13</p>
+        </div>
+
+        <div class="info-box">
+            <h3>📋 IMPORTANT INFORMATION</h3>
+            <ul>
+                <li><strong>Treatment Temperature:</strong> Up to 150°F (65°C)</li>
+                <li><strong>Treatment Duration:</strong> 6-12 hours typically</li>
+                <li><strong>Family Relocation:</strong> Required during entire treatment</li>
+                <li><strong>Access Needed:</strong> Electrical power and 3 car-length parking space</li>
+            </ul>
+        </div>
+
+        <div class="warning-box">
+            <h3>⚠️ CRITICAL SAFETY WARNING</h3>
+            <p><strong>Items left in the home will be exposed to 150°F temperatures and powerful air circulation fans.</strong>
+            Remove all heat-sensitive items listed below or they may be damaged. Place removed items in bags labeled "DO NOT HEAT" near front door for inspection.</p>
+        </div>
+
+        <div class="timeline">
+            <h3>📅 PREPARATION TIMELINE</h3>
+            <div class="timeline-item">
+                <div class="timeline-day">5-7 Days Before:</div>
+                <div>Schedule family relocation, book hotel/arrangements</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-day">3-4 Days Before:</div>
+                <div>Begin removing heat-sensitive items, start laundry prep</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-day">1-2 Days Before:</div>
+                <div>Complete all electronics removal, final preparations</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-day">Day Of Treatment:</div>
+                <div>Final walkthrough, leave with minimal belongings</div>
+            </div>
+        </div>
+
+        <div class="section remove-section">
+            <h3><span class="emoji">🚫</span>ITEMS THAT MUST BE REMOVED</h3>
+            <p><strong>Place these items in bags labeled "DO NOT HEAT" near front door for professional inspection:</strong></p>
+
+            <ul class="checklist">
+                <li class="priority-high">
+                    <input type="checkbox" id="people">
+                    <div class="task-text"><strong>People and plants</strong> - Family must relocate during treatment</div>
+                    <div class="family-role all-family">ALL FAMILY</div>
+                </li>
+
+                <li class="priority-high">
+                    <input type="checkbox" id="electronics">
+                    <div class="task-text"><strong>ALL electronics:</strong> Smart TVs, computers, gaming systems (PS5, Xbox, Switch), tablets, phones, smart home devices</div>
+                    <div class="family-role teen-help">TEEN HELP</div>
+                </li>
+
+                <li class="priority-high">
+                    <input type="checkbox" id="medicines">
+                    <div class="task-text"><strong>Medicines and vitamins</strong> (especially liquid medications)</div>
+                    <div class="family-role adults-only">ADULTS ONLY</div>
+                </li>
+
+                <li class="priority-high">
+                    <input type="checkbox" id="aerosols">
+                    <div class="task-text"><strong>Aerosol cans:</strong> hairspray, cleaning products, asthma inhalers, deodorants</div>
+                    <div class="family-role adults-only">ADULTS ONLY</div>
+                </li>
+
+                <li class="priority-high">
+                    <input type="checkbox" id="combustibles">
+                    <div class="task-text"><strong>Fire hazards:</strong> lighters, propane, fire extinguishers, ammunition</div>
+                    <div class="family-role adults-only">ADULTS ONLY</div>
+                </li>
+
+                <li class="priority-medium">
+                    <input type="checkbox" id="meltables">
+                    <div class="task-text"><strong>Meltable items:</strong> candles, wax, crayons, lipstick, chocolates</div>
+                    <div class="family-role child-safe">CHILD HELP</div>
+                </li>
+
+                <li class="priority-medium">
+                    <input type="checkbox" id="beverages">
+                    <div class="task-text"><strong>Beverages:</strong> carbonated drinks, wines, liquors</div>
+                    <div class="family-role adults-only">ADULTS ONLY</div>
+                </li>
+
+                <li class="priority-medium">
+                    <input type="checkbox" id="produce">
+                    <div class="task-text"><strong>Fresh produce:</strong> fruits, vegetables, anything that could spoil</div>
+                    <div class="family-role all-family">ALL FAMILY</div>
+                </li>
+
+                <li class="priority-medium">
+                    <input type="checkbox" id="art">
+                    <div class="task-text"><strong>Artwork:</strong> oil paintings, acrylic paintings, valuable art pieces</div>
+                    <div class="family-role adults-only">ADULTS ONLY</div>
+                </li>
+
+                <li class="priority-medium">
+                    <input type="checkbox" id="instruments">
+                    <div class="task-text"><strong>Musical instruments:</strong> guitars, keyboards, etc.</div>
+                    <div class="family-role teen-help">TEEN HELP</div>
+                </li>
+
+                <li class="priority-medium">
+                    <input type="checkbox" id="antiques">
+                    <div class="task-text"><strong>Antique furniture</strong> with fragile finishes or glue joints</div>
+                    <div class="family-role adults-only">ADULTS ONLY</div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section prepare-section">
+            <h3><span class="emoji">🔧</span>PREPARATION TASKS</h3>
+            <p><strong>Complete these tasks BEFORE the heat treatment crew arrives:</strong></p>
+
+            <ul class="checklist">
+                <li class="priority-high">
+                    <input type="checkbox" id="smoke-detectors">
+                    <div class="task-text"><strong>Remove batteries from smoke detectors</strong> and disable heat sensors</div>
+                    <div class="family-role adults-only">ADULTS ONLY</div>
+                </li>
+
+                <li class="priority-high">
+                    <input type="checkbox" id="sprinklers">
+                    <div class="task-text"><strong>Disable sprinkler systems</strong> and remove sprinkler heads if needed</div>
+                    <div class="family-role adults-only">ADULTS ONLY</div>
+                </li>
+
+                <li class="priority-high">
+                    <input type="checkbox" id="blinds">
+                    <div class="task-text"><strong>Remove mini blinds and shades</strong> - leave by front door for inspection</div>
+                    <div class="family-role teen-help">TEEN HELP</div>
+                </li>
+
+                <li class="priority-medium">
+                    <input type="checkbox" id="breakables">
+                    <div class="task-text"><strong>Remove breakable items</strong> from tops of furniture</div>
+                    <div class="family-role all-family">ALL FAMILY</div>
+                </li>
+
+                <li class="priority-medium">
+                    <input type="checkbox" id="closets">
+                    <div class="task-text"><strong>Prepare closets:</strong> remove items from floors, keep clothes hanging loose</div>
+                    <div class="family-role all-family">ALL FAMILY</div>
+                </li>
+
+                <li class="priority-medium">
+                    <input type="checkbox" id="loose-papers">
+                    <div class="task-text"><strong>Secure loose papers</strong> and lightweight items (powerful fans will blow them around)</div>
+                    <div class="family-role child-safe">CHILD HELP</div>
+                </li>
+
+                <li class="priority-medium">
+                    <input type="checkbox" id="piano">
+                    <div class="task-text"><strong>Piano protection:</strong> place pans of water underneath (may go out of tune)</div>
+                    <div class="family-role adults-only">ADULTS ONLY</div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section family-section">
+            <h3><span class="emoji">👨‍👩‍👧‍👦</span>FAMILY PREPARATION TASKS</h3>
+            <p><strong>Special preparations for family members:</strong></p>
+
+            <ul class="checklist">
+                <li class="priority-high">
+                    <input type="checkbox" id="day-clothes">
+                    <div class="task-text"><strong>Clothes for treatment day:</strong> dry on high heat for 20+ minutes before wearing</div>
+                    <div class="family-role all-family">ALL FAMILY</div>
+                </li>
+
+                <li class="priority-high">
+                    <input type="checkbox" id="minimal-belongings">
+                    <div class="task-text"><strong>Pack minimal belongings:</strong> include walkers, wheelchairs, car seats, strollers if needed</div>
+                    <div class="family-role all-family">ALL FAMILY</div>
+                </li>
+
+                <li class="priority-medium">
+                    <input type="checkbox" id="relocation">
+                    <div class="task-text"><strong>Arrange family relocation:</strong> hotel, family, friends for 6-12 hours</div>
+                    <div class="family-role adults-only">ADULTS ONLY</div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section family-section">
+            <h3><span class="emoji">👕</span>CLOTHING & SHOES GUIDANCE</h3>
+            <p><strong>What to do with clothes and shoes during heat treatment:</strong></p>
+
+            <ul class="checklist">
+                <li class="priority-high">
+                    <input type="checkbox" id="leave-clothes">
+                    <div class="task-text"><strong>LEAVE most clothes in closets and dressers</strong> - heat will kill bed bugs in fabric</div>
+                    <div class="family-role all-family">ALL FAMILY</div>
+                </li>
+
+                <li class="priority-high">
+                    <input type="checkbox" id="heat-sensitive-clothes">
+                    <div class="task-text"><strong>REMOVE heat-sensitive items:</strong> leather jackets, silk garments, delicate fabrics, expensive suits</div>
+                    <div class="family-role adults-only">ADULTS ONLY</div>
+                </li>
+
+                <li class="priority-medium">
+                    <input type="checkbox" id="athletic-shoes">
+                    <div class="task-text"><strong>REMOVE expensive athletic shoes</strong> - rubber soles may soften (cheap shoes can stay)</div>
+                    <div class="family-role teen-help">TEEN HELP</div>
+                </li>
+
+                <li class="priority-medium">
+                    <input type="checkbox" id="leather-shoes">
+                    <div class="task-text"><strong>REMOVE leather dress shoes</strong> and boots - heat may cause cracking</div>
+                    <div class="family-role adults-only">ADULTS ONLY</div>
+                </li>
+
+                <li class="priority-medium">
+                    <input type="checkbox" id="synthetic-shoes">
+                    <div class="task-text"><strong>LEAVE most synthetic shoes</strong> - tennis shoes, flip flops, casual shoes usually fine</div>
+                    <div class="family-role all-family">ALL FAMILY</div>
+                </li>
+
+                <li class="priority-medium">
+                    <input type="checkbox" id="hanging-clothes">
+                    <div class="task-text"><strong>Keep clothes hanging loosely</strong> - don't pack closets tightly, heat needs to circulate</div>
+                    <div class="family-role all-family">ALL FAMILY</div>
+                </li>
+
+                <li class="priority-medium">
+                    <input type="checkbox" id="metal-hangers">
+                    <div class="task-text"><strong>Replace metal hangers</strong> with plastic for delicate fabrics (metal gets very hot)</div>
+                    <div class="family-role all-family">ALL FAMILY</div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="temperature-warning">
+            🌡️ TEMPERATURE WARNING: Heat treatments reach 150°F. This list may not include everything affected by heat.
+            It's YOUR responsibility to identify and protect heat-sensitive items! 🌡️
+        </div>
+    </div>
+</body>
+</html>

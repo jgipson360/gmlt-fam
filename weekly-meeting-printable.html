@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMLT Weekly Family Meeting Handout</title>
+    <style>
+        @media print {
+            body { margin: 0; }
+            .page-break { page-break-after: always; }
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            background: white;
+            color: #333;
+            line-height: 1.4;
+        }
+
+        .meeting-form {
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 20px;
+            border: 3px solid #4CAF50;
+            border-radius: 15px;
+            background: linear-gradient(145deg, #f9f9f9 0%, #ffffff 100%);
+        }
+
+        .header {
+            text-align: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .meeting-info {
+            display: flex;
+            justify-content: space-between;
+            background: #e8f4fd;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-left: 5px solid #2196F3;
+        }
+
+        .meeting-info div {
+            flex: 1;
+            text-align: center;
+        }
+
+        .meeting-info label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+            color: #1976D2;
+        }
+
+        .meeting-info input {
+            border: none;
+            border-bottom: 2px solid #2196F3;
+            background: transparent;
+            padding: 5px;
+            width: 80%;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 5px solid;
+        }
+
+        .wins-section {
+            background: #e8f5e8;
+            border-left-color: #4CAF50;
+        }
+
+        .pest-section {
+            background: #fff3e0;
+            border-left-color: #FF9800;
+        }
+
+        .completed-section {
+            background: #e3f2fd;
+            border-left-color: #2196F3;
+        }
+
+        .priorities-section {
+            background: #f3e5f5;
+            border-left-color: #9C27B0;
+        }
+
+        .blockers-section {
+            background: #ffebee;
+            border-left-color: #f44336;
+        }
+
+        .celebration-section {
+            background: #fff8e1;
+            border-left-color: #FFC107;
+        }
+
+        .commitment-section {
+            background: #e0f2f1;
+            border-left-color: #009688;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .section h3 {
+            margin: 0 0 15px 0;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+        }
+
+        .section h3 .emoji {
+            margin-right: 10px;
+            font-size: 20px;
+        }
+
+        .input-line {
+            border: none;
+            border-bottom: 1px solid #ccc;
+            background: transparent;
+            width: 100%;
+            padding: 8px 0;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        .input-line:focus {
+            outline: none;
+            border-bottom-color: #4CAF50;
+        }
+
+        .pest-check {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 15px;
+        }
+
+        .pest-item {
+            text-align: center;
+            flex: 1;
+        }
+
+        .pest-item label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .emoji-rating {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .emoji-rating input[type="radio"] {
+            display: none;
+        }
+
+        .emoji-rating label {
+            font-size: 24px;
+            cursor: pointer;
+            padding: 5px;
+            border-radius: 50%;
+            transition: background-color 0.3s;
+        }
+
+        .emoji-rating label:hover {
+            background-color: rgba(76, 175, 80, 0.1);
+        }
+
+        .emoji-rating input[type="radio"]:checked + label {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .checkbox-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .checkbox-list li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .checkbox-list input[type="checkbox"] {
+            margin-right: 10px;
+            transform: scale(1.2);
+        }
+
+        .numbered-list {
+            counter-reset: priority-counter;
+            list-style: none;
+            padding: 0;
+        }
+
+        .numbered-list li {
+            counter-increment: priority-counter;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .numbered-list li::before {
+            content: counter(priority-counter);
+            background: #9C27B0;
+            color: white;
+            border-radius: 50%;
+            width: 25px;
+            height: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+            font-weight: bold;
+            font-size: 12px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 15px;
+            background: #f5f5f5;
+            border-radius: 8px;
+            font-style: italic;
+            color: #666;
+        }
+
+        .print-instructions {
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 10px;
+            background: #e3f2fd;
+            border-radius: 5px;
+            border: 1px solid #2196F3;
+        }
+
+        @media print {
+            .print-instructions {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="meeting-form">
+        <div class="header">
+            <h1>🏠 GMLT FAMILY MEETING</h1>
+            <p>Weekly Progress & Planning Session</p>
+        </div>
+
+        <div class="meeting-info">
+            <div>
+                <label>Week #:</label>
+                <input type="text" name="week">
+            </div>
+            <div>
+                <label>Date:</label>
+                <input type="text" name="date">
+            </div>
+            <div>
+                <label>Time:</label>
+                <input type="text" name="time">
+            </div>
+        </div>
+
+        <div class="section wins-section">
+            <h3><span class="emoji">🎉</span>WINS THIS WEEK (Start Positive!)</h3>
+            <input type="text" class="input-line" placeholder="What went well this week?">
+            <input type="text" class="input-line" placeholder="What are we proud of?">
+            <input type="text" class="input-line" placeholder="Who showed great teamwork?">
+        </div>
+
+        <div class="section pest-section">
+            <h3><span class="emoji">🔍</span>PEST CHECK</h3>
+            <div class="pest-check">
+                <div class="pest-item">
+                    <label>Bed Bugs:</label>
+                    <div class="emoji-rating">
+                        <input type="radio" id="bb-good" name="bedbugs" value="good">
+                        <label for="bb-good">☺</label>
+                        <input type="radio" id="bb-ok" name="bedbugs" value="ok">
+                        <label for="bb-ok">😐</label>
+                        <input type="radio" id="bb-bad" name="bedbugs" value="bad">
+                        <label for="bb-bad">😠</label>
+                    </div>
+                </div>
+                <div class="pest-item">
+                    <label>Roaches:</label>
+                    <div class="emoji-rating">
+                        <input type="radio" id="roach-good" name="roaches" value="good">
+                        <label for="roach-good">☺</label>
+                        <input type="radio" id="roach-ok" name="roaches" value="ok">
+                        <label for="roach-ok">😐</label>
+                        <input type="radio" id="roach-bad" name="roaches" value="bad">
+                        <label for="roach-bad">😠</label>
+                    </div>
+                </div>
+            </div>
+            <label><strong>Notes:</strong></label>
+            <input type="text" class="input-line" placeholder="Any pest activity to discuss?">
+        </div>
+
+        <div class="section completed-section">
+            <h3><span class="emoji">📋</span>COMPLETED STORIES</h3>
+            <ul class="checkbox-list">
+                <li>
+                    <input type="checkbox" id="story1">
+                    <label for="story1">Story 1:</label>
+                    <input type="text" class="input-line" style="margin-left: 10px;" placeholder="What story was completed?">
+                </li>
+                <li>
+                    <input type="checkbox" id="story2">
+                    <label for="story2">Story 2:</label>
+                    <input type="text" class="input-line" style="margin-left: 10px;" placeholder="What story was completed?">
+                </li>
+                <li>
+                    <input type="checkbox" id="story3">
+                    <label for="story3">Story 3:</label>
+                    <input type="text" class="input-line" style="margin-left: 10px;" placeholder="What story was completed?">
+                </li>
+            </ul>
+        </div>
+
+        <div class="section priorities-section">
+            <h3><span class="emoji">📅</span>NEXT WEEK PRIORITIES</h3>
+            <ol class="numbered-list">
+                <li><input type="text" class="input-line" placeholder="Most important task for next week"></li>
+                <li><input type="text" class="input-line" placeholder="Second priority task"></li>
+                <li><input type="text" class="input-line" placeholder="Third priority task"></li>
+            </ol>
+        </div>
+
+        <div class="section blockers-section">
+            <h3><span class="emoji">🚧</span>BLOCKERS TO REMOVE</h3>
+            <label><strong>Need supplies:</strong></label>
+            <input type="text" class="input-line" placeholder="What supplies do we need to buy?">
+            <label><strong>Need help with:</strong></label>
+            <input type="text" class="input-line" placeholder="What tasks need extra help?">
+            <label><strong>Schedule conflicts:</strong></label>
+            <input type="text" class="input-line" placeholder="Any scheduling issues to resolve?">
+        </div>
+
+        <div class="section celebration-section">
+            <h3><span class="emoji">🎁</span>CELEBRATIONS EARNED</h3>
+            <input type="text" class="input-line" placeholder="What rewards did we earn this week?">
+        </div>
+
+        <div class="section commitment-section">
+            <h3><span class="emoji">🙏</span>FAMILY COMMITMENT RENEWAL</h3>
+            <p style="font-size: 16px; margin: 10px 0; font-style: italic;">"Whatever you do, work at it with all your heart, as working for the Lord" - Colossians 3:23</p>
+            <p style="font-size: 18px; margin: 10px 0;">Everyone says together:</p>
+            <p style="font-size: 24px; font-weight: bold; color: #4CAF50;">"GOD IS OUR STRENGTH, WE'VE GOT THIS!"</p>
+        </div>
+
+        <div class="footer">
+            Next meeting: _________________ | Meeting leader: Dad (Scrum Leader)
+        </div>
+    </div>
+</body>
+</html>
