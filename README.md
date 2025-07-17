@@ -22,6 +22,10 @@ Just a basic static website (hosted on GitHub Pages) that helps our family track
 
 That's it! Simple family organization, digitized. 👨‍👩‍👧‍👦
 
+## GitHub Pages Setup 📝
+
+This repo includes a `.nojekyll` file to tell GitHub Pages to skip Jekyll processing and serve the static files directly. If you're setting up your own version, just create an empty `.nojekyll` file in the root directory.
+
 ---
 
 *"I can do all things through Christ who strengthens me." - Philippians 4:13*
