@@ -41,3 +41,28 @@ function updateProgress() {
 
 // Call the update function on page load
 updateProgress();
+
+// Story Card Functions
+function toggleDetails(detailsId) {
+  const details = document.getElementById(detailsId);
+  const button = event.target;
+
+  if (details.classList.contains("show")) {
+    details.classList.remove("show");
+    button.textContent = "Add Details";
+  } else {
+    details.classList.add("show");
+    button.textContent = "Hide Details";
+  }
+}
+
+function toggleBlockedInput() {
+  const blockedInput = document.getElementById("blockedInput");
+  const blockedCheckbox = document.getElementById("blocked");
+
+  if (blockedCheckbox.checked) {
+    blockedInput.classList.add("show");
+  } else {
+    blockedInput.classList.remove("show");
+  }
+}
