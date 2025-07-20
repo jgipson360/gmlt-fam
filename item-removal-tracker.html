@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMLT Heat Treatment - Item Removal Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="item-tracker-body">
+    <div class="item-tracker-print-instructions">
+        📄 <strong>Print this page</strong> to have a physical checklist during your heat treatment preparation!
+    </div>
+
+    <div class="item-tracker-header">
+        <h1>📦 ITEM REMOVAL TRACKER</h1>
+        <p>GMLT Heat Treatment - Organized by Area/Room</p>
+        <p>🙏 "In their hearts humans plan their course, but the Lord establishes their steps." - Proverbs 16:9</p>
+    </div>
+
+    <div class="item-tracker-info-box">
+        <h3>📋 HOW TO USE THIS TRACKER</h3>
+        <ul>
+            <li><strong>Before Treatment:</strong> Check items as "Removed" when you take them out</li>
+            <li><strong>After Treatment:</strong> Check items as "Returned" when you put them back</li>
+            <li><strong>Add Items:</strong> Click "Add Item" to include additional items for each area</li>
+            <li><strong>Print Copy:</strong> Print this page for easy reference during the process</li>
+        </ul>
+    </div>
+
+    <div class="item-tracker-controls">
+        <button class="item-tracker-btn" onclick="addNewArea()">+ Add New Area/Room</button>
+        <button class="item-tracker-btn" onclick="updateSummary()">Update Summary</button>
+        <button class="item-tracker-btn" onclick="window.print()">🖨️ Print Tracker</button>
+    </div>
+
+    <div class="item-tracker-summary-box">
+        <h3>📊 OVERALL PROGRESS SUMMARY</h3>
+        <div class="summary-stats">
+            <div class="stat">
+                <div class="stat-number" id="total-items">5</div>
+                <div class="stat-label">Total Items</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number" id="removed-items">0</div>
+                <div class="stat-label">Removed</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number" id="returned-items">0</div>
+                <div class="stat-label">Returned</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dad's Dresser Area -->
+    <div class="area-section" id="area-dads-dresser">
+        <div class="area-header">
+            <h3 class="area-title">👔 Dad's Dresser</h3>
+            <div class="area-progress">0 of 5 items processed</div>
+        </div>
+
+        <ul class="item-list">
+            <li class="item" data-item="laptops">
+                <input type="checkbox" class="item-checkbox" onchange="updateItemStatus(this, 'removed')" id="laptops-removed">
+                <input type="checkbox" class="item-checkbox" onchange="updateItemStatus(this, 'returned')" id="laptops-returned">
+                <div class="item-text">💻 Laptops</div>
+                <div class="item-status status-pending" id="laptops-status">Pending Removal</div>
+            </li>
+
+            <li class="item" data-item="electronics-box">
+                <input type="checkbox" class="item-checkbox" onchange="updateItemStatus(this, 'removed')" id="electronics-box-removed">
+                <input type="checkbox" class="item-checkbox" onchange="updateItemStatus(this, 'returned')" id="electronics-box-returned">
+                <div class="item-text">📱 Electronics Box</div>
+                <div class="item-status status-pending" id="electronics-box-status">Pending Removal</div>
+            </li>
+
+            <li class="item" data-item="paintings-pictures-box">
+                <input type="checkbox" class="item-checkbox" onchange="updateItemStatus(this, 'removed')" id="paintings-pictures-box-removed">
+                <input type="checkbox" class="item-checkbox" onchange="updateItemStatus(this, 'returned')" id="paintings-pictures-box-returned">
+                <div class="item-text">🖼️ Paintings/Pictures Box</div>
+                <div class="item-status status-pending" id="paintings-pictures-box-status">Pending Removal</div>
+            </li>
+
+            <li class="item" data-item="lotions-toiletries">
+                <input type="checkbox" class="item-checkbox" onchange="updateItemStatus(this, 'removed')" id="lotions-toiletries-removed">
+                <input type="checkbox" class="item-checkbox" onchange="updateItemStatus(this, 'returned')" id="lotions-toiletries-returned">
+                <div class="item-text">🧴 Lotions/Toiletries</div>
+                <div class="item-status status-pending" id="lotions-toiletries-status">Pending Removal</div>
+            </li>
+
+            <li class="item" data-item="bbq-grill-set">
+                <input type="checkbox" class="item-checkbox" onchange="updateItemStatus(this, 'removed')" id="bbq-grill-set-removed">
+                <input type="checkbox" class="item-checkbox" onchange="updateItemStatus(this, 'returned')" id="bbq-grill-set-returned">
+                <div class="item-text">🔥 BBQ Grill Set</div>
+                <div class="item-status status-pending" id="bbq-grill-set-status">Pending Removal</div>
+            </li>
+        </ul>
+
+        <div class="add-item">
+            <input type="text" placeholder="Add new item for Dad's Dresser..." id="new-item-dads-dresser">
+            <button onclick="addItem('area-dads-dresser', 'new-item-dads-dresser')">+ Add Item</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script>
+        // Initialize item tracker when DOM is loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeItemTracker();
+        });
+    </script>
+</body>
+</html>

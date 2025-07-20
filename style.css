@@ -1468,3 +1468,242 @@ body {
         display: none !important;
     }
 }
+
+/* Item Removal Tracker Styles */
+.item-tracker-body {
+    font-family: 'Arial', sans-serif;
+    margin: 15px;
+    background: white;
+    color: #333;
+    line-height: 1.4;
+}
+
+.item-tracker-header {
+    text-align: center;
+    background: linear-gradient(135deg, #4CAF50 0%, #2E7D32 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.item-tracker-header h1 {
+    margin: 0;
+    font-size: 26px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.item-tracker-header p {
+    margin: 10px 0 0 0;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.item-tracker-info-box {
+    background: #e8f5e8;
+    border: 3px solid #4CAF50;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-left: 8px solid #2E7D32;
+}
+
+.item-tracker-info-box h3 {
+    margin: 0 0 10px 0;
+    color: #2E7D32;
+    font-size: 18px;
+}
+
+.item-tracker-controls {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f5f5f5;
+    border-radius: 10px;
+}
+
+.item-tracker-btn {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.item-tracker-btn:hover {
+    background: #45a049;
+}
+
+.area-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid #4CAF50;
+    background: linear-gradient(145deg, #f8f8f8 0%, #ffffff 100%);
+    position: relative;
+}
+
+.area-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #4CAF50;
+}
+
+.area-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2E7D32;
+    margin: 0;
+}
+
+.area-progress {
+    font-size: 14px;
+    color: #666;
+    background: #e8f5e8;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.item-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 8px;
+    background: white;
+    border-radius: 8px;
+    border-left: 4px solid #FF9800;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.item.removed {
+    border-left-color: #4CAF50;
+    background: #f1f8e9;
+}
+
+.item.returned {
+    border-left-color: #2196F3;
+    background: #e3f2fd;
+}
+
+.item-checkbox {
+    margin-right: 12px;
+    transform: scale(1.3);
+}
+
+.item-text {
+    flex: 1;
+    font-size: 16px;
+}
+
+.item-status {
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.status-pending {
+    background: #fff3e0;
+    color: #F57C00;
+}
+
+.status-removed {
+    background: #e8f5e8;
+    color: #2E7D32;
+}
+
+.status-returned {
+    background: #e3f2fd;
+    color: #1976D2;
+}
+
+.add-item {
+    margin-top: 15px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    border: 2px dashed #ccc;
+}
+
+.add-item input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.add-item button {
+    margin-top: 8px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.item-tracker-summary-box {
+    background: #e3f2fd;
+    border: 3px solid #2196F3;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.summary-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1976D2;
+}
+
+.stat-label {
+    font-size: 12px;
+    color: #666;
+}
+
+.item-tracker-print-instructions {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #e3f2fd;
+    border-radius: 5px;
+    border: 1px solid #2196F3;
+}
+
+/* Item Tracker Print Styles */
+@media print {
+    .item-tracker-print-instructions, .add-section, .item-tracker-controls {
+        display: none;
+    }
+
+    .item-tracker-header, .item-tracker-header h1, .item-tracker-header p {
+        color: black !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+}
