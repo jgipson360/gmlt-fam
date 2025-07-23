@@ -2,6 +2,74 @@
 document.getElementById("lastUpdated").textContent =
   new Date().toLocaleDateString();
 
+// Family Group Management System
+const FAMILY_GROUPS = {
+  adults: ["Dad", "Mom"],
+  teens: ["DJ", "Q", "K"],
+  children: ["E"],
+};
+
+const GROUP_DEFINITIONS = {
+  "adults-only": {
+    name: "Adults Only",
+    emoji: "👨‍👩‍💼",
+    members: ["Dad", "Mom"],
+    description: "Tasks requiring adult responsibility and decision-making",
+  },
+  "teen-group": {
+    name: "Teen Group",
+    emoji: "🧑‍🎓",
+    members: ["DJ", "Q", "K"],
+    description: "Age-appropriate tasks for teenagers",
+  },
+  "child-safe": {
+    name: "Child Safe",
+    emoji: "👶",
+    members: ["E"],
+    description: "Tasks safe and appropriate for small children",
+  },
+  "all-family": {
+    name: "All Family",
+    emoji: "👨‍👩‍👧‍👦",
+    members: ["Dad", "Mom", "DJ", "Q", "K", "E"],
+    description: "Everyone can participate together",
+  },
+  "adults-lead": {
+    name: "Adults Lead",
+    emoji: "👨‍👩‍💼➡️",
+    members: ["Dad", "Mom"],
+    description: "Adults lead with family support",
+  },
+};
+
+// Group utility functions
+function getGroupForMember(member) {
+  if (FAMILY_GROUPS.adults.includes(member)) return "adults";
+  if (FAMILY_GROUPS.teens.includes(member)) return "teens";
+  if (FAMILY_GROUPS.children.includes(member)) return "children";
+  return null;
+}
+
+function canMemberParticipate(member, groupType) {
+  if (!GROUP_DEFINITIONS[groupType]) return false;
+  return GROUP_DEFINITIONS[groupType].members.includes(member);
+}
+
+function getGroupRecommendation(assignedTo) {
+  const memberGroup = getGroupForMember(assignedTo);
+
+  switch (memberGroup) {
+    case "adults":
+      return "adults-only";
+    case "teens":
+      return "teen-group";
+    case "children":
+      return "child-safe";
+    default:
+      return "all-family";
+  }
+}
+
 // You can add interactive functionality here
 // For example, updating progress bars, status indicators, etc.
 
@@ -190,3 +258,77 @@ function initializeItemTracker() {
     checkbox.disabled = true;
   });
 }
+
+// Stories Page JavaScript Functions
+
+// Group tab switching
+function showGroup(groupName) {
+  // Hide all group sections
+  const sections = document.querySelectorAll(".group-section");
+  sections.forEach((section) => section.classList.remove("active"));
+
+  // Remove active class from all tabs
+  const tabs = document.querySelectorAll(".tab-button");
+  tabs.forEach((tab) => tab.classList.remove("active"));
+
+  // Show selected group
+  const targetGroup = document.getElementById(groupName + "-group");
+  if (targetGroup) {
+    targetGroup.classList.add("active");
+  }
+
+  // Activate clicked tab
+  const activeTab = document.querySelector(
+    `[onclick="showGroup('${groupName}')"]`
+  );
+  if (activeTab) {
+    activeTab.classList.add("active");
+  }
+}
+
+// Open existing story card
+function openStoryCard(storyId) {
+  // Check if story card file exists, otherwise open template
+  const storyCardUrl = `stories/${storyId}.html`;
+
+  // Try to open the specific story card, fallback to template with ID
+  fetch(storyCardUrl, { method: "HEAD" })
+    .then((response) => {
+      if (response.ok) {
+        window.open(storyCardUrl, "_blank");
+      } else {
+        // Fallback to template with story ID
+        window.open(`story-card-printable.html?story=${storyId}`, "_blank");
+      }
+    })
+    .catch(() => {
+      // If fetch fails, try direct navigation
+      window.open(storyCardUrl, "_blank");
+    });
+}
+
+// Create new story card
+function createStoryCard(template) {
+  window.open(`story-card-printable.html?template=${template}`, "_blank");
+}
+
+// Create new story for group
+function createNewStory(group) {
+  window.open(`story-card-printable.html?group=${group}`, "_blank");
+}
+
+// Modal functions
+function closeModal() {
+  const modal = document.getElementById("story-modal");
+  if (modal) {
+    modal.style.display = "none";
+  }
+}
+
+// Close modal when clicking outside
+window.onclick = function (event) {
+  const modal = document.getElementById("story-modal");
+  if (modal && event.target == modal) {
+    modal.style.display = "none";
+  }
+};

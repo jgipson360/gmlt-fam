@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMLT-20 Story Card</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="story-card">
+        <div class="header">
+            <h1>📋 STORY CARD 📋</h1>
+            <div class="ticket-id">
+                <input type="text" placeholder="GMLT-20" value="GMLT-20" readonly>
+            </div>
+        </div>
+
+        <div class="story-section">
+            <div class="story-title">
+                <span class="emoji">📖</span>STORY DETAILS
+            </div>
+
+            <div class="subsection">
+                <h4><span class="emoji">🎯</span>Task Title</h4>
+                <div class="story-description">
+                    <textarea readonly>[MSTR] Dad's Dresser Contents Clearout and Sort</textarea>
+                </div>
+            </div>
+
+            <div class="subsection">
+                <h4><span class="emoji">👥</span>Group Assignment</h4>
+                <div class="group-assignment">
+                    <span class="group-tag all-family">👨‍👩‍👧‍👦 All Family</span>
+                </div>
+            </div>
+
+            <div class="subsection">
+                <h4><span class="emoji">⭐</span>Priority</h4>
+                <div class="priority-level high">🟡 High</div>
+            </div>
+
+            <div class="subsection">
+                <h4><span class="emoji">📊</span>Status</h4>
+                <div class="status-level done">✅ DONE</div>
+            </div>
+
+            <div class="subsection">
+                <h4><span class="emoji">👤</span>User Story</h4>
+                <div class="user-story">
+                    <textarea readonly>As a family organizing the master bedroom
+I want to completely clear and sort all dresser contents
+So that I can deep clean the furniture and organize belongings systematically.</textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="acceptance-criteria">
+            <div class="criteria-title">
+                <span class="emoji">✅</span>ACCEPTANCE CRITERIA
+            </div>
+            <ul class="criteria-list">
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria1" checked>
+                        <input type="text" class="criteria-input" readonly value="Remove all items from dresser top and drawers">
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria2" checked>
+                        <input type="text" class="criteria-input" readonly value="Sort contents into keep, donate, and discard categories">
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria3" checked>
+                        <input type="text" class="criteria-input" readonly value="Bag all clothing for high-heat washing schedule">
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria4" checked>
+                        <input type="text" class="criteria-input" readonly value="Clean out drawers completely and inspect for bed bugs">
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria5" checked>
+                        <input type="text" class="criteria-input" readonly value="Photograph dresser contents before and after for progress tracking">
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria6" checked>
+                        <input type="text" class="criteria-input" readonly value="Create inventory list of items to be returned after treatment">
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria7" checked>
+                        <input type="text" class="criteria-input" readonly value="Set aside items that need special care or dry cleaning">
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria8" checked>
+                        <input type="text" class="criteria-input" readonly value="Prepare donation bags for immediate removal from home">
+                    </div>
+                </li>
+            </ul>
+
+            <div class="subsection">
+                <h4><span class="emoji">💬</span>Comments & Notes</h4>
+                <div class="final-notes">
+                    <textarea readonly>✅ COMPLETED: Started dresser cleanup. Removed items on top of dresser. High Heat removal successfully completed. All items sorted and organized according to criteria.</textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="completion-section">
+            <div class="completion-title">
+                <span class="emoji">🎉</span>COMPLETION STATUS
+            </div>
+
+            <div class="completion-status">
+                <div class="status-option">
+                    <input type="radio" id="todo" name="status" value="todo">
+                    <label for="todo">📋 TO DO</label>
+                </div>
+                <div class="status-option">
+                    <input type="radio" id="inprogress" name="status" value="inprogress">
+                    <label for="inprogress">🔄 IN PROGRESS</label>
+                </div>
+                <div class="status-option">
+                    <input type="radio" id="done" name="status" value="done" checked>
+                    <label for="done">✅ DONE</label>
+                </div>
+            </div>
+
+            <div class="subsection">
+                <h4><span class="emoji">💭</span>Final Notes & Lessons Learned</h4>
+                <div class="final-notes">
+                    <textarea readonly>Successfully completed dad's dresser clearout as a family project. All family members participated appropriately. Items properly sorted and prepared for next phase of bedroom organization. No bed bugs found in dresser contents. Ready for deep cleaning phase.</textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="motivational-quote">
+            🙏 "I can do all things through Christ who strengthens me." - Philippians 4:13 🙏
+        </div>
+
+        <div class="footer">
+            Project: GMLT - Get My Life Together | Story Card: GMLT-20 |
+            <button onclick="window.print()" class="print-button">🖨️ Print Story Card</button>
+            <a href="../stories.html" class="back-button">⬅️ Back to Stories</a>
+        </div>
+    </div>
+
+    <style>
+        .group-tag {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .all-family {
+            background: #e8f5e8;
+            color: #2d5a2d;
+        }
+
+        .priority-level, .status-level {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .priority-level.high {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .status-level.done {
+            background: #d1ecf1;
+            color: #0c5460;
+        }
+
+        .back-button {
+            background: #6c757d;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+
+        .back-button:hover {
+            background: #5a6268;
+        }
+
+        input[readonly], textarea[readonly] {
+            background-color: #f8f9fa;
+            border: 1px solid #e9ecef;
+        }
+    </style>
+
+    <script src="../main.js"></script>
+</body>
+</html>

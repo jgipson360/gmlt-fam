@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMLT-30 Story Card</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="story-card">
+        <div class="header">
+            <h1>📋 STORY CARD 📋</h1>
+            <div class="ticket-id">
+                <input type="text" placeholder="GMLT-30" value="GMLT-30">
+            </div>
+        </div>
+
+        <div class="story-section">
+            <div class="story-title">
+                <span class="emoji">📖</span>STORY DETAILS
+            </div>
+
+            <div class="subsection">
+                <h4><span class="emoji">🎯</span>Task Title</h4>
+                <div class="story-description">
+                    <textarea placeholder="Enter the task title here...">[KITCH] Cabinet Contents Removal and Storage</textarea>
+                </div>
+            </div>
+
+            <div class="subsection">
+                <h4><span class="emoji">👤</span>Assigned To</h4>
+                <div class="assigned-to">
+                    <select id="assignedTo" name="assignedTo">
+                        <option value="">Select assignee...</option>
+                        <option value="Dad">Dad</option>
+                        <option value="Mom">Mom</option>
+                        <option value="DJ">DJ</option>
+                        <option value="Q">Q</option>
+                        <option value="E">E</option>
+                        <option value="K">K</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="subsection">
+                <h4><span class="emoji">👤</span>User Story</h4>
+                <div class="user-story">
+                    <textarea placeholder="As a [user], I want [goal] so that [benefit]...">As a family member I want to systematically remove all contents from kitchen cabinets and store safely while kitchen undergoes roach treatment. this is a critical first step that enables thorough cabinet cleaning and treatment. So that we can achieve our organization and pest control goals.</textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="acceptance-criteria">
+            <div class="criteria-title">
+                <span class="emoji">✅</span>ACCEPTANCE CRITERIA
+            </div>
+            <ul class="criteria-list">
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria1">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 1" value="Remove all dishes, glasses, and breakable items (Adults + Teens)">
+                        <button class="add-details-btn" onclick="toggleDetails('details1')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details1">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria2">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 2" value="Pack food items - check expiration dates and dispose of expired goods">
+                        <button class="add-details-btn" onclick="toggleDetails('details2')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details2">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria3">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 3" value="Sort and pack cooking utensils and small appliances">
+                        <button class="add-details-btn" onclick="toggleDetails('details3')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details3">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria4">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 4" value="Remove cleaning supplies and store safely away from treatment areas">
+                        <button class="add-details-btn" onclick="toggleDetails('details4')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details4">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria5">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 5" value="Label all storage containers with contents and cabinet location">
+                        <button class="add-details-btn" onclick="toggleDetails('details5')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details5">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria6">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 6" value="Create inventory list of all removed items">
+                        <button class="add-details-btn" onclick="toggleDetails('details6')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details6">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria7">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 7" value="Store items in designated safe area away from kitchen treatment">
+                        <button class="add-details-btn" onclick="toggleDetails('details7')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details7">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria8">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 8" value="Set aside items that need washing before return">
+                        <button class="add-details-btn" onclick="toggleDetails('details8')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details8">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria9">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 9" value="Remove cabinet liners and shelf paper">
+                        <button class="add-details-btn" onclick="toggleDetails('details9')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details9">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria10">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 10" value="Photograph empty cabinets for treatment reference">
+                        <button class="add-details-btn" onclick="toggleDetails('details10')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details10">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria11">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 11" value="Ensure all cabinet doors and drawers can open fully for treatment access">
+                        <button class="add-details-btn" onclick="toggleDetails('details11')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details11">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria12">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 12" value="Coordinate timing with roach treatment application schedule">
+                        <button class="add-details-btn" onclick="toggleDetails('details12')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details12">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="subsection">
+                <h4><span class="emoji">💬</span>Comments & Notes</h4>
+                <div class="final-notes">
+                    <textarea placeholder="Add any additional comments, observations, or notes about the acceptance criteria...">CRITICAL PATH TASK: Must be completed before kitchen roach treatment. Family teamwork essential - adults handle fragiles, teens help with organization, E can sort safe items. Storage containers purchased and ready.</textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="completion-section">
+            <div class="completion-title">
+                <span class="emoji">🎉</span>COMPLETION STATUS
+            </div>
+
+            <div class="completion-status">
+                <div class="status-option">
+                    <input type="radio" id="todo" name="status" value="todo" checked>
+                    <label for="todo">📋 TO DO</label>
+                </div>
+                <div class="status-option">
+                    <input type="radio" id="inprogress" name="status" value="inprogress">
+                    <label for="inprogress">🔄 IN PROGRESS</label>
+                </div>
+                <div class="status-option">
+                    <input type="radio" id="done" name="status" value="done">
+                    <label for="done">✅ DONE</label>
+                </div>
+
+                <div class="blocked-section">
+                    <div class="blocked-checkbox">
+                        <input type="checkbox" id="blocked" name="blocked">
+                        <label for="blocked">🚫 BLOCKED</label>
+                    </div>
+                    <div class="blocked-input" id="blockedInput">
+                        <textarea placeholder="Describe what is blocking this story..."></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subsection">
+                <h4><span class="emoji">💭</span>Final Notes & Lessons Learned</h4>
+                <div class="final-notes">
+                    <textarea placeholder="What did you learn? Any blockers encountered? Next steps?"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="motivational-quote">
+            🙏 "I can do all things through Christ who strengthens me." - Philippians 4:13 🙏
+        </div>
+
+        <div class="footer">
+            Project: GMLT - Get My Life Together | Story Card: GMLT-30 |
+            <button onclick="window.print()" class="print-button">🖨️ Print Story Card</button>
+            <a href="../stories.html" class="back-button">⬅️ Back to Stories</a>
+        </div>
+    </div>
+
+    <script src="../main.js"></script>
+</body>
+</html>

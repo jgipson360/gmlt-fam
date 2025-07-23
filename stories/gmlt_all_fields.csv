@@ -1,0 +1,1112 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Labels,Labels,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Blocks),Inward issue link (Blocks),Inward issue link (Blocks),Inward issue link (Blocks),Inward issue link (Blocks),Inward issue link (Blocks),Inward issue link (Blocks),Inward issue link (Blocks),Inward issue link (Blocks),Inward issue link (Blocks),Inward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Attachment,Custom field (Issue color),Custom field (Rank),Custom field (Start date),Custom field (Story point estimate),Custom field (Team),Custom field (Vulnerability),Custom field (development),Comment,Comment,Comment,Comment,Parent,Parent key,Parent summary,Status Category,Status Category Changed
+PREP - Emergency Pest Response & Treatment Planning,GMLT-3,10123,Epic,In Progress,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Highest,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 1:54 PM,17/Jul/25 12:58 AM,21/Jul/25 10:13 AM,,26/Jul/25 12:00 AM,0,,,"For families dealing with immediate bed bug and roach infestations who need to take action while exploring treatment options, the Treatment Planning & Immediate Response epic is a dual-track emergency response system that provides immediate containment and strategic decision-making framework. Unlike waiting for professional treatment or diving into expensive solutions without planning, our approach combines immediate DIY intervention with comprehensive professional evaluation, ensuring progress starts immediately while maintaining all treatment options and budget flexibility.
+
+*Business Outcome:*
+
+Establishes immediate pest containment within 48 hours while creating informed decision framework for optimal long-term treatment approach, preventing infestation spread and family displacement.",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-30,GMLT-31,GMLT-41,GMLT-42,GMLT-43,GMLT-47,GMLT-48,GMLT-54,GMLT-55,GMLT-60,GMLT-69,,,,,0|i0006f:,12/Jul/25 12:00 AM,,,,{},,,,,,,,In Progress,17/Jul/25 12:58 AM
+MSTR - Master Bedroom Pest Elimination & Organization,GMLT-4,10124,Epic,In Progress,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,High,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 1:54 PM,17/Jul/25 4:29 PM,17/Jul/25 4:29 PM,,15/Aug/25 12:00 AM,0,,,"For families whose master bedroom has become compromised by bed bugs and clutter who need their primary sleeping space restored to safety and functionality, the Master Bedroom Elimination & Organization epic is a systematic room recovery process that combines aggressive pest treatment with sustainable organization systems. Unlike room-by-room random cleaning or simple pesticide application, our solution provides coordinated decluttering, deep cleaning, and targeted treatment protocols that eliminate pests while establishing maintainable organization systems.
+
+*Business Outcome:*
+
+Restores master bedroom to pest-free, organized state within 2-4 weeks, ensuring primary sleeping area safety and establishing organizational template for remaining rooms.",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i0006n:,16/Jul/25 12:00 AM,,,,{},,,,,,,,In Progress,17/Jul/25 4:29 PM
+KITCH - Kitchen Pest Elimination & Deep Organization,GMLT-5,10125,Epic,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,High,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 1:54 PM,21/Jul/25 10:13 AM,,,15/Aug/25 12:00 AM,0,,,"For families whose kitchen has become a roach breeding ground and clutter zone who need their food preparation area safe and functional, the Kitchen Deep Clean & Pest Control epic is a comprehensive sanitization and organization system that eliminates pest harborage while creating efficient food storage and preparation spaces. Unlike surface cleaning or basic pest baiting, our solution provides complete cabinet cleanout, professional-grade pest elimination, and sustainable organization systems that prevent re-infestation.
+
+*Business Outcome:*
+
+Transforms kitchen into pest-free, efficiently organized food preparation space within 2-3 weeks, establishing ongoing pest prevention systems and family-friendly organization.",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i0006v:,23/Jul/25 12:00 AM,,,,{},,,,,,,,To Do,12/Jul/25 1:54 PM
+KIDS - Children's Bedroom Safety & Organization,GMLT-6,10126,Epic,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,High,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 1:54 PM,12/Jul/25 6:20 PM,,,19/Aug/25 12:00 AM,0,,,"For families whose children's bedrooms are compromised by bed bugs and overwhelming clutter who need safe sleeping spaces for their kids, the Children's Rooms Treatment & Organization epic is a child-focused safety restoration system that eliminates pests while creating age-appropriate organization systems. Unlike adult-focused cleaning approaches or temporary solutions, our solution provides child-safe pest elimination, developmentally appropriate storage systems, and family engagement strategies that teach children organizational skills.
+
+*Business Outcome:*
+
+Delivers pest-free, organized bedrooms for all children within 3-4 weeks, establishing safe sleeping environments and teaching sustainable organization habits to young family members.",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-51,GMLT-53,,,,,,,,,,,,,,0|i00073:,23/Jul/25 12:00 AM,,,,{},,,,,,,,To Do,12/Jul/25 1:54 PM
+LIVING - Common Area Pest Control & Family Organization,GMLT-7,10127,Epic,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 1:54 PM,12/Jul/25 6:22 PM,,,14/Aug/25 12:00 AM,0,,,"For families whose living and dining areas have become pest-infested spaces that no longer support comfortable family time who need functional common areas restored, the Living Areas Treatment & Organization epic is a family-centered space recovery system that eliminates pests while creating organized, comfortable gathering spaces. Unlike focusing only on bedrooms or treating symptoms, our solution addresses pest harborage in furniture and play areas while establishing family-friendly organization systems that support daily life.
+
+*Business Outcome:*
+
+Reclaims living and dining areas as pest-free, organized family spaces within 2-3 weeks, supporting normal family activities and social functioning.",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i0007b:,01/Aug/25 12:00 AM,,,,{},,,,,,,,To Do,12/Jul/25 1:54 PM
+BATH - Bathroom Restoration & Maintenance Systems,GMLT-8,10128,Epic,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 1:54 PM,12/Jul/25 6:23 PM,,,21/Aug/25 12:00 AM,0,,,"For families whose bathrooms need deep cleaning and repairs to support the overall home recovery who need functional, hygienic bathroom spaces, the Bathroom Repairs & Deep Clean epic is a comprehensive restoration system that addresses maintenance issues while establishing cleaning routines. Unlike basic cleaning or ignoring maintenance needs, our solution provides systematic repairs, deep sanitization, and sustainable maintenance systems that support overall home health.
+
+*Business Outcome:*
+
+Delivers fully functional, clean bathrooms within 2 weeks while establishing maintenance routines that support long-term home cleanliness and family health.",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i0007j:,01/Aug/25 12:00 AM,,,,{},,,,,,,,To Do,12/Jul/25 1:54 PM
+MAINT - Sustainable Home Management Systems,GMLT-9,10129,Epic,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 1:54 PM,12/Jul/25 6:23 PM,12/Jul/25 9:41 PM,,23/Aug/25 12:00 AM,0,,,"For families who have eliminated immediate pest problems but need systems to maintain their progress who want to prevent future infestations and chaos, the Maintenance Systems & Sustainability epic is a family behavior and routine management system that ensures long-term success. Unlike one-time cleaning efforts or hoping problems won't return, our solution provides daily routines, weekly maintenance schedules, and family engagement systems that sustain the transformation permanently.
+
+*Business Outcome:*
+
+Establishes sustainable family routines and maintenance systems within 2-3 weeks that prevent pest re-infestation and maintain organization with minimal ongoing effort, ensuring permanent lifestyle transformation.",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i0007r:,08/Aug/25 12:00 AM,,,,{},,,,,,,,To Do,12/Jul/25 1:54 PM
+[PREP] Professional Treatment Quote Research,GMLT-10,10131,Story,Done,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,Done,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 2:33 PM,21/Jul/25 10:12 AM,21/Jul/25 10:10 AM,21/Jul/25 10:12 AM,,0,,,"As a family dealing with bed bug infestation
+I want to obtain multiple professional heat treatment quotes
+So that I can make an informed decision about treatment options and budget for professional services.
+
+**Acceptance Criteria:**
+1. Contact minimum 3 licensed pest control companies
+2. Obtain written quotes including cost breakdown and timeline
+3. Verify company licensing and insurance status
+4. Request references from recent bed bug treatments
+5. Document treatment guarantees and follow-up policies
+6. Compare heat treatment vs chemical treatment options
+7. Schedule on-site inspections if required
+8. Record quote validity periods and booking requirements",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,21/Jul/25 10:12 AM;f54dbf9c-27fe-4725-a49a-fa7c94fb396c;BED BUG HEAT Treatment Disclaimer_Fire Sprinkler_2023.pdf;https://hdsolutions360.atlassian.net/rest/api/3/attachment/content/10000,,0|i0007z:,,,,,{},"16/Jul/25 9:22 PM;5ee5149e4833d00aae4fecc1;Average cost and factors affecting price
+
+* *Overall cost:* Bed bug heat treatments in Los Angeles typically range from $1 to $3 per square foot, or $2,500 to $7,500 for an entire home.
+*
+* *Size of the infested area:* The primary factor determining cost is the size of the area requiring treatment. Larger homes or infestations spread across multiple rooms will naturally cost more.
+* *Severity of the infestation:* Heavy infestations will require more intensive treatment and may increase the overall cost.
+* *Clutter:* A cluttered space makes it harder for heat to circulate effectively and may require additional time and effort from the technicians, impacting the price.
+* *Add-on services:* Some companies offer additional services like mattress encasements or follow-up chemical treatments, which will add to the total cost.
+* *Company choice:* Prices may vary between different pest control companies. 
+
+Cost comparison with other treatments
+
+* *Heat treatment vs. Chemical:* Heat treatment is generally more expensive upfront than chemical treatments, but can often be done in a single day and is highly effective at eliminating all life stages, including eggs. Chemical treatments may be less expensive per visit, but often require multiple applications and may not kill eggs, increasing the risk of re-infestation.
+* *Heat treatment vs. Steam:* Heat treatment treats the entire area and uses residual heat, while steam treatment targets specific areas and penetrates deep into fabrics but may require multiple treatments. 
+
+Choice: Heat Treatment, total elimination","17/Jul/25 12:00 AM;5ee5149e4833d00aae4fecc1;* Contact Heat Pest Services - [https://heatpest.com/home/locations/california/|https://heatpest.com/home/locations/california/|smart-link]
+* Contact HeatRx Los Angeles - (213) 772-4279 or [https://heatrx.com/locations/los-angeles/|https://heatrx.com/locations/los-angeles/|smart-link]
+* Contact Pest Innovations - (855) 414-7378 or [https://www.pestinnovations.com|https://www.pestinnovations.com|smart-link]
+* Contact Stanley - (323) 937-3819
+
+Request quotes for 1,028 sq ft home with 3 bedrooms + living room in 90003
+Obtain pricing, scheduling availability, and payment plan options from each company
+Document responses and compare quotes within 1 week of initial contact
+Schedule follow-up calls if needed to clarify quotes or negotiate pricing","19/Jul/25 12:23 AM;5ee5149e4833d00aae4fecc1;HeatRx, no call back
+
+Pest Innovations: George phone quote: $1500
+
+Booked Stay: $525-$585 (Aug 1 - 3)","21/Jul/25 10:12 AM;5ee5149e4833d00aae4fecc1;Quote Locked: Pest Innovations - $1500 - Friday, Aug 1.
+
+[^BED BUG HEAT Treatment Disclaimer_Fire Sprinkler_2023.pdf] ",10123,GMLT-3,PREP - Emergency Pest Response & Treatment Planning,Done,21/Jul/25 10:12 AM
+[PREP] Treatment Financing Research,GMLT-11,10132,Story,Done,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,Done,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 2:33 PM,17/Jul/25 12:02 AM,17/Jul/25 12:02 AM,17/Jul/25 12:02 AM,,0,,,"As a budget-conscious family
+I want to explore financing options for professional pest treatment
+So that I can afford effective treatment without depleting emergency savings.
+
+**Acceptance Criteria:**
+1. Research CareCredit eligibility and terms
+2. Investigate personal loan options and rates
+3. Check homeowner's/renter's insurance coverage for pest damage
+4. Review pest control company payment plan options
+5. Calculate monthly payment scenarios for different loan terms
+6. Compare total cost of financing vs DIY approach over 6 months
+7. Document approval requirements and application timelines
+8. Establish maximum monthly payment budget",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i0009y:i,,,,,{},,,,,10123,GMLT-3,PREP - Emergency Pest Response & Treatment Planning,Done,17/Jul/25 12:02 AM
+[PREP] Emergency Bed Bug Supply Purchase,GMLT-12,10133,Story,Done,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,Done,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 2:33 PM,17/Jul/25 12:02 AM,16/Jul/25 11:27 PM,17/Jul/25 12:02 AM,,0,,,"As a family with active bed bug infestation
+I want to purchase immediate treatment supplies
+So that I can begin containment while evaluating long-term treatment options.
+
+**Acceptance Criteria:**
+1. Purchase mattress and box spring encasements for all beds
+2. Buy residual bed bug spray (Ortho Home Defense or CimeXa)
+3. Obtain bed bug interceptor traps for all bed legs
+4. Purchase food-grade diatomaceous earth
+5. Buy caulk and caulk gun for crack sealing
+6. Obtain disposable vacuum bags and protective equipment
+7. Purchase inspection flashlight
+8. Verify all products are bed bug specific and EPA approved",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i0008v:,,,,,{},,,,,10123,GMLT-3,PREP - Emergency Pest Response & Treatment Planning,Done,17/Jul/25 12:02 AM
+[PREP] Mattress Encasement Installation,GMLT-13,10134,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 2:33 PM,12/Jul/25 2:36 PM,13/Jul/25 10:18 PM,,,0,,,"As a family member sleeping in infested beds
+I want to immediately install mattress encasements
+So that I can contain existing bed bugs and prevent further spread while sleeping safely.
+
+**Acceptance Criteria:**
+1. Install encasements on all mattresses and box springs immediately
+2. Ensure proper zipper closure and seal integrity
+3. Verify encasements are bed bug proof and bite-proof rated
+4. Check for tears or gaps after installation
+5. Label encasements with installation date
+6. Document bed bug activity before and after installation
+7. Set up monitoring system to track effectiveness
+8. Establish inspection schedule for encasement integrity",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i0008n:,,,,,{},,,,,10123,GMLT-3,PREP - Emergency Pest Response & Treatment Planning,To Do,12/Jul/25 2:33 PM
+[PREP] Roach Control Supply Purchase,GMLT-14,10135,Story,Done,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,Done,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 2:33 PM,17/Jul/25 12:02 AM,16/Jul/25 11:27 PM,17/Jul/25 12:02 AM,,0,,,"As a family dealing with roach infestation
+I want to purchase effective roach control products
+So that I can begin elimination while focusing on bed bug treatment.
+
+**Acceptance Criteria:**
+1. Purchase multiple tubes of Advion cockroach gel bait
+2. Buy bait stations for high-activity areas
+3. Obtain boric acid powder as backup treatment
+4. Purchase application syringes for precise gel placement
+5. Buy protective equipment (gloves, masks)
+6. Verify products are safe for use around children and pets
+7. Read and understand all application instructions
+8. Plan initial application schedule and reapplication timeline",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i0008r:,,,,,{},,,,,10123,GMLT-3,PREP - Emergency Pest Response & Treatment Planning,Done,17/Jul/25 12:02 AM
+[PREP] Kitchen Storage Container Procurement,GMLT-15,10136,Story,Done,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,Done,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 2:33 PM,17/Jul/25 12:01 AM,17/Jul/25 12:01 AM,17/Jul/25 12:01 AM,,0,,,"As a family preparing for kitchen pest treatment
+I want to obtain storage containers for all kitchen items
+So that I can properly clean and treat cabinets while protecting dishes and food.
+
+**Acceptance Criteria:**
+1. Purchase enough containers to hold all cabinet contents
+2. Obtain various sizes for dishes, cookware, and pantry items
+3. Buy containers with tight-fitting lids for pest protection
+4. Purchase labels for content identification
+5. Verify containers are food-safe and stackable
+6. Plan storage area for containers during treatment period
+7. Calculate quantity needed by measuring cabinet contents
+8. Consider clear containers for easy content identification",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i00093:,,,,,{},,,,,10123,GMLT-3,PREP - Emergency Pest Response & Treatment Planning,Done,17/Jul/25 12:01 AM
+[PREP] Clothing Storage Bin Procurement,GMLT-16,10137,Story,Done,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,Done,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 2:33 PM,17/Jul/25 12:01 AM,16/Jul/25 11:26 PM,17/Jul/25 12:01 AM,,0,,,"As a family with extensive clothing to process
+I want to obtain storage bins for clothing overflow
+So that I can organize and protect clean clothes during treatment process.
+
+**Acceptance Criteria:**
+1. Purchase large stackable bins for adult clothing overflow
+2. Buy medium bins for children's clothing organization
+3. Obtain vacuum storage bags for seasonal items
+4. Purchase bins with secure lids to prevent pest access
+5. Buy labels and permanent markers for identification
+6. Plan placement areas for bins during treatment
+7. Calculate bin quantities based on clothing volume in each room
+8. Consider different sizes for different family members",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i0009b:,,,,,{},,,,,10123,GMLT-3,PREP - Emergency Pest Response & Treatment Planning,Done,17/Jul/25 12:01 AM
+[PREP] Treatment Decision Framework,GMLT-17,10138,Story,Done,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,Done,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 2:33 PM,17/Jul/25 12:12 AM,17/Jul/25 12:10 AM,17/Jul/25 12:12 AM,,0,,,"As a family evaluating treatment options
+I want to establish a clear decision deadline and criteria
+So that I can make an informed choice between DIY and professional treatment without delaying progress.
+
+**Acceptance Criteria:**
+1. Set decision deadline for end of Week 2
+2. Establish evaluation criteria for DIY treatment effectiveness
+3. Create budget comparison worksheet (DIY vs Professional costs)
+4. Document family member input and concerns
+5. Plan decision meeting with all stakeholders
+6. Establish backup plan if first choice fails
+7. Create timeline for implementation of chosen approach
+8. Set progress milestones for effectiveness measurement",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i0008p:,,,,,{},,,,,10123,GMLT-3,PREP - Emergency Pest Response & Treatment Planning,Done,17/Jul/25 12:12 AM
+[PREP] Family Communication Plan,GMLT-18,10139,Story,Done,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,Done,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 2:33 PM,17/Jul/25 12:45 PM,17/Jul/25 2:12 AM,17/Jul/25 12:45 PM,,0,,,"As a family undertaking major home treatment
+I want to establish clear communication protocols
+So that everyone understands their role, safety requirements, and progress expectations.
+
+**Acceptance Criteria:**
+1. Create daily check-in schedule (15-minute family meetings)
+2. Establish safety protocols for chemical applications
+3. Assign age-appropriate tasks to each family member
+4. Create progress tracking system visible to all
+5. Plan weekly family review meetings
+6. Establish emergency contacts and procedures
+7. Document who can handle which chemicals and treatments
+8. Create celebration milestones for motivation",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i0009r:,,,,,{},,,,,10123,GMLT-3,PREP - Emergency Pest Response & Treatment Planning,Done,17/Jul/25 12:45 PM
+[MSTR] Initial Bed Bug Treatment Application,GMLT-19,10140,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Highest,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:12 PM,12/Jul/25 3:18 PM,21/Jul/25 11:03 PM,,,0,adults-only,,"As a family member seeking immediate bed bug control
+I want to apply initial chemical treatment to bed frame and furniture
+So that I can begin eliminating bed bugs while preparing for comprehensive room organization.
+
+**Acceptance Criteria:**
+1. Apply residual bed bug spray to entire bed frame and headboard
+2. Treat all furniture cracks, crevices, and joints thoroughly
+3. Apply treatment to baseboards and carpet edges around bed
+4. Use flashlight inspection to identify all potential hiding spots
+5. Document treatment areas and application date
+6. Set up bed bug interceptor traps under all bed legs
+7. Establish 7-day monitoring schedule for bed bug activity
+8. Follow all safety protocols and ventilation requirements",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i0009z:,,,,,{},,,,,10124,GMLT-4,MSTR - Master Bedroom Pest Elimination & Organization,To Do,12/Jul/25 3:12 PM
+[MSTR] Dad's Dresser Contents Clearout and Sort,GMLT-20,10141,Story,Done,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,High,Done,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:12 PM,20/Jul/25 12:44 AM,20/Jul/25 12:44 AM,20/Jul/25 12:44 AM,,0,all-family,,"As a family organizing the master bedroom
+I want to completely clear and sort all dresser contents
+So that I can deep clean the furniture and organize belongings systematically.
+
+**Acceptance Criteria:**
+1. Remove all items from dresser top and drawers
+2. Sort contents into keep, donate, and discard categories
+3. Bag all clothing for high-heat washing schedule
+4. Clean out drawers completely and inspect for bed bugs
+5. Photograph dresser contents before and after for progress tracking
+6. Create inventory list of items to be returned after treatment
+7. Set aside items that need special care or dry cleaning
+8. Prepare donation bags for immediate removal from home",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i0008o:,,,,,{},"19/Jul/25 12:25 AM;5ee5149e4833d00aae4fecc1;Started dresser cleanup. Removed items on top of dresser.
+
+High Heat removal:
+
+* Laptops
+* Lighters
+* Colgnes
+* Other toiletries
+* Select Shoes
+
+Consider laundry service",,,,10124,GMLT-4,MSTR - Master Bedroom Pest Elimination & Organization,Done,20/Jul/25 12:44 AM
+[MSTR] Dresser Deep Clean and Treatment,GMLT-21,10142,Story,In Progress,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,High,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:12 PM,20/Jul/25 12:46 AM,,,,0,adults-only,teen-assist,"As a family eliminating bed bug harborage areas
+I want to thoroughly clean under and behind the dresser
+So that I can eliminate hidden bed bugs and prepare the area for ongoing monitoring.
+
+**Acceptance Criteria:**
+1. Move dresser away from wall safely (2-person lift)
+2. Vacuum thoroughly under and behind dresser location
+3. Apply bed bug treatment to wall baseboards and carpet edges
+4. Clean dresser exterior and interior with appropriate cleaners
+5. Inspect and treat any cracks or joints in dresser construction
+6. Clean wall area behind dresser and apply treatment if needed
+7. Document any bed bug evidence found during cleaning
+8. Return dresser to position with proper clearance for future cleaning",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i0008b:,,,,,{},,,,,10124,GMLT-4,MSTR - Master Bedroom Pest Elimination & Organization,In Progress,20/Jul/25 12:46 AM
+[MSTR] Mom's Side Room Clearance and Treatment,GMLT-22,10143,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,High,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:12 PM,12/Jul/25 6:16 PM,,,,0,adults-lead,family-input,"As a family member reclaiming bedroom space
+I want to completely clear and treat Erin's side of the room
+So that I can eliminate clutter and bed bug hiding places while creating organized storage.
+
+**Acceptance Criteria:**
+1. Remove all items from Erin's bedside area and surfaces
+2. Sort items into keep, relocate, donate, and discard categories
+3. Apply bed bug treatment to all furniture and surfaces on Erin's side
+4. Clean nightstand or side table thoroughly inside and out
+5. Vacuum and treat carpet/flooring area completely
+6. Organize kept items into designated storage solutions
+7. Create designated spaces for daily items (phone charger, books, etc.)
+8. Establish maintenance routine for keeping area organized",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i000an:,,,,,{},,,,,10124,GMLT-4,MSTR - Master Bedroom Pest Elimination & Organization,To Do,12/Jul/25 3:12 PM
+[MSTR] Complete Closet Cleanout and Organization,GMLT-23,10144,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,High,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:12 PM,12/Jul/25 3:19 PM,,,,0,all-family,,"As a family creating organized storage space
+I want to completely empty and reorganize the master bedroom closet
+So that I can eliminate old clothes, treat for bed bugs, and create functional storage systems.
+
+**Acceptance Criteria:**
+1. Remove all clothing, shoes, and items from closet completely
+2. Sort all clothing into keep, donate, discard, and seasonal categories
+3. Bag all keeping clothes for high-heat washing immediately
+4. Remove old, worn, or unused clothing for donation/disposal
+5. Vacuum closet floor, walls, and shelving thoroughly
+6. Apply bed bug treatment to all closet surfaces and cracks
+7. Clean and organize remaining shoes and accessories
+8. Install or improve closet organization systems (rods, shelves, bins)",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i000av:,,,,,{},,,,,10124,GMLT-4,MSTR - Master Bedroom Pest Elimination & Organization,To Do,12/Jul/25 3:12 PM
+[MSTR] High-Heat Laundry Processing Schedule,GMLT-24,10145,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,High,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:12 PM,12/Jul/25 3:19 PM,17/Jul/25 4:30 PM,,,0,all-family,,"As a family eliminating bed bugs from clothing
+I want to wash all master bedroom clothing on high heat
+So that I can kill any bed bugs or eggs while processing the large volume systematically.
+
+**Acceptance Criteria:**
+1. Create detailed schedule for 20+ loads of laundry processing
+2. Sort clothing by fabric type and washing requirements
+3. Wash all washable items on hottest safe water temperature
+4. Dry all items on high heat for minimum 30 minutes
+5. Process delicate items through alternative heat treatment or disposal
+6. Track progress with checklist to ensure all items processed
+7. Fold and store clean items in sealed containers until room is treated
+8. Establish ongoing laundry routine to prevent future accumulation",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i000b3:,,,,,{},,,,,10124,GMLT-4,MSTR - Master Bedroom Pest Elimination & Organization,To Do,12/Jul/25 3:12 PM
+[MSTR] Bed Bug Monitoring System Setup,GMLT-25,10146,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:12 PM,12/Jul/25 3:19 PM,,,,0,adults-lead,teen-assist,"As a family tracking treatment effectiveness
+I want to establish a comprehensive bed bug monitoring system
+So that I can measure progress and identify any remaining activity quickly.
+
+**Acceptance Criteria:**
+1. Install bed bug interceptor traps under all bed legs
+2. Set up sticky traps in strategic locations around room
+3. Create daily inspection checklist for bed bug signs
+4. Establish photo documentation system for any findings
+5. Create weekly trap checking and replacement schedule
+6. Set up monitoring log to track bed bug activity over time
+7. Train family members on what to look for during inspections
+8. Establish escalation procedures if bed bugs are found",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i000bb:,,,,,{},,,,,10124,GMLT-4,MSTR - Master Bedroom Pest Elimination & Organization,To Do,12/Jul/25 3:12 PM
+[MSTR] Weekly Treatment Application Schedule,GMLT-26,10147,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:12 PM,12/Jul/25 3:19 PM,,,,0,adults-only,,"As a family maintaining bed bug elimination efforts
+I want to establish and follow weekly treatment applications
+So that I can ensure continued effectiveness and prevent re-infestation.
+
+**Acceptance Criteria:**
+1. Create weekly schedule for bed bug treatment reapplication
+2. Apply treatments to same areas consistently each week
+3. Rotate treatment products if recommended for resistance prevention
+4. Document each application with date, products used, and areas treated
+5. Monitor effectiveness between applications using established monitoring system
+6. Adjust treatment frequency based on monitoring results
+7. Maintain supply inventory to ensure consistent treatment availability
+8. Train backup family member to continue treatments if needed",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i000bj:,,,,,{},,,,,10124,GMLT-4,MSTR - Master Bedroom Pest Elimination & Organization,To Do,12/Jul/25 3:12 PM
+[MSTR] Patio Door Screen and Handle Replacement,GMLT-27,10148,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Low,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:12 PM,12/Jul/25 3:19 PM,,,,0,adults-only,,"As a family improving bedroom functionality and pest prevention
+I want to replace the patio door screen and handle
+So that I can have proper ventilation and security while preventing pest entry.
+
+**Acceptance Criteria:**
+1. Remove old, damaged patio door screen carefully
+2. Measure and purchase correctly sized replacement screen
+3. Install new screen with proper tension and secure mounting
+4. Replace broken or malfunctioning door handle mechanism
+5. Test door operation for smooth opening, closing, and locking
+6. Ensure screen fits tightly with no gaps for pest entry
+7. Clean door frame and tracks thoroughly during installation
+8. Apply weatherstripping if needed for better seal",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i000br:,,,,,{},,,,,10124,GMLT-4,MSTR - Master Bedroom Pest Elimination & Organization,To Do,12/Jul/25 3:12 PM
+[MSTR] Storage System Installation and Organization,GMLT-28,10149,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:12 PM,12/Jul/25 3:19 PM,,,,0,all-family,,"As a family maintaining long-term bedroom organization
+I want to install new storage systems and organize belongings
+So that I can keep the room organized and prevent future clutter accumulation.
+
+**Acceptance Criteria:**
+1. Install purchased storage bins and organization systems
+2. Return clean, treated clothing to organized storage locations
+3. Create designated spaces for all daily items and belongings
+4. Label storage containers and areas for easy maintenance
+5. Establish daily pickup routine to maintain organization
+6. Create seasonal rotation system for clothing storage
+7. Set up accessible storage for frequently used items
+8. Train all family members on new organization system and maintenance",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i000bz:,,,,,{},,,,,10124,GMLT-4,MSTR - Master Bedroom Pest Elimination & Organization,To Do,12/Jul/25 3:12 PM
+[KITCH] Cabinet Contents Removal and Storage,GMLT-30,10152,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Highest,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:31 PM,12/Jul/25 3:34 PM,,,,0,all-family,,"As a family preparing for comprehensive kitchen pest treatment
+I want to remove all items from cabinets into storage containers
+So that I can access all surfaces for deep cleaning and treatment while protecting dishes and food.
+
+**Acceptance Criteria:**
+1. Remove all dishes, cookware, and appliances from every cabinet
+2. Sort items into categories: daily use, occasional use, donate, discard
+3. Pack items into purchased storage containers with tight-fitting lids
+4. Label all containers with contents and cabinet location for easy return
+5. Remove all pantry items and food products for inspection
+6. Dispose of expired or pest-contaminated food items immediately
+7. Store containers in pest-free area during treatment period
+8. Create inventory list of all removed items for tracking",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,GMLT-3,,,,0|i000cf:,,,,,{},,,,,10125,GMLT-5,KITCH - Kitchen Pest Elimination & Deep Organization,To Do,12/Jul/25 3:31 PM
+[KITCH] Initial Roach Control Treatment Application,GMLT-31,10154,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Highest,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:31 PM,12/Jul/25 3:34 PM,,,,0,adults-only,,"As a family eliminating roach infestation in kitchen
+I want to apply initial Advion gel treatment to all problem areas
+So that I can begin roach elimination while preparing for deep cleaning.
+
+**Acceptance Criteria:**
+1. Apply Advion gel bait to all cabinet corners and crevices
+2. Place gel baits near stove, sink, and appliance areas
+3. Apply treatment to cabinet tops and hidden areas
+4. Place gel in cracks around pipes and electrical outlets
+5. Apply treatment behind and under appliances where accessible
+6. Document all application locations with photos and notes
+7. Apply treatment to window blinds and frames
+8. Set initial monitoring schedule to assess bait consumption",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,GMLT-3,,,,0|i000cn:,,,,,{},,,,,10125,GMLT-5,KITCH - Kitchen Pest Elimination & Deep Organization,To Do,12/Jul/25 3:31 PM
+[KITCH] Cabinet Interior Deep Cleaning,GMLT-32,10156,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,High,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:31 PM,12/Jul/25 3:35 PM,,,,0,all-family,,"As a family creating a pest-free kitchen environment
+I want to thoroughly clean all cabinet interiors
+So that I can remove roach droppings, grease, and food debris that attract pests.
+
+**Acceptance Criteria:**
+1. Remove all shelving and shelf liners from cabinets
+2. Scrub all interior surfaces with degreasing cleaner
+3. Remove all visible roach droppings and debris
+4. Clean and disinfect all corners, cracks, and crevices
+5. Wipe down cabinet doors inside and outside
+6. Clean cabinet hardware and hinges thoroughly
+7. Replace or clean shelf liners before reassembly
+8. Allow cabinets to dry completely before treatment reapplication",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i000cv:,,,,,{},,,,,10125,GMLT-5,KITCH - Kitchen Pest Elimination & Deep Organization,To Do,12/Jul/25 3:31 PM
+[KITCH] Countertop Deep Cleaning and Decluttering,GMLT-33,10158,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,High,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:31 PM,12/Jul/25 3:35 PM,,,,0,all-family,,"As a family reclaiming functional kitchen workspace
+I want to completely declutter and deep clean all countertops
+So that I can eliminate pest harborage areas and create efficient food preparation space.
+
+**Acceptance Criteria:**
+1. Remove all items from countertops completely
+2. Sort countertop items into daily use, store elsewhere, or discard
+3. Deep clean all countertop surfaces with appropriate cleaners
+4. Clean and treat areas behind small appliances and containers
+5. Scrub backsplash areas thoroughly, including grout lines
+6. Remove grease buildup and food debris from all surfaces
+7. Clean and organize items returning to countertops with designated spots
+8. Establish daily countertop clearing routine",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i000d3:,,,,,{},,,,,10125,GMLT-5,KITCH - Kitchen Pest Elimination & Deep Organization,To Do,12/Jul/25 3:31 PM
+[KITCH] Stove Deep Cleaning and Treatment,GMLT-34,10160,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,High,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:31 PM,12/Jul/25 3:35 PM,,,,0,adults-lead,teen-assist,"As a family eliminating major roach attraction points
+I want to thoroughly clean the stove interior and exterior
+So that I can remove grease and food debris that serves as roach food sources.
+
+**Acceptance Criteria:**
+1. Remove stove burner grates, drip pans, and removable components
+2. Deep clean all removable parts in sink or dishwasher
+3. Clean stove interior thoroughly, including oven and broiler
+4. Scrub exterior surfaces and control panel areas
+5. Clean behind and under stove where accessible
+6. Apply roach treatment to cracks and crevices around stove
+7. Clean stove exhaust fan and filter if applicable
+8. Reassemble stove with all components clean and properly positioned",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i000db:,,,,,{},,,,,10125,GMLT-5,KITCH - Kitchen Pest Elimination & Deep Organization,To Do,12/Jul/25 3:31 PM
+[KITCH] Microwave Replacement and Area Cleaning,GMLT-35,10162,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:31 PM,12/Jul/25 3:35 PM,,,,0,adults-only,,"As a family updating kitchen appliances and eliminating pest harborage
+I want to replace the old microwave and clean the installation area
+So that I can have functional appliances and eliminate roach hiding spots.
+
+**Acceptance Criteria:**
+1. Safely remove old microwave and dispose of properly
+2. Clean microwave installation area thoroughly (counter or mounting area)
+3. Apply roach treatment to area before new appliance installation
+4. Purchase and install new microwave according to manufacturer instructions
+5. Clean surrounding area and ensure proper ventilation clearances
+6. Test new microwave functionality and safety features
+7. Update appliance documentation and warranty information
+8. Establish cleaning routine for new appliance maintenance",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i000dj:,,,,,{},,,,,10125,GMLT-5,KITCH - Kitchen Pest Elimination & Deep Organization,To Do,12/Jul/25 3:31 PM
+[KITCH] Cabinet Tops and High Area Cleaning,GMLT-36,10164,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:31 PM,12/Jul/25 3:35 PM,,,,0,adults-only,,"As a family addressing often-overlooked pest harborage areas
+I want to clean all cabinet tops and high kitchen areas
+So that I can eliminate dust, grease, and debris that attract and hide roaches.
+
+**Acceptance Criteria:**
+1. Remove all items stored on top of cabinets
+2. Clean cabinet tops thoroughly with degreasing agents
+3. Remove accumulated dust, grease, and debris
+4. Apply roach treatment to cabinet top areas and crevices
+5. Clean light fixtures and ceiling areas accessible from stepladder
+6. Organize or eliminate items returning to cabinet tops
+7. Establish routine for regular cabinet top maintenance
+8. Ensure safe ladder use and have spotter when needed",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i000dr:,,,,,{},,,,,10125,GMLT-5,KITCH - Kitchen Pest Elimination & Deep Organization,To Do,12/Jul/25 3:31 PM
+[KITCH] Window Blinds Deep Cleaning,GMLT-37,10166,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Low,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:31 PM,12/Jul/25 3:36 PM,,,,0,all-family,,"As a family eliminating all roach harborage areas in kitchen
+I want to thoroughly clean or replace window blinds
+So that I can remove grease, dust, and debris that provide roach hiding places.
+
+**Acceptance Criteria:**
+1. Remove blinds from windows if possible for thorough cleaning
+2. Clean each blind slat individually with appropriate cleaner
+3. Apply roach treatment to window frame areas and crevices
+4. Replace blinds if too damaged or difficult to clean effectively
+5. Clean window sills and frames thoroughly during blind cleaning
+6. Ensure blinds operate properly after cleaning and reinstallation
+7. Establish regular blind cleaning schedule to prevent buildup
+8. Consider easier-to-clean window treatment alternatives if needed",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i000dz:,,,,,{},,,,,10125,GMLT-5,KITCH - Kitchen Pest Elimination & Deep Organization,To Do,12/Jul/25 3:31 PM
+[KITCH] Weekly Roach Treatment Routine Establishment,GMLT-38,10168,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,High,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:31 PM,12/Jul/25 3:36 PM,,,,0,adults-only,,"As a family maintaining roach elimination progress
+I want to establish a weekly Advion reapplication routine
+So that I can ensure continued effectiveness and prevent re-infestation.
+
+**Acceptance Criteria:**
+1. Create weekly schedule for Advion gel reapplication in kitchen
+2. Document consumption of previous baits to assess effectiveness
+3. Reapply gel to same locations plus any new activity areas
+4. Monitor and track roach activity levels weekly
+5. Adjust bait placement based on activity patterns observed
+6. Maintain supply inventory for consistent treatment availability
+7. Create rotation schedule if multiple bait types recommended
+8. Train backup family member to continue routine if needed",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i000e7:,,,,,{},,,,,10125,GMLT-5,KITCH - Kitchen Pest Elimination & Deep Organization,To Do,12/Jul/25 3:31 PM
+[KITCH] Clean Item Return and Organization,GMLT-39,10170,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:31 PM,12/Jul/25 3:36 PM,,,,0,all-family,,"As a family completing kitchen restoration
+I want to return organized items to clean, treated cabinets
+So that I can have a functional, organized kitchen that resists future pest problems.
+
+**Acceptance Criteria:**
+1. Inspect all stored items for damage or contamination before return
+2. Return items to cabinets in organized, logical groupings
+3. Install drawer organizers and shelf systems for better organization
+4. Label shelves and storage areas for easy maintenance
+5. Create designated spaces for all kitchen tools and appliances
+6. Establish daily kitchen cleanup routine to maintain organization
+7. Remove unnecessary items that create clutter and hiding spots
+8. Train all family members on new organization system",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i000ef:,,,,,{},,,,,10125,GMLT-5,KITCH - Kitchen Pest Elimination & Deep Organization,To Do,12/Jul/25 3:31 PM
+[KITCH] Kitchen Storage Solution Installation,GMLT-40,10172,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Low,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:31 PM,12/Jul/25 3:36 PM,,,,0,adults-lead,all-family,"As a family creating long-term kitchen organization
+I want to install new storage solutions and organizational systems
+So that I can maintain cleanliness and organization while preventing future pest problems.
+
+**Acceptance Criteria:**
+1. Install drawer dividers and cabinet organizers as planned
+2. Set up pantry organization system with sealed containers for dry goods
+3. Install under-sink organization for cleaning supplies
+4. Create spice storage system that's easily cleanable
+5. Set up recycling and trash system that minimizes pest attraction
+6. Install hooks or racks for frequently used items
+7. Create designated storage for cleaning supplies and pest control materials
+8. Establish maintenance schedule for all organizational systems",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i000en:,,,,,{},,,,,10125,GMLT-5,KITCH - Kitchen Pest Elimination & Deep Organization,To Do,12/Jul/25 3:31 PM
+[KIDS] Emergency Mattress Encasement Installation,GMLT-41,10174,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Highest,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:50 PM,12/Jul/25 3:50 PM,12/Jul/25 10:04 PM,,,0,adults-only,,"As a family protecting children from bed bug exposure
+I want to immediately install mattress encasements on all children's beds
+So that I can contain existing bed bugs and create safe sleeping environments for kids.
+
+**Acceptance Criteria:**
+1. Install bed bug-proof encasements on all children's mattresses and box springs
+2. Ensure proper zipper closure and seal integrity on all encasements
+3. Check for tears, gaps, or defects that could allow bed bug escape
+4. Label encasements with installation date for tracking
+5. Explain to children why encasements are necessary without causing fear
+6. Set up daily visual inspection routine for encasement integrity
+7. Document any bed bug activity before and after installation
+8. Create child-friendly monitoring system they can participate in",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-42,GMLT-43,,,,,,,,,,GMLT-3,,,,0|i000ev:,,,,,{},,,,,10126,GMLT-6,KIDS - Children's Bedroom Safety & Organization,To Do,12/Jul/25 3:50 PM
+[KIDS] Children's Room 1 Clothing High-Heat Processing,GMLT-42,10176,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,High,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:50 PM,12/Jul/25 3:50 PM,21/Jul/25 11:12 PM,,,0,all-family,,"As a family eliminating bed bugs from children's clothing
+I want to wash all Kid's Room 1 clothing on high heat
+So that I can kill any bed bugs or eggs while teaching children about the process.
+
+**Acceptance Criteria:**
+1. Remove all clothing from Kid's Room 1 and sort by washing requirements
+2. Create child-friendly washing schedule for approximately 20 loads
+3. Wash all washable items on hottest safe water temperature
+4. Dry all items on high heat for minimum 30 minutes
+5. Involve age-appropriate children in sorting and folding process
+6. Store clean clothes in sealed containers until room treatment is complete
+7. Dispose of heavily infested or damaged clothing items
+8. Teach children about laundry care and organization through the process",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-44,GMLT-50,,,,,,,,,,GMLT-3,GMLT-41,,,0|i000f3:,,,,,{},,,,,10126,GMLT-6,KIDS - Children's Bedroom Safety & Organization,To Do,12/Jul/25 3:50 PM
+[KIDS] Room 1 Bed Bug Furniture Treatment,GMLT-43,10178,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,High,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:50 PM,12/Jul/25 3:50 PM,,,,0,adults-only,,"As a family creating a safe sleeping environment for children
+I want to apply comprehensive bed bug treatment to all furniture in Kid's Room 1
+So that I can eliminate bed bugs from the child's sleeping and play area.
+
+**Acceptance Criteria:**
+1. Apply residual bed bug spray to bed frame, headboard, and all joints
+2. Treat dresser, nightstand, and any other furniture thoroughly
+3. Apply treatment to baseboards, carpet edges, and window areas
+4. Use flashlight inspection to identify all potential bed bug hiding spots
+5. Apply treatment to closet areas and door frames
+6. Set up bed bug interceptor traps under bed legs
+7. Document treatment areas with photos and application dates
+8. Ensure child safety during and after treatment application",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-45,,,,,,,,,,,GMLT-41,GMLT-3,,,0|i000fb:,,,,,{},,,,,10126,GMLT-6,KIDS - Children's Bedroom Safety & Organization,To Do,12/Jul/25 3:50 PM
+[KIDS] Room 1 Clothing and Toy Purge,GMLT-44,10180,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,High,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:50 PM,12/Jul/25 3:50 PM,21/Jul/25 11:39 PM,,,0,adults-lead,child-participate,"As a family reducing clutter and potential bed bug harborage
+I want to systematically purge old clothes and toys from Kid's Room 1
+So that I can create organized space while involving the child in decision-making.
+
+**Acceptance Criteria:**
+1. Involve child in sorting clothes into keep, donate, and outgrown categories
+2. Remove clothes that no longer fit or are damaged beyond repair
+3. Sort toys into keep, donate, broken, and lost pieces categories
+4. Dispose of toys that cannot be effectively cleaned or treated
+5. Create donation bags and remove from home immediately
+6. Bag all keeping items for washing or appropriate treatment
+7. Take photos of child with donated items for positive reinforcement
+8. Teach child about organization and the value of sharing with others",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-45,GMLT-49,,,,,,,,,,GMLT-42,,,,0|i000fj:,,,,,{},,,,,10126,GMLT-6,KIDS - Children's Bedroom Safety & Organization,To Do,12/Jul/25 3:50 PM
+[KIDS] Room 1 Deep Surface Cleaning and Treatment,GMLT-45,10182,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:50 PM,12/Jul/25 3:50 PM,,,,0,adults-lead,teen-assist,"As a family creating a thoroughly clean child's bedroom
+I want to deep clean and treat all surfaces in Kid's Room 1
+So that I can eliminate bed bugs, dirt, and create a healthy environment.
+
+**Acceptance Criteria:**
+1. Vacuum all surfaces including mattress, carpet, and furniture thoroughly
+2. Wipe down all hard surfaces with appropriate cleaners
+3. Clean windows, window sills, and frames completely
+4. Dust all surfaces including light fixtures and ceiling fan
+5. Apply bed bug treatment to any missed areas or new discoveries
+6. Clean behind and under furniture that can be safely moved
+7. Dispose of vacuum bag immediately after use
+8. Allow room to dry and air out properly before returning items",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-46,,,,,,,,,,,GMLT-43,GMLT-44,,,0|i000fr:,,,,,{},,,,,10126,GMLT-6,KIDS - Children's Bedroom Safety & Organization,To Do,12/Jul/25 3:50 PM
+[KIDS] Room 1 Bed Bug Monitoring System Setup,GMLT-46,10184,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:50 PM,12/Jul/25 3:50 PM,,,,0,adults-lead,child-participate,"As a family tracking bed bug elimination progress
+I want to establish child-friendly monitoring in Kid's Room 1
+So that I can measure treatment effectiveness while teaching children to participate.
+
+**Acceptance Criteria:**
+1. Install bed bug interceptor traps under bed legs with child observation
+2. Set up sticky traps in strategic, child-safe locations
+3. Create simple, visual inspection checklist appropriate for child's age
+4. Teach child what to look for and how to report findings safely
+5. Establish weekly trap checking routine with child participation
+6. Create reward system for child participation in monitoring
+7. Document findings with photos and simple tracking charts
+8. Set up escalation procedure if bed bugs are discovered",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-52,GMLT-53,,,,,,,,,,GMLT-45,,,,0|i000fz:,,,,,{},,,,,10126,GMLT-6,KIDS - Children's Bedroom Safety & Organization,To Do,12/Jul/25 3:50 PM
+[KIDS] Room 2 Complete Area Clearance,GMLT-47,10186,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,High,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:50 PM,12/Jul/25 3:50 PM,,,,0,adults-lead,child-participate,"As a family preparing Kid's Room 2 for comprehensive treatment
+I want to completely clear and organize the clothes cubby and storage areas
+So that I can access all surfaces for cleaning and treatment.
+
+**Acceptance Criteria:**
+1. Remove all items from clothes cubby and storage areas completely
+2. Sort all clothing by child with keep, donate, outgrown categories
+3. Remove all toys, books, and personal items for inspection and cleaning
+4. Sort shoes into keep, donate, and outgrown categories
+5. Create designated areas for items awaiting washing or treatment
+6. Remove all items that cannot be effectively cleaned or treated
+7. Document room contents before and after for progress tracking
+8. Involve child in age-appropriate decision making throughout process",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-48,GMLT-49,GMLT-50,,,,,,,,,GMLT-3,,,,0|i000g7:,,,,,{},,,,,10126,GMLT-6,KIDS - Children's Bedroom Safety & Organization,To Do,12/Jul/25 3:50 PM
+[KIDS] Room 2 Comprehensive Bed Bug Treatment,GMLT-48,10188,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,High,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:50 PM,12/Jul/25 3:50 PM,,,,0,adults-only,,"As a family eliminating bed bugs from Kid's Room 2
+I want to apply thorough bed bug treatment to all furniture and surfaces
+So that I can create a safe, pest-free environment for the child.
+
+**Acceptance Criteria:**
+1. Apply bed bug treatment to all furniture including bed, dresser, and storage
+2. Treat all baseboards, carpet edges, and cracks thoroughly
+3. Apply treatment to closet areas, door frames, and window areas
+4. Inspect and treat any toys or items returning to room
+5. Set up bed bug interceptor traps under bed legs
+6. Apply treatment to clothes cubby and any built-in storage
+7. Document all treatment areas and products used
+8. Ensure room ventilation and child safety during treatment",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,GMLT-47,GMLT-3,,,0|i000gf:,,,,,{},,,,,10126,GMLT-6,KIDS - Children's Bedroom Safety & Organization,To Do,12/Jul/25 3:50 PM
+[KIDS] Shoe Storage Solution Implementation,GMLT-49,10190,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:50 PM,12/Jul/25 3:50 PM,,,,0,adults-lead,child-participate,"As a family creating organized storage that prevents pest harborage
+I want to install effective shoe storage systems in both kids' rooms
+So that I can keep shoes organized and off the floor while teaching children organization skills.
+
+**Acceptance Criteria:**
+1. Research and purchase appropriate shoe storage solutions for each room
+2. Install shoe racks, organizers, or cubbies in designated areas
+3. Sort shoes by child and remove outgrown or damaged pairs
+4. Clean all keeping shoes thoroughly before returning to storage
+5. Create designated spots for different types of shoes (school, play, dress)
+6. Teach children how to use and maintain the storage system
+7. Establish daily routine for proper shoe storage
+8. Label storage areas if helpful for younger children",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,GMLT-47,GMLT-44,,,0|i000gn:,,,,,{},,,,,10126,GMLT-6,KIDS - Children's Bedroom Safety & Organization,To Do,12/Jul/25 3:50 PM
+[KIDS] Hamper Placement and Laundry System Setup,GMLT-50,10192,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:50 PM,12/Jul/25 3:50 PM,,,,0,all-family,,"As a family establishing sustainable cleanliness routines
+I want to set up proper hamper placement and laundry systems in kids' rooms
+So that I can prevent dirty clothes accumulation and teach children responsibility.
+
+**Acceptance Criteria:**
+1. Designate appropriate hamper locations in each child's room
+2. Purchase hampers that are appropriately sized and easy for children to use
+3. Teach children how to sort dirty clothes and use hampers properly
+4. Create simple laundry routine that children can follow age-appropriately
+5. Establish weekly laundry collection and processing schedule
+6. Set up system for children to help with folding and putting away clothes
+7. Create visual reminders or charts for younger children
+8. Establish consequences and rewards for following laundry routines",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-52,,,,,,,,,,,GMLT-42,GMLT-47,,,0|i000gv:,,,,,{},,,,,10126,GMLT-6,KIDS - Children's Bedroom Safety & Organization,To Do,12/Jul/25 3:50 PM
+[KIDS] Twin Bed Layout Planning for Room 2,GMLT-51,10194,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Low,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:50 PM,12/Jul/25 3:50 PM,,,,0,adults-only,,"As a family optimizing space for children's comfort and safety
+I want to plan the layout for two twin beds in Kid's Room 2
+So that I can create functional sleeping space without using bunk beds.
+
+**Acceptance Criteria:**
+1. Measure room dimensions and available floor space accurately
+2. Research and plan optimal placement for two twin beds
+3. Consider safety requirements, egress paths, and accessibility
+4. Plan placement that allows for easy bed making and cleaning
+5. Consider storage needs and play space in room layout
+6. Create visual layout plan or diagram for implementation
+7. Ensure adequate space for bed bug monitoring and treatment access
+8. Plan installation timeline coordinated with new mattress delivery",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,GMLT-6,,,,0|i000h3:,,,,,{},,,,,10126,GMLT-6,KIDS - Children's Bedroom Safety & Organization,To Do,12/Jul/25 3:50 PM
+[KIDS] Children's Organization Skills Training,GMLT-52,10196,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:50 PM,12/Jul/25 3:50 PM,,,,0,all-family,,"As a family building sustainable organizational habits
+I want to teach children age-appropriate organization and cleaning skills
+So that they can maintain their rooms and contribute to family cleanliness goals.
+
+**Acceptance Criteria:**
+1. Create age-appropriate checklists for daily room maintenance
+2. Teach children how to make beds, organize belongings, and tidy rooms
+3. Establish morning and evening routines that include room care
+4. Create reward systems that motivate children to maintain organization
+5. Teach children to identify and report any pest activity safely
+6. Set up weekly room inspection routine with positive reinforcement
+7. Create simple cleaning supply kits that children can use safely
+8. Establish family meeting time to discuss progress and challenges",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,GMLT-46,GMLT-50,,,0|i000hb:,,,,,{},,,,,10126,GMLT-6,KIDS - Children's Bedroom Safety & Organization,To Do,12/Jul/25 3:50 PM
+[KIDS] New Mattress Planning and Placement,GMLT-53,10198,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Low,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:50 PM,12/Jul/25 3:50 PM,,,,0,adults-only,,"As a family completing children's room restoration
+I want to plan for new mattress delivery and placement
+So that I can provide comfortable, pest-free sleeping for children when treatment is successful.
+
+**Acceptance Criteria:**
+1. Monitor bed bug elimination progress for minimum 4 weeks of zero activity
+2. Research and select appropriate mattresses for children's needs
+3. Plan delivery timing to coordinate with treatment success
+4. Prepare rooms for new mattress delivery and setup
+5. Install new mattress protectors immediately upon delivery
+6. Dispose of old mattresses safely and appropriately
+7. Set up beds with new, clean bedding and proper bed bug prevention
+8. Establish ongoing monitoring routine to protect new mattresses",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,GMLT-46,GMLT-6,,,0|i000hj:,,,,,{},,,,,10126,GMLT-6,KIDS - Children's Bedroom Safety & Organization,To Do,12/Jul/25 3:50 PM
+[LIVING] Couch Assessment and Treatment Decision,GMLT-54,10200,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Highest,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:58 PM,12/Jul/25 3:59 PM,,,,0,adults-only,,"As a family dealing with potentially bed bug infested furniture
+I want to thoroughly assess both couches for bed bug infestation
+So that I can make informed decisions about treatment versus disposal.
+
+**Acceptance Criteria:**
+1. Conduct detailed inspection of both couches using flashlight and magnifying glass
+2. Look for bed bug signs: live bugs, blood stains, dark spots, shed skins, sweet musty odor
+3. Check all seams, cushions, frame joints, and underneath areas thoroughly
+4. Document findings with photos and detailed notes
+5. Research professional furniture treatment costs versus replacement costs
+6. Make decision for each couch: treat in place, professional treatment, or disposal
+7. If disposing, arrange safe removal that prevents spreading bed bugs to other areas
+8. If treating, develop comprehensive treatment plan with timeline",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-64,,,,,,,,,,,GMLT-3,,,,0|i000hr:,,,,,{},,,,,10127,GMLT-7,LIVING - Common Area Pest Control & Family Organization,To Do,12/Jul/25 3:58 PM
+[LIVING] End Table and Surface Organization,GMLT-55,10202,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,High,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:58 PM,12/Jul/25 3:58 PM,,,,0,all-family,,"As a family creating organized living spaces
+I want to systematically organize end tables and all surfaces
+So that I can eliminate clutter that provides pest hiding places while creating functional family space.
+
+**Acceptance Criteria:**
+1. Remove all items from end tables, coffee tables, and TV stands completely
+2. Sort items into categories: daily use, occasional use, relocate, donate, discard
+3. Apply bed bug treatment to all table surfaces, joints, and crevices
+4. Deep clean all surface areas with appropriate cleaners
+5. Purchase small containers and organizers for loose items
+6. Create designated spots for remote controls, chargers, and daily items
+7. Return only essential items to surfaces with proper organization
+8. Establish daily surface clearing routine for family maintenance",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-56,GMLT-57,GMLT-59,GMLT-62,,,,,,,,GMLT-3,,,,0|i000hz:,,,,,{},,,,,10127,GMLT-7,LIVING - Common Area Pest Control & Family Organization,To Do,12/Jul/25 3:58 PM
+[LIVING] AC/Dehumidifier Installation Planning,GMLT-56,10204,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:58 PM,12/Jul/25 3:59 PM,,,,0,adults-only,,"As a family improving home comfort and air quality
+I want to plan the installation of new AC/dehumidifier unit
+So that I can create better living conditions while ensuring proper placement for pest prevention.
+
+**Acceptance Criteria:**
+1. Research optimal placement location for AC/dehumidifier unit
+2. Ensure electrical requirements and outlet accessibility
+3. Plan installation timing to coordinate with room treatment completion
+4. Consider drainage requirements and moisture management
+5. Verify unit size is appropriate for living room square footage
+6. Plan cord management to prevent tripping hazards and pest harborage
+7. Schedule professional installation if required for electrical work
+8. Create maintenance schedule for filter changes and cleaning",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-65,,,,,,,,,,,GMLT-55,,,,0|i000i7:,,,,,{},,,,,10127,GMLT-7,LIVING - Common Area Pest Control & Family Organization,To Do,12/Jul/25 3:58 PM
+[LIVING] Play Area Deep Clean and Organization,GMLT-57,10206,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,High,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:58 PM,12/Jul/25 3:59 PM,,,,0,all-family,,"As a family creating safe, organized play space for children
+I want to systematically clean and organize the play area
+So that I can eliminate pest harborage while creating functional space for family activities.
+
+**Acceptance Criteria:**
+1. Remove all toys and play items from area completely
+2. Sort toys into categories: keep, donate, broken, missing pieces
+3. Wash all washable toys in hot water or wipe with disinfectant
+4. Apply bed bug treatment to play area flooring and any furniture
+5. Dispose of toys that cannot be effectively cleaned or are broken
+6. Create organized storage systems for different types of toys
+7. Establish toy rotation system to prevent overwhelming clutter
+8. Create daily pickup routine that children can follow",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-58,GMLT-62,,,,,,,,,,GMLT-55,,,,0|i000if:,,,,,{},,,,,10127,GMLT-7,LIVING - Common Area Pest Control & Family Organization,To Do,12/Jul/25 3:58 PM
+[LIVING] Bookcase Repair and Treatment,GMLT-58,10208,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:58 PM,12/Jul/25 3:58 PM,,,,0,adults-lead,teen-assist,"As a family restoring functional storage furniture
+I want to repair the damaged bookcase and treat it for bed bugs
+So that I can create organized storage while eliminating potential pest harborage.
+
+**Acceptance Criteria:**
+1. Remove all books and items from bookcase completely
+2. Assess structural damage and determine repair requirements
+3. Purchase necessary hardware and supplies for bookcase repair
+4. Complete repairs to ensure bookcase is stable and functional
+5. Apply bed bug treatment to all bookcase surfaces, joints, and crevices
+6. Clean bookcase thoroughly inside and outside
+7. Inspect all books for bed bug signs before returning to shelves
+8. Organize books and items returning to bookcase in logical system",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,GMLT-57,,,,0|i000in:,,,,,{},,,,,10127,GMLT-7,LIVING - Common Area Pest Control & Family Organization,To Do,12/Jul/25 3:58 PM
+[LIVING] TV Area Organization and Treatment,GMLT-59,10210,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:58 PM,12/Jul/25 3:58 PM,,,,0,adults-lead,teen-assist,"As a family creating organized entertainment space
+I want to thoroughly organize TV area and treat furniture for bed bugs
+So that I can create functional family gathering space free from pest harborage.
+
+**Acceptance Criteria:**
+1. Remove all items from TV stand and entertainment center
+2. Sort electronics, cables, games, and media into organized categories
+3. Apply bed bug treatment to TV stand surfaces, joints, and cable areas
+4. Clean and organize all cables with proper management systems
+5. Deep clean TV stand and surrounding area thoroughly
+6. Test all electronics to ensure proper function after cleaning
+7. Create organized storage for games, remotes, and media
+8. Establish routine for maintaining TV area organization",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,GMLT-55,,,,0|i000iv:,,,,,{},,,,,10127,GMLT-7,LIVING - Common Area Pest Control & Family Organization,To Do,12/Jul/25 3:58 PM
+[LIVING] Dining Table Deep Clean and Treatment,GMLT-60,10212,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,High,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:58 PM,12/Jul/25 3:59 PM,,,,0,adults-only,,"As a family restoring functional dining space
+I want to thoroughly clean and treat the dining table
+So that I can eliminate roach harborage while creating proper space for family meals.
+
+**Acceptance Criteria:**
+1. Clear dining table of all items completely
+2. Remove tablecloth, placemats, and any fabric items for washing
+3. Flip table over to inspect and treat underside thoroughly
+4. Apply bed bug and roach treatment to table joints, crevices, and legs
+5. Clean table surface and chairs with appropriate cleaners
+6. Apply roach gel bait to areas around table where appropriate
+7. Deep clean surrounding floor area and baseboards
+8. Return only essential items to table with proper organization",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-61,GMLT-64,,,,,,,,,,GMLT-3,,,,0|i000j3:,,,,,{},,,,,10127,GMLT-7,LIVING - Common Area Pest Control & Family Organization,To Do,12/Jul/25 3:58 PM
+[LIVING] Toy Kitchen Area Restoration,GMLT-61,10214,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:58 PM,12/Jul/25 3:58 PM,,,,0,adults-lead,child-participate,"As a family creating safe, clean play space for children
+I want to completely clean and reorganize the toy kitchen area
+So that I can eliminate pest harborage while maintaining children's play opportunities.
+
+**Acceptance Criteria:**
+1. Remove all toy kitchen accessories and play food items
+2. Disassemble toy kitchen if possible for thorough cleaning
+3. Wash all washable toy kitchen components in hot soapy water
+4. Apply appropriate treatment to toy kitchen structure and surrounding area
+5. Dispose of any toy food items that cannot be effectively cleaned
+6. Clean behind and under toy kitchen area thoroughly
+7. Reassemble toy kitchen with only clean, treated components
+8. Create organization system for toy kitchen accessories",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,GMLT-60,,,,0|i000jb:,,,,,{},,,,,10127,GMLT-7,LIVING - Common Area Pest Control & Family Organization,To Do,12/Jul/25 3:58 PM
+[LIVING] Small Container Organization System,GMLT-62,10216,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Low,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:58 PM,12/Jul/25 3:59 PM,,,,0,all-family,,"As a family maintaining organized living spaces
+I want to implement small container systems for loose items
+So that I can prevent clutter accumulation that creates pest hiding places.
+
+**Acceptance Criteria:**
+1. Purchase various sizes of small containers and organizers
+2. Identify categories of loose items that need contained storage
+3. Create designated containers for remotes, chargers, pens, small toys
+4. Label containers clearly for easy family use and maintenance
+5. Place containers in logical locations for easy access
+6. Train all family members on container system usage
+7. Establish weekly organization routine to maintain container systems
+8. Create backup storage for seasonal or occasional items",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-63,,,,,,,,,,,GMLT-55,GMLT-57,,,0|i000jj:,,,,,{},,,,,10127,GMLT-7,LIVING - Common Area Pest Control & Family Organization,To Do,12/Jul/25 3:58 PM
+[LIVING] New Storage Solution Installation,GMLT-63,10218,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Low,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:59 PM,12/Jul/25 3:59 PM,,,,0,adults-lead,all-family,"As a family creating long-term organizational systems
+I want to install new storage solutions throughout living areas
+So that I can maintain organization while preventing future clutter and pest harborage.
+
+**Acceptance Criteria:**
+1. Install wall shelves, hooks, or storage units as planned
+2. Set up storage systems that are accessible to all family members
+3. Create designated spaces for commonly used items
+4. Install storage that can be easily cleaned and maintained
+5. Set up seasonal storage rotation systems
+6. Create storage for cleaning supplies and pest control materials
+7. Label storage areas for easy maintenance
+8. Train family on proper use of all new storage systems",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-65,,,,,,,,,,,GMLT-62,,,,0|i000jr:,,,,,{},,,,,10127,GMLT-7,LIVING - Common Area Pest Control & Family Organization,To Do,12/Jul/25 3:59 PM
+[LIVING] Living Area Pest Monitoring Setup,GMLT-64,10220,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:59 PM,12/Jul/25 3:59 PM,,,,0,adults-lead,family-participate,"As a family tracking pest elimination progress in common areas
+I want to establish monitoring systems for both bed bugs and roaches
+So that I can measure treatment effectiveness in family gathering spaces.
+
+**Acceptance Criteria:**
+1. Place bed bug monitors near couches and upholstered furniture
+2. Set up roach monitoring stations near dining area and entertainment center
+3. Create inspection schedule for all monitoring devices
+4. Train family members to safely observe and report findings
+5. Document any pest activity with photos and location notes
+6. Establish response procedures if pests are discovered
+7. Create tracking system to monitor progress over time
+8. Set up reward system for family participation in monitoring",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,GMLT-54,GMLT-60,,,0|i000jz:,,,,,{},,,,,10127,GMLT-7,LIVING - Common Area Pest Control & Family Organization,To Do,12/Jul/25 3:59 PM
+[LIVING] Family Activity Space Optimization,GMLT-65,10222,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Low,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 3:59 PM,12/Jul/25 3:59 PM,,,,0,all-family,,"As a family creating functional common areas for daily life
+I want to optimize living areas for family activities and gatherings
+So that I can restore normal family functioning while maintaining pest prevention.
+
+**Acceptance Criteria:**
+1. Arrange furniture to support family activities and conversation
+2. Create designated spaces for different activities (TV watching, games, homework)
+3. Ensure adequate lighting for all family activities
+4. Set up spaces that can be easily cleaned and maintained
+5. Create traffic flow that minimizes clutter accumulation
+6. Establish zones that children can maintain independently
+7. Set up storage that supports daily family routines
+8. Create welcoming space that encourages family time together",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,GMLT-63,GMLT-56,,,0|i000k7:,,,,,{},,,,,10127,GMLT-7,LIVING - Common Area Pest Control & Family Organization,To Do,12/Jul/25 3:59 PM
+[BATH] Master Bathroom Plumbing Supplies Procurement,GMLT-66,10224,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 4:02 PM,12/Jul/25 4:02 PM,,,,0,adults-only,,"As a family upgrading master bathroom functionality
+I want to purchase plumbers tape and new shower head
+So that I can complete plumbing repairs and improvements effectively.
+
+**Acceptance Criteria:**
+1. Purchase high-quality plumbers tape (Teflon tape) for leak prevention
+2. Research and select appropriate shower head for master bathroom needs
+3. Verify shower head compatibility with existing plumbing connections
+4. Purchase any additional plumbing supplies needed for installation
+5. Gather necessary tools for shower head installation
+6. Read installation instructions and identify any special requirements
+7. Plan installation timing to minimize bathroom downtime
+8. Have backup plan ready in case of installation complications",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-68,,,,,,,,,,,,,,,0|i000kf:,,,,,{},,,,,10128,GMLT-8,BATH - Bathroom Restoration & Maintenance Systems,To Do,12/Jul/25 4:02 PM
+[BATH] Master Bathroom Sliding Door Repair,GMLT-67,10226,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 4:02 PM,12/Jul/25 4:02 PM,12/Jul/25 9:37 PM,,,0,adults-only,,"As a family restoring master bathroom functionality
+I want to fix or replace the sliding door handle
+So that I can ensure proper bathroom privacy and security.
+
+**Acceptance Criteria:**
+1. Assess current sliding door handle condition and operation
+2. Determine whether repair or complete replacement is needed
+3. Purchase replacement handle or repair parts as required
+4. Remove old handle mechanism carefully to avoid door damage
+5. Install new handle or complete repairs according to manufacturer instructions
+6. Test door sliding operation for smooth movement and proper alignment
+7. Ensure door locks and unlocks properly for privacy
+8. Adjust door alignment if necessary for proper closure",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i000kn:,,,,,{},,,,,10128,GMLT-8,BATH - Bathroom Restoration & Maintenance Systems,To Do,12/Jul/25 4:02 PM
+[BATH] Master Bathroom Shower Head Installation,GMLT-68,10228,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 4:02 PM,12/Jul/25 4:02 PM,,,,0,adults-only,,"As a family improving master bathroom functionality
+I want to install the new shower head properly
+So that I can have reliable, efficient water flow for daily use.
+
+**Acceptance Criteria:**
+1. Turn off water supply and drain existing water from pipes
+2. Remove old shower head carefully using appropriate tools
+3. Clean shower arm threads thoroughly and inspect for damage
+4. Apply plumbers tape to shower arm threads properly
+5. Install new shower head according to manufacturer specifications
+6. Turn water supply back on and test for leaks at all connections
+7. Test shower head operation including all spray settings and flow rates
+8. Adjust shower head angle and position for optimal use",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,GMLT-66,,,,0|i000kv:,,,,,{},,,,,10128,GMLT-8,BATH - Bathroom Restoration & Maintenance Systems,To Do,12/Jul/25 4:02 PM
+[BATH] Master Bathroom Pest Treatment Application,GMLT-69,10230,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,High,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 4:02 PM,12/Jul/25 4:02 PM,12/Jul/25 9:36 PM,,,0,adults-only,,"As a family eliminating potential bed bug harborage in bathrooms
+I want to apply treatment to shower area and sink vicinity
+So that I can ensure bathrooms don't become pest refuges during home treatment.
+
+**Acceptance Criteria:**
+1. Inspect bathroom thoroughly for any signs of bed bug activity
+2. Apply bed bug treatment to potential harborage areas around sink and vanity
+3. Treat areas around bathtub/shower where bed bugs might hide
+4. Apply treatment to baseboards and any cracks or crevices
+5. Treat behind toilet and around plumbing penetrations carefully
+6. Ensure treatments are applied safely away from water sources
+7. Ventilate bathroom properly during and after treatment application
+8. Document treatment areas and monitor for effectiveness",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-70,,,,,,,,,,,GMLT-3,,,,0|i000l3:,,,,,{},,,,,10128,GMLT-8,BATH - Bathroom Restoration & Maintenance Systems,To Do,12/Jul/25 4:02 PM
+[BATH] Master Bathroom Deep Surface Cleaning,GMLT-70,10232,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 4:02 PM,12/Jul/25 4:02 PM,,,,0,all-family,,"As a family creating hygienic bathroom environment
+I want to thoroughly clean all master bathroom surfaces
+So that I can eliminate dirt, grime, and potential pest attractants.
+
+**Acceptance Criteria:**
+1. Deep clean shower/bathtub including all surfaces, corners, and fixtures
+2. Scrub sink, countertop, and vanity area thoroughly
+3. Clean toilet inside, outside, and behind including base area
+4. Clean all mirrors, light fixtures, and electrical switch plates
+5. Scrub floor thoroughly including behind toilet and in corners
+6. Clean exhaust fan and vent areas if accessible
+7. Wipe down all walls and remove any soap scum or water stains
+8. Organize and clean all items returning to bathroom storage",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-76,,,,,,,,,,,GMLT-69,,,,0|i000lb:,,,,,{},,,,,10128,GMLT-8,BATH - Bathroom Restoration & Maintenance Systems,To Do,12/Jul/25 4:02 PM
+[BATH] Kids' Bathroom Sink Deep Clean and Declutter,GMLT-71,10234,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,High,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 4:02 PM,12/Jul/25 4:02 PM,,,,0,adults-lead,child-participate,"As a family creating organized, hygienic space for children
+I want to deep clean sink area and remove all clutter
+So that I can provide functional, clean bathroom space that children can maintain.
+
+**Acceptance Criteria:**
+1. Remove all items from sink area, countertop, and vanity
+2. Sort items into categories: daily use, occasional use, expired, broken
+3. Dispose of expired medications, toiletries, and broken items safely
+4. Deep clean sink, faucet, and all surrounding surfaces
+5. Clean and organize vanity drawers and cabinets thoroughly
+6. Return only essential, frequently used items to accessible storage
+7. Create designated spaces for each child's personal items
+8. Establish simple organization system children can maintain independently",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-74,,,,,,,,,,,,,,,0|i000lj:,,,,,{},,,,,10128,GMLT-8,BATH - Bathroom Restoration & Maintenance Systems,To Do,12/Jul/25 4:02 PM
+[BATH] Kids' Bathroom Flush Master Replacement,GMLT-72,10236,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 4:02 PM,12/Jul/25 4:02 PM,12/Jul/25 9:38 PM,,,0,adults-only,,"As a family ensuring reliable bathroom functionality
+I want to replace the flush master mechanism
+So that I can have dependable toilet operation for family use.
+
+**Acceptance Criteria:**
+1. Turn off water supply to toilet and drain tank completely
+2. Remove old flush master mechanism carefully
+3. Clean tank interior and inspect for any additional needed repairs
+4. Install new flush master according to manufacturer instructions
+5. Adjust chain length and flapper positioning for proper operation
+6. Turn water supply back on and test flush operation multiple times
+7. Check for leaks and proper water level in tank
+8. Test toilet operation with children to ensure they can use it effectively",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i000lr:,,,,,{},,,,,10128,GMLT-8,BATH - Bathroom Restoration & Maintenance Systems,To Do,12/Jul/25 4:02 PM
+[BATH] Kids' Bathroom Shower Head Installation,GMLT-73,10238,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 4:02 PM,12/Jul/25 4:02 PM,12/Jul/25 9:39 PM,,,0,adults-only,,"As a family providing functional bathing facilities for children
+I want to install new shower head in kids' bathroom
+So that I can ensure reliable water flow and age-appropriate shower operation.
+
+**Acceptance Criteria:**
+1. Purchase plumbers tape and appropriate shower head for children's use
+2. Turn off water supply and remove old shower head
+3. Clean shower arm threads and apply plumbers tape properly
+4. Install new shower head with consideration for children's height and reach
+5. Test all shower functions and adjust settings for child safety
+6. Ensure water pressure and temperature are appropriate for children
+7. Train children on proper shower head operation and care
+8. Check for leaks and make any necessary adjustments",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i000lz:,,,,,{},,,,,10128,GMLT-8,BATH - Bathroom Restoration & Maintenance Systems,To Do,12/Jul/25 4:02 PM
+[BATH] Kids' Bathroom Tub and Counter Deep Clean,GMLT-74,10240,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 4:02 PM,12/Jul/25 4:02 PM,,,,0,adults-lead,teen-assist,"As a family creating hygienic bathing environment for children
+I want to thoroughly clean tub and all counter surfaces
+So that I can provide safe, clean bathing space that supports family health.
+
+**Acceptance Criteria:**
+1. Remove all items from tub area and countertops completely
+2. Scrub bathtub thoroughly including all surfaces, corners, and fixtures
+3. Clean and disinfect all counter surfaces and backsplash areas
+4. Remove soap scum, water stains, and any mold or mildew
+5. Clean tub drain and remove any hair or debris clogs
+6. Scrub grout lines and recaulk if necessary for water seal
+7. Clean all bath toys and accessories before returning to tub area
+8. Organize bath items in clean, accessible storage for children",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-75,,,,,,,,,,,GMLT-71,,,,0|i000m7:,,,,,{},,,,,10128,GMLT-8,BATH - Bathroom Restoration & Maintenance Systems,To Do,12/Jul/25 4:02 PM
+[BATH] Kids' Bathroom Clutter Removal and Organization,GMLT-75,10242,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 4:02 PM,12/Jul/25 4:02 PM,,,,0,adults-lead,child-participate,"As a family creating maintainable bathroom organization
+I want to remove all unnecessary clutter and create simple storage systems
+So that children can keep their bathroom organized and functional.
+
+**Acceptance Criteria:**
+1. Remove all non-essential items from kids' bathroom completely
+2. Sort remaining items by frequency of use and ownership
+3. Create designated storage for each child's personal bathroom items
+4. Install simple, child-accessible storage solutions (hooks, baskets, shelves)
+5. Label storage areas with pictures or words appropriate for children's reading level
+6. Create simple daily bathroom cleanup routine children can follow
+7. Establish weekly deep cleaning routine involving age-appropriate child participation
+8. Train children on maintaining organization and cleanliness standards",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-76,,,,,,,,,,,GMLT-74,,,,0|i000mf:,,,,,{},,,,,10128,GMLT-8,BATH - Bathroom Restoration & Maintenance Systems,To Do,12/Jul/25 4:02 PM
+[BATH] Bathroom Maintenance Schedule Creation,GMLT-76,10244,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Low,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 4:02 PM,12/Jul/25 4:02 PM,,,,0,all-family,,"As a family maintaining bathroom cleanliness and functionality
+I want to establish regular maintenance schedules for both bathrooms
+So that I can prevent future problems and maintain hygienic conditions.
+
+**Acceptance Criteria:**
+1. Create daily bathroom cleaning checklist for each family member
+2. Establish weekly deep cleaning routine with assigned responsibilities
+3. Set up monthly maintenance schedule for plumbing fixtures and hardware
+4. Create seasonal deep cleaning tasks for exhaust fans, caulking, and grout
+5. Assign age-appropriate bathroom maintenance tasks to each family member
+6. Set up reminder system for maintenance tasks and supply replacement
+7. Create inspection checklist for identifying maintenance needs early
+8. Establish supply inventory system for cleaning products and bathroom necessities",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-77,,,,,,,,,,,GMLT-70,GMLT-75,,,0|i000mn:,,,,,{},,,,,10128,GMLT-8,BATH - Bathroom Restoration & Maintenance Systems,To Do,12/Jul/25 4:02 PM
+[BATH] Bathroom Safety and Hygiene Systems,GMLT-77,10246,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Low,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 4:02 PM,12/Jul/25 4:02 PM,12/Jul/25 9:40 PM,,,0,adults-only,,"As a family ensuring bathroom safety and supporting home health goals
+I want to implement safety measures and hygiene systems
+So that bathrooms support overall family health and pest prevention efforts.
+
+**Acceptance Criteria:**
+1. Install or check slip-resistant surfaces in tubs and shower areas
+2. Ensure adequate lighting for safe bathroom use by all family members
+3. Set up proper ventilation routine to prevent moisture buildup
+4. Create hand washing stations with supplies accessible to children
+5. Establish towel and washcloth rotation system for hygiene
+6. Install or verify GFCI outlets for electrical safety near water
+7. Create first aid supply storage for bathroom-related injuries
+8. Set up cleaning supply storage that's safe but accessible for maintenance",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,GMLT-76,,,,0|i000mv:,,,,,{},,,,,10128,GMLT-8,BATH - Bathroom Restoration & Maintenance Systems,To Do,12/Jul/25 4:02 PM
+[MAINT] Weekly Pest Monitoring System Implementation,GMLT-78,10248,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Highest,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 4:08 PM,12/Jul/25 4:08 PM,12/Jul/25 9:46 PM,,,0,adults-lead,family-participate,"As a family maintaining pest-free home environment
+I want to establish comprehensive weekly pest monitoring procedures
+So that I can detect any pest activity early and maintain treatment effectiveness long-term.
+
+**Acceptance Criteria:**
+1. Create detailed weekly inspection checklist for all treated areas
+2. Establish monitoring schedule for bed bug traps and roach bait stations
+3. Train all family members on safe pest identification and reporting procedures
+4. Set up photo documentation system for any findings or concerns
+5. Create escalation procedures for different levels of pest discovery
+6. Establish supply inventory system for monitoring equipment replacement
+7. Document monitoring results in tracking log to identify patterns
+8. Set up reward system for family participation in monitoring activities",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i000n3:,,,,,{},,,,,10129,GMLT-9,MAINT - Sustainable Home Management Systems,To Do,12/Jul/25 4:08 PM
+[MAINT] Daily 15-Minute Pickup Routine Establishment,GMLT-79,10250,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,High,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 4:08 PM,12/Jul/25 4:09 PM,12/Jul/25 9:46 PM,,,0,all-family,,"As a family preventing clutter accumulation and pest harborage
+I want to implement daily 15-minute family pickup routines
+So that I can maintain organization and prevent conditions that attract pests.
+
+**Acceptance Criteria:**
+1. Create simple, timed pickup routine for each room and family member
+2. Assign age-appropriate daily tasks to each family member
+3. Set up timer system and music playlist to make pickup routine enjoyable
+4. Create visual checklists for younger children showing pickup tasks
+5. Establish accountability system with positive reinforcement for participation
+6. Train family members on ""everything has a place"" organization principles
+7. Create backup procedures for days when routine is disrupted
+8. Set up weekly family meeting to assess routine effectiveness and adjust as needed",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-80,GMLT-84,,,,,,,,,,,,,,0|i000nb:,,,,,{},,,,,10129,GMLT-9,MAINT - Sustainable Home Management Systems,To Do,12/Jul/25 4:08 PM
+[MAINT] Monthly Deep-Clean Schedule Creation,GMLT-80,10252,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 4:08 PM,12/Jul/25 4:09 PM,12/Jul/25 9:47 PM,,,0,adults-lead,all-family,"As a family maintaining deep cleanliness and pest prevention
+I want to establish rotating monthly deep-clean schedules
+So that I can ensure all areas receive thorough attention while distributing workload manageable.
+
+**Acceptance Criteria:**
+1. Create monthly calendar assigning deep-clean focus areas to each week
+2. Develop detailed cleaning checklists for each room and area
+3. Assign rotating responsibilities to family members based on age and ability
+4. Schedule seasonal tasks like window cleaning, closet organization, and appliance maintenance
+5. Set up supply inventory and shopping lists for cleaning materials
+6. Create backup schedules for busy months or family schedule conflicts
+7. Establish quality standards and inspection procedures for completed tasks
+8. Plan celebration activities for family achievement of monthly cleaning goals",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-86,,,,,,,,,,,GMLT-79,,,,0|i000nj:,,,,,{},,,,,10129,GMLT-9,MAINT - Sustainable Home Management Systems,To Do,12/Jul/25 4:08 PM
+[MAINT] Laundry Management System Implementation,GMLT-81,10254,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,High,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 4:09 PM,12/Jul/25 4:09 PM,12/Jul/25 9:47 PM,,,0,all-family,,"As a family preventing clothing clutter and maintaining hygiene standards
+I want to establish efficient laundry management systems
+So that I can prevent dirty clothes accumulation that could attract pests or create clutter.
+
+**Acceptance Criteria:**
+1. Create weekly laundry schedule with assigned days for each family member
+2. Set up sorting system that family members can use independently
+3. Establish folding and put-away routines that prevent clean clothes accumulation
+4. Train family members on proper hamper use and laundry care
+5. Create seasonal clothing rotation system to prevent closet overcrowding
+6. Set up supply inventory system for detergent and laundry care products
+7. Establish procedures for special care items and stain treatment
+8. Create backup plans for equipment failure or schedule disruptions",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-84,,,,,,,,,,,,,,,0|i000nr:,,,,,{},,,,,10129,GMLT-9,MAINT - Sustainable Home Management Systems,To Do,12/Jul/25 4:09 PM
+[MAINT] Safety Equipment Installation and Maintenance,GMLT-82,10256,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,High,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 4:09 PM,12/Jul/25 4:09 PM,12/Jul/25 9:48 PM,,,0,adults-only,,"As a family ensuring home safety and emergency preparedness
+I want to install and maintain safety equipment throughout the home
+So that I can protect family members while supporting overall home maintenance goals.
+
+**Acceptance Criteria:**
+1. Install fresh batteries in all smoke detectors and test operation
+2. Check and replace carbon monoxide detector batteries as needed
+3. Verify fire extinguisher location, accessibility, and expiration date
+4. Create and practice family emergency evacuation plan
+5. Install or verify first aid kit locations and supply inventory
+6. Set up emergency flashlight and radio with fresh batteries
+7. Create emergency contact list and ensure all family members know location
+8. Schedule annual safety equipment inspection and battery replacement routine",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-83,,,,,,,,,,,,,,,0|i000nz:,,,,,{},,,,,10129,GMLT-9,MAINT - Sustainable Home Management Systems,To Do,12/Jul/25 4:09 PM
+[MAINT] Emergency Supply Kit Creation and Management,GMLT-83,10258,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 4:09 PM,12/Jul/25 4:09 PM,12/Jul/25 9:48 PM,,,0,adults-lead,teen-assist,"As a family preparing for potential disruptions to routine maintenance
+I want to create and maintain emergency supply kits
+So that I can handle unexpected situations without compromising home cleanliness or pest prevention.
+
+**Acceptance Criteria:**
+1. Create emergency cleaning supply kit with essential products and tools
+2. Set up emergency pest control supplies for immediate response to any activity
+3. Prepare emergency food and water supplies following recommended guidelines
+4. Create emergency laundry supplies for extended utility outages
+5. Set up basic tools and hardware for emergency repairs
+6. Create emergency contact list for pest control, plumbing, and electrical services
+7. Establish rotation schedule for emergency supply expiration dates
+8. Train family members on emergency supply locations and proper usage",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,GMLT-82,,,,0|i000o7:,,,,,{},,,,,10129,GMLT-9,MAINT - Sustainable Home Management Systems,To Do,12/Jul/25 4:09 PM
+[MAINT] Family Maintenance Training Program,GMLT-84,10260,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 4:09 PM,12/Jul/25 4:09 PM,12/Jul/25 9:48 PM,,,0,all-family,,"As a family building long-term success capabilities
+I want to train all family members on maintenance routines and responsibilities
+So that I can ensure sustainable home management regardless of individual availability.
+
+**Acceptance Criteria:**
+1. Create age-appropriate training materials for each family member's responsibilities
+2. Conduct hands-on training sessions for cleaning techniques and pest monitoring
+3. Train family members on safe use of cleaning products and pest control materials
+4. Create reference guides and checklists that family members can follow independently
+5. Establish mentorship system where older children help younger ones learn routines
+6. Set up competency assessments to ensure family members can perform tasks safely
+7. Create backup training for when primary responsible family members are unavailable
+8. Plan ongoing skill development as children grow and can take on more responsibilities",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-85,,,,,,,,,,,GMLT-79,GMLT-81,,,0|i000of:,,,,,{},,,,,10129,GMLT-9,MAINT - Sustainable Home Management Systems,To Do,12/Jul/25 4:09 PM
+[MAINT] Weekly Family Progress Meeting System,GMLT-85,10262,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Low,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 4:09 PM,12/Jul/25 4:09 PM,12/Jul/25 9:48 PM,,,0,all-family,,"As a family maintaining communication and accountability for home maintenance
+I want to establish regular family meetings focused on progress and problem-solving
+So that I can ensure continued success and address challenges before they become major problems.
+
+**Acceptance Criteria:**
+1. Schedule weekly 30-minute family meetings at consistent time
+2. Create agenda template covering pest monitoring, cleanliness, organization, and upcoming tasks
+3. Establish positive communication guidelines that encourage honest feedback
+4. Set up problem-solving process for addressing maintenance challenges
+5. Create celebration system for acknowledging individual and family achievements
+6. Plan goal-setting activities for continuous improvement
+7. Establish conflict resolution procedures for disagreements about responsibilities
+8. Document meeting outcomes and track progress on family goals over time",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,GMLT-87,,,,,,,,,,,GMLT-84,,,,0|i000on:,,,,,{},,,,,10129,GMLT-9,MAINT - Sustainable Home Management Systems,To Do,12/Jul/25 4:09 PM
+[MAINT] Seasonal Maintenance Calendar Development,GMLT-86,10264,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Low,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 4:09 PM,12/Jul/25 4:09 PM,12/Jul/25 9:49 PM,,,0,adults-lead,all-family,"As a family maintaining home systems year-round
+I want to create seasonal maintenance calendars
+So that I can stay ahead of maintenance needs and prevent problems before they start.
+
+**Acceptance Criteria:**
+1. Create spring maintenance tasks: deep cleaning, pest prevention, organization refresh
+2. Plan summer maintenance: air conditioning, ventilation, pest monitoring intensification
+3. Set up fall maintenance: preparation for indoor time, supply inventory, equipment checks
+4. Schedule winter maintenance: heating system, indoor air quality, organization adjustments
+5. Plan seasonal clothing rotations and storage management
+6. Create seasonal supply purchasing schedules aligned with sales and needs
+7. Set up advance planning for major maintenance or replacement needs
+8. Integrate seasonal maintenance with family schedule and school year planning",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,GMLT-80,,,,0|i000ov:,,,,,{},,,,,10129,GMLT-9,MAINT - Sustainable Home Management Systems,To Do,12/Jul/25 4:09 PM
+[MAINT] Home Maintenance Documentation System,GMLT-87,10266,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Low,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 4:09 PM,12/Jul/25 4:09 PM,12/Jul/25 9:50 PM,,,0,adults-lead,teen-assist,"As a family tracking home maintenance history and planning future needs
+I want to create comprehensive documentation systems
+So that I can make informed decisions about maintenance and track long-term success.
+
+**Acceptance Criteria:**
+1. Create maintenance log documenting all pest treatments, repairs, and major cleaning
+2. Set up photo documentation system showing before/after progress in each room
+3. Create inventory system for cleaning supplies, pest control materials, and maintenance tools
+4. Document warranty information and service contacts for appliances and systems
+5. Create expense tracking system for maintenance-related purchases
+6. Set up reminder system for recurring maintenance tasks and supply replacement
+7. Create family achievement record celebrating milestones and sustained success
+8. Plan annual review process to assess system effectiveness and plan improvements",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,GMLT-85,,,,0|i000p3:,,,,,{},,,,,10129,GMLT-9,MAINT - Sustainable Home Management Systems,To Do,12/Jul/25 4:09 PM
+[MAINT] Long-Term Success Sustainability Planning,GMLT-88,10268,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Low,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,12/Jul/25 4:09 PM,12/Jul/25 4:09 PM,12/Jul/25 9:50 PM,,,0,adults-lead,all-family,"As a family ensuring permanent lifestyle transformation
+I want to plan for long-term sustainability of all home management systems
+So that I can maintain progress regardless of life changes and challenges.
+
+**Acceptance Criteria:**
+1. Create contingency plans for family schedule disruptions (illness, travel, emergencies)
+2. Plan system adaptations for children aging and taking on new responsibilities
+3. Set up financial planning for ongoing maintenance costs and occasional major needs
+4. Create support network with other families or services for backup assistance
+5. Plan periodic system reviews and updates to maintain effectiveness
+6. Set up motivation and reward systems that maintain engagement long-term
+7. Create legacy planning to teach systems to new family members or households
+8. Establish success metrics and celebration milestones for sustained achievement",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i000pb:,,,,,{},,,,,10129,GMLT-9,MAINT - Sustainable Home Management Systems,To Do,12/Jul/25 4:09 PM
+SHED - Shed Cleanup & Organization,GMLT-89,10269,Epic,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,Medium,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,13/Jul/25 10:21 PM,13/Jul/25 10:21 PM,,,,0,,,,,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,purple,0|i000pj:,,,,,{},,,,,,,,To Do,13/Jul/25 10:21 PM
+[KIDS] Room 1 Heat Treatment Item Removal and Tagging,GMLT-90,10331,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,High,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,21/Jul/25 11:39 PM,21/Jul/25 11:39 PM,,,,0,adults-lead,child-participate,"As a family preparing Kid's Room 1 for professional heat treatment I want to identify, tag, and safely remove all heat-sensitive items So that I can protect valuable belongings while ensuring effective bed bug elimination.
+
+**Acceptance Criteria:**
+1. Remove and tag all electronics (tablets, gaming devices, night lights, electronic toys)
+2. Remove and bag all heat-sensitive toys (plastic toys, stuffed animals with batteries, art supplies)
+3. Remove medications, vitamins, and any health items stored in room
+4. Remove and protect valuable books, photos, and sentimental items
+5. Tag all removed items with ""DO NOT HEAT"" labels for easy identification
+6. Store all removed items in designated safe area away from treatment zone
+7. Create detailed inventory list of all removed items for post-treatment return
+8. Involve child in age-appropriate identification and packing process",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i000qv:,,,,,{},,,,,10126,GMLT-6,KIDS - Children's Bedroom Safety & Organization,To Do,21/Jul/25 11:39 PM
+[KIDS] Room 2 Heat Treatment Item Removal and Tagging,GMLT-91,10333,Story,To Do,GMLT,Get My Life Together,software,HD Solutions,5ee5149e4833d00aae4fecc1,,High,,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,HD Solutions,5ee5149e4833d00aae4fecc1,21/Jul/25 11:39 PM,21/Jul/25 11:39 PM,,,,0,adults-lead,child-participate,"As a family preparing Kid's Room 2 for professional heat treatment I want to systematically remove and protect all heat-sensitive belongings So that I can ensure thorough pest elimination without damaging important items.
+
+**Acceptance Criteria:**
+1. Remove all electronics including charging cables and battery-operated items
+2. Remove and protect craft supplies, crayons, markers, and art materials
+3. Remove any medicines, ointments, or health-related items
+4. Remove valuable toys, collectibles, and sentimental items
+5. Bag and label all removed items clearly for post-treatment identification
+6. Store removed items in pest-free area during treatment period
+7. Document location of all removed items for efficient return process
+8. Help child understand process and participate in item selection",,HD Solutions,5ee5149e4833d00aae4fecc1,,,,,,,,,,,,,,,,,,,,,,,,0|i000r3:,,,,,{},,,,,10126,GMLT-6,KIDS - Children's Bedroom Safety & Organization,To Do,21/Jul/25 11:39 PM
