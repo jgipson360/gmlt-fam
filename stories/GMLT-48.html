@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMLT-48 Story Card</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="story-card">
+        <div class="header">
+            <h1>📋 STORY CARD 📋</h1>
+            <div class="ticket-id">
+                <input type="text" placeholder="GMLT-48" value="GMLT-48">
+            </div>
+        </div>
+
+        <div class="story-section">
+            <div class="story-title">
+                <span class="emoji">📖</span>STORY DETAILS
+            </div>
+
+            <div class="subsection">
+                <h4><span class="emoji">🎯</span>Task Title</h4>
+                <div class="story-description">
+                    <textarea placeholder="Enter the task title here...">[KIDS] Room 2 Comprehensive Bed Bug Treatment</textarea>
+                </div>
+            </div>
+
+            <div class="subsection">
+                <h4><span class="emoji">👤</span>Assigned To</h4>
+                <div class="assigned-to">
+                    <select id="assignedTo" name="assignedTo">
+                        <option value="">Select assignee...</option>
+                        <option value="Dad" selected>Dad</option>
+                        <option value="Mom">Mom</option>
+                        <option value="DJ">DJ</option>
+                        <option value="Q">Q</option>
+                        <option value="E">E</option>
+                        <option value="K">K</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="subsection">
+                <h4><span class="emoji">👤</span>User Story</h4>
+                <div class="user-story">
+                    <textarea placeholder="As a [user], I want [goal] so that [benefit]...">As a parent protecting children's safety I want to apply comprehensive bed bug treatment to Room 2 So that we eliminate all bed bugs and make the room safe for children to return.</textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="acceptance-criteria">
+            <div class="criteria-title">
+                <span class="emoji">✅</span>ACCEPTANCE CRITERIA
+            </div>
+            <ul class="criteria-list">
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria1">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 1" value="Apply chemical treatment to all furniture surfaces">
+                        <button class="add-details-btn" onclick="toggleDetails('details1')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details1">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria2">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 2" value="Treat all cracks, crevices, and baseboards thoroughly">
+                        <button class="add-details-btn" onclick="toggleDetails('details2')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details2">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria3">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 3" value="Apply treatment around window and door frames">
+                        <button class="add-details-btn" onclick="toggleDetails('details3')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details3">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria4">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 4" value="Treat closet area completely including shelving">
+                        <button class="add-details-btn" onclick="toggleDetails('details4')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details4">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria5">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 5" value="Document all areas treated with photos and notes">
+                        <button class="add-details-btn" onclick="toggleDetails('details5')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details5">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria6">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 6" value="Ensure proper ventilation during and after treatment">
+                        <button class="add-details-btn" onclick="toggleDetails('details6')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details6">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria7">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 7" value="Allow proper drying time before room is safe for occupancy">
+                        <button class="add-details-btn" onclick="toggleDetails('details7')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details7">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria8">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 8" value="Install monitoring devices to track treatment effectiveness">
+                        <button class="add-details-btn" onclick="toggleDetails('details8')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details8">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="subsection">
+                <h4><span class="emoji">💬</span>Comments & Notes</h4>
+                <div class="final-notes">
+                    <textarea placeholder="Add any additional comments, observations, or notes about the acceptance criteria...">Priority: High - Adults only due to chemical safety. Critical for children's safety. Must coordinate with mattress encasement and room clearance tasks.</textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="completion-section">
+            <div class="completion-title">
+                <span class="emoji">🎉</span>COMPLETION STATUS
+            </div>
+
+            <div class="completion-status">
+                <div class="status-option">
+                    <input type="radio" id="todo" name="status" value="todo" checked>
+                    <label for="todo">📋 TO DO</label>
+                </div>
+                <div class="status-option">
+                    <input type="radio" id="inprogress" name="status" value="inprogress">
+                    <label for="inprogress">🔄 IN PROGRESS</label>
+                </div>
+                <div class="status-option">
+                    <input type="radio" id="done" name="status" value="done">
+                    <label for="done">✅ DONE</label>
+                </div>
+
+                <div class="blocked-section">
+                    <div class="blocked-checkbox">
+                        <input type="checkbox" id="blocked" name="blocked" onchange="toggleBlockedInput()">
+                        <label for="blocked">🚫 BLOCKED</label>
+                    </div>
+                    <div class="blocked-input" id="blockedInput">
+                        <input type="text" placeholder="Describe what is blocking this task...">
+                    </div>
+                </div>
+            </div>
+
+            <div class="subsection">
+                <h4><span class="emoji">💭</span>Final Notes & Lessons Learned</h4>
+                <div class="final-notes">
+                    <textarea placeholder="What did you learn? Any blockers encountered? Next steps?"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="motivational-quote">
+            🙏 "I can do all things through Christ who strengthens me." - Philippians 4:13 🙏
+        </div>
+
+        <div class="footer">
+            Project: GMLT - Get My Life Together | Story Card Tracker |
+            <button onclick="window.print()" class="print-button">🖨️ Print Story Card</button> |
+            <button onclick="window.close()" class="close-button">← Back to Stories</button>
+        </div>
+    </div>
+
+    <script src="../main.js"></script>
+</body>
+</html>

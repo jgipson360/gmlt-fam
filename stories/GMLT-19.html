@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMLT-19 Story Card</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="story-card">
+        <div class="header">
+            <h1>📋 STORY CARD 📋</h1>
+            <div class="ticket-id">
+                <input type="text" placeholder="GMLT-19" value="GMLT-19" readonly>
+            </div>
+        </div>
+
+        <div class="story-section">
+            <div class="story-title">
+                <span class="emoji">📖</span>STORY DETAILS
+            </div>
+
+            <div class="subsection">
+                <h4><span class="emoji">🎯</span>Task Title</h4>
+                <div class="story-description">
+                    <textarea readonly>[MSTR] Initial Bed Bug Treatment Application</textarea>
+                </div>
+            </div>
+
+            <div class="subsection">
+                <h4><span class="emoji">👥</span>Group Assignment</h4>
+                <div class="group-assignment">
+                    <span class="group-tag adults-only">👨‍👩‍💼 Adults Only</span>
+                </div>
+            </div>
+
+            <div class="subsection">
+                <h4><span class="emoji">⭐</span>Priority</h4>
+                <div class="priority-level highest">🔴 Highest</div>
+            </div>
+
+            <div class="subsection">
+                <h4><span class="emoji">📊</span>Status</h4>
+                <div class="status-level todo">📋 TO DO</div>
+            </div>
+
+            <div class="subsection">
+                <h4><span class="emoji">👤</span>User Story</h4>
+                <div class="user-story">
+                    <textarea readonly>As a family member seeking immediate bed bug control
+I want to apply initial chemical treatment to bed frame and furniture
+So that I can begin eliminating bed bugs while preparing for comprehensive room organization.</textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="acceptance-criteria">
+            <div class="criteria-title">
+                <span class="emoji">✅</span>ACCEPTANCE CRITERIA
+            </div>
+            <ul class="criteria-list">
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria1">
+                        <input type="text" class="criteria-input" value="Apply residual bed bug spray to entire bed frame and headboard">
+                        <button class="add-details-btn" onclick="toggleDetails('details1')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details1">
+                        <textarea placeholder="Use Cimexa or Temprid FX. Focus on joints, cracks, and crevices."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria2">
+                        <input type="text" class="criteria-input" value="Treat all furniture cracks, crevices, and joints thoroughly">
+                        <button class="add-details-btn" onclick="toggleDetails('details2')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details2">
+                        <textarea placeholder="Include dresser, nightstands, and any upholstered furniture."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria3">
+                        <input type="text" class="criteria-input" value="Apply treatment to baseboards and carpet edges around bed">
+                        <button class="add-details-btn" onclick="toggleDetails('details3')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details3">
+                        <textarea placeholder="Create barrier around sleeping area. Pay special attention to corners."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria4">
+                        <input type="text" class="criteria-input" value="Use flashlight inspection to identify all potential hiding spots">
+                        <button class="add-details-btn" onclick="toggleDetails('details4')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details4">
+                        <textarea placeholder="Check mattress seams, box spring, behind headboard, outlet covers."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria5">
+                        <input type="text" class="criteria-input" value="Document treatment areas and application date">
+                        <button class="add-details-btn" onclick="toggleDetails('details5')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details5">
+                        <textarea placeholder="Take photos and notes for tracking progress and reapplication schedule."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria6">
+                        <input type="text" class="criteria-input" value="Set up bed bug interceptor traps under all bed legs">
+                        <button class="add-details-btn" onclick="toggleDetails('details6')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details6">
+                        <textarea placeholder="ClimbUp Interceptors or similar. Check and clean weekly."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria7">
+                        <input type="text" class="criteria-input" value="Establish 7-day monitoring schedule for bed bug activity">
+                        <button class="add-details-btn" onclick="toggleDetails('details7')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details7">
+                        <textarea placeholder="Daily visual inspection, weekly interceptor trap checks."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria8">
+                        <input type="text" class="criteria-input" value="Follow all safety protocols and ventilation requirements">
+                        <button class="add-details-btn" onclick="toggleDetails('details8')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details8">
+                        <textarea placeholder="Ensure children and pets are out of room. Ventilate for 2+ hours before sleeping."></textarea>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="subsection">
+                <h4><span class="emoji">💬</span>Comments & Notes</h4>
+                <div class="final-notes">
+                    <textarea placeholder="⚠️ SAFETY FIRST: This is an adults-only task due to chemical treatments. Ensure proper ventilation and wait for dry time before children enter room."></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="completion-section">
+            <div class="completion-title">
+                <span class="emoji">🎉</span>COMPLETION STATUS
+            </div>
+
+            <div class="completion-status">
+                <div class="status-option">
+                    <input type="radio" id="todo" name="status" value="todo" checked>
+                    <label for="todo">📋 TO DO</label>
+                </div>
+                <div class="status-option">
+                    <input type="radio" id="inprogress" name="status" value="inprogress">
+                    <label for="inprogress">🔄 IN PROGRESS</label>
+                </div>
+                <div class="status-option">
+                    <input type="radio" id="done" name="status" value="done">
+                    <label for="done">✅ DONE</label>
+                </div>
+
+                <div class="blocked-section">
+                    <div class="blocked-checkbox">
+                        <input type="checkbox" id="blocked" name="blocked" onchange="toggleBlockedInput()">
+                        <label for="blocked">🚫 BLOCKED</label>
+                    </div>
+                    <div class="blocked-input" id="blockedInput">
+                        <input type="text" placeholder="Describe what is blocking this task...">
+                    </div>
+                </div>
+            </div>
+
+            <div class="subsection">
+                <h4><span class="emoji">💭</span>Final Notes & Lessons Learned</h4>
+                <div class="final-notes">
+                    <textarea placeholder="Document application results, any bed bug activity spotted, and effectiveness of treatment..."></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="motivational-quote">
+            🙏 "I can do all things through Christ who strengthens me." - Philippians 4:13 🙏
+        </div>
+
+        <div class="footer">
+            Project: GMLT - Get My Life Together | Story Card: GMLT-19 |
+            <button onclick="window.print()" class="print-button">🖨️ Print Story Card</button>
+            <a href="../stories.html" class="back-button">⬅️ Back to Stories</a>
+        </div>
+    </div>
+
+    <style>
+        .group-tag {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .adults-only {
+            background: #ffe6e6;
+            color: #8b0000;
+        }
+
+        .priority-level, .status-level {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .priority-level.highest {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .status-level.todo {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .back-button {
+            background: #6c757d;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+
+        .back-button:hover {
+            background: #5a6268;
+        }
+
+        input[readonly], textarea[readonly] {
+            background-color: #f8f9fa;
+            border: 1px solid #e9ecef;
+        }
+    </style>
+
+    <script src="../main.js"></script>
+</body>
+</html>

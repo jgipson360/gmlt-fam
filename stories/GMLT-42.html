@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMLT-42 Story Card</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="story-card">
+        <div class="header">
+            <h1>📋 STORY CARD 📋</h1>
+            <div class="ticket-id">
+                <input type="text" placeholder="GMLT-42" value="GMLT-42">
+            </div>
+        </div>
+
+        <div class="story-section">
+            <div class="story-title">
+                <span class="emoji">📖</span>STORY DETAILS
+            </div>
+
+            <div class="subsection">
+                <h4><span class="emoji">🎯</span>Task Title</h4>
+                <div class="story-description">
+                    <textarea placeholder="Enter the task title here...">[KIDS] Children's Room 1 Clothing High-Heat Processing</textarea>
+                </div>
+            </div>
+
+            <div class="subsection">
+                <h4><span class="emoji">👤</span>Assigned To</h4>
+                <div class="assigned-to">
+                    <select id="assignedTo" name="assignedTo">
+                        <option value="">Select assignee...</option>
+                        <option value="Dad">Dad</option>
+                        <option value="Mom">Mom</option>
+                        <option value="DJ">DJ</option>
+                        <option value="Q">Q</option>
+                        <option value="E">E</option>
+                        <option value="K">K</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="subsection">
+                <h4><span class="emoji">👤</span>User Story</h4>
+                <div class="user-story">
+                    <textarea placeholder="As a [user], I want [goal] so that [benefit]...">As a family member I want to process all clothing items from children's room 1 through high-heat washing and drying cycles to eliminate any potential bed bugs and eggs. this is essential for protecting children's health and preventing re-infestation. So that we can achieve our organization and pest control goals.</textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="acceptance-criteria">
+            <div class="criteria-title">
+                <span class="emoji">✅</span>ACCEPTANCE CRITERIA
+            </div>
+            <ul class="criteria-list">
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria1">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 1" value="Sort all clothing by fabric type and care requirements">
+                        <button class="add-details-btn" onclick="toggleDetails('details1')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details1">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria2">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 2" value="Check all pockets for items before washing">
+                        <button class="add-details-btn" onclick="toggleDetails('details2')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details2">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria3">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 3" value="Wash all heat-safe items in hottest water setting (130°F+)">
+                        <button class="add-details-btn" onclick="toggleDetails('details3')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details3">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria4">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 4" value="Dry all items on high heat for minimum 40 minutes">
+                        <button class="add-details-btn" onclick="toggleDetails('details4')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details4">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria5">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 5" value="Set aside items requiring dry cleaning or special care">
+                        <button class="add-details-btn" onclick="toggleDetails('details5')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details5">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria6">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 6" value="Bag delicate items for professional cleaning">
+                        <button class="add-details-btn" onclick="toggleDetails('details6')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details6">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria7">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 7" value="Store processed clean items in sealed containers">
+                        <button class="add-details-btn" onclick="toggleDetails('details7')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details7">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria8">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 8" value="Label containers with child's name and item types">
+                        <button class="add-details-btn" onclick="toggleDetails('details8')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details8">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria9">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 9" value="Keep items sealed until room treatment is complete">
+                        <button class="add-details-btn" onclick="toggleDetails('details9')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details9">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria10">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 10" value="Create inventory list of items sent for dry cleaning">
+                        <button class="add-details-btn" onclick="toggleDetails('details10')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details10">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria11">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 11" value="Document washing/drying cycles and temperatures used">
+                        <button class="add-details-btn" onclick="toggleDetails('details11')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details11">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+                <li class="criteria-item">
+                    <div class="criteria-main">
+                        <input type="checkbox" id="criteria12">
+                        <input type="text" class="criteria-input" placeholder="Acceptance criteria item 12" value="Coordinate with room treatment schedule for item return">
+                        <button class="add-details-btn" onclick="toggleDetails('details12')">Add Details</button>
+                    </div>
+                    <div class="criteria-details" id="details12">
+                        <textarea placeholder="Add specific details, notes, or implementation notes for this criterion..."></textarea>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="subsection">
+                <h4><span class="emoji">💬</span>Comments & Notes</h4>
+                <div class="final-notes">
+                    <textarea placeholder="Add any additional comments, observations, or notes about the acceptance criteria...">FAMILY TEAMWORK TASK: Critical for children's safety. All Room 1 clothing removed and ready for processing. Plan multiple wash days to handle volume. Child (E) excited to help sort favorites. Some items may need dry cleaning - budget allocated.</textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="completion-section">
+            <div class="completion-title">
+                <span class="emoji">🎉</span>COMPLETION STATUS
+            </div>
+
+            <div class="completion-status">
+                <div class="status-option">
+                    <input type="radio" id="todo" name="status" value="todo" checked>
+                    <label for="todo">📋 TO DO</label>
+                </div>
+                <div class="status-option">
+                    <input type="radio" id="inprogress" name="status" value="inprogress">
+                    <label for="inprogress">🔄 IN PROGRESS</label>
+                </div>
+                <div class="status-option">
+                    <input type="radio" id="done" name="status" value="done">
+                    <label for="done">✅ DONE</label>
+                </div>
+
+                <div class="blocked-section">
+                    <div class="blocked-checkbox">
+                        <input type="checkbox" id="blocked" name="blocked">
+                        <label for="blocked">🚫 BLOCKED</label>
+                    </div>
+                    <div class="blocked-input" id="blockedInput">
+                        <textarea placeholder="Describe what is blocking this story..."></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subsection">
+                <h4><span class="emoji">💭</span>Final Notes & Lessons Learned</h4>
+                <div class="final-notes">
+                    <textarea placeholder="What did you learn? Any blockers encountered? Next steps?"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="motivational-quote">
+            🙏 "I can do all things through Christ who strengthens me." - Philippians 4:13 🙏
+        </div>
+
+        <div class="footer">
+            Project: GMLT - Get My Life Together | Story Card: GMLT-42 |
+            <button onclick="window.print()" class="print-button">🖨️ Print Story Card</button>
+            <a href="../stories.html" class="back-button">⬅️ Back to Stories</a>
+        </div>
+    </div>
+
+    <script src="../main.js"></script>
+</body>
+</html>

@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMLT Stories - Family Groups</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📖 GMLT STORIES</h1>
+            <p>Family Story Cards Organized by Groups</p>
+        </div>
+
+        <div class="scripture">
+            🙏 "In their hearts humans plan their course, but the Lord establishes their steps." - Proverbs 16:9 🙏
+        </div>
+
+        <!-- Navigation Tabs -->
+        <div class="group-tabs">
+            <button class="tab-button active" onclick="showGroup('adults')">
+                👨🏾‍👩🏽‍💼 Adults (Dad/Mom)
+            </button>
+            <button class="tab-button" onclick="showGroup('kids')">
+                👧🏽👦🏾 Kids (DJ/Q/K/E)
+            </button>
+            <button class="tab-button" onclick="showGroup('all')">
+                👨🏾‍👩🏽‍👧🏽‍👦🏾 All Family
+            </button>
+        </div>
+
+        <!-- Adults Group -->
+        <div id="adults-group" class="group-section active">
+            <div class="group-header">
+                <h2>👨🏾‍👩🏽‍💼 Adults Group - Dad & Mom</h2>
+                <p>Tasks requiring adult responsibility, decision-making, and complex coordination</p>
+            </div>
+
+            <div class="stories-grid">
+                <!-- MSTR Stories for Adults -->
+                <div class="story-preview-card" data-story="GMLT-19">
+                    <div class="story-header">
+                        <span class="story-id">GMLT-19</span>
+                        <span class="story-status status-todo">TO DO</span>
+                    </div>
+                    <h4>[MSTR] Initial Bed Bug Treatment Application</h4>
+                    <p class="story-summary">Apply initial chemical treatment to bed frame and furniture</p>
+                    <div class="story-meta">
+                        <span class="assigned-to">👤🏾 Adults Only</span>
+                        <span class="priority highest">🔴 Highest</span>
+                    </div>
+                    <button onclick="openStoryCard('GMLT-19')" class="view-story-btn">View Story Card</button>
+                </div>
+
+                <div class="story-preview-card" data-story="GMLT-21">
+                    <div class="story-header">
+                        <span class="story-id">GMLT-21</span>
+                        <span class="story-status status-progress">IN PROGRESS</span>
+                    </div>
+                    <h4>[MSTR] Dresser Deep Clean and Treatment</h4>
+                    <p class="story-summary">Deep clean and treat dresser for bed bug elimination</p>
+                    <div class="story-meta">
+                        <span class="assigned-to">👤🏾 Adults + Teen Assist</span>
+                        <span class="priority high">🟡 High</span>
+                    </div>
+                    <button onclick="openStoryCard('GMLT-21')" class="view-story-btn">View Story Card</button>
+                </div>
+
+                <div class="story-preview-card" data-story="GMLT-22">
+                    <div class="story-header">
+                        <span class="story-id">GMLT-22</span>
+                        <span class="story-status status-todo">TO DO</span>
+                    </div>
+                    <h4>[MSTR] Mom's Side Room Clearance and Treatment</h4>
+                    <p class="story-summary">Clear and treat mom's side of the bedroom</p>
+                    <div class="story-meta">
+                        <span class="assigned-to">👤🏾 Adults Lead + Family Input</span>
+                        <span class="priority high">🟡 High</span>
+                    </div>
+                    <button onclick="openStoryCard('GMLT-22')" class="view-story-btn">View Story Card</button>
+                </div>
+
+                <div class="story-preview-card" data-story="GMLT-31">
+                    <div class="story-header">
+                        <span class="story-id">GMLT-31</span>
+                        <span class="story-status status-todo">TO DO</span>
+                    </div>
+                    <h4>[KITCH] Initial Roach Control Treatment Application</h4>
+                    <p class="story-summary">Apply professional-grade roach elimination treatment</p>
+                    <div class="story-meta">
+                        <span class="assigned-to">👤🏾 Adults Only</span>
+                        <span class="priority highest">🔴 Highest</span>
+                    </div>
+                    <button onclick="openStoryCard('GMLT-31')" class="view-story-btn">View Story Card</button>
+                </div>
+
+                <div class="story-preview-card" data-story="GMLT-54">
+                    <div class="story-header">
+                        <span class="story-id">GMLT-54</span>
+                        <span class="story-status status-todo">TO DO</span>
+                    </div>
+                    <h4>[LIVING] Couch Assessment and Treatment Decision</h4>
+                    <p class="story-summary">Deal with potentially bed bug infested furniture</p>
+                    <div class="story-meta">
+                        <span class="assigned-to">👤🏾 Adults Only</span>
+                        <span class="priority highest">🔴 Highest</span>
+                    </div>
+                    <button onclick="openStoryCard('GMLT-54')" class="view-story-btn">View Story Card</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kids Group -->
+        <div id="kids-group" class="group-section">
+            <div class="group-header">
+                <h2>👧🏽👦🏾 Kids Group - DJ, Q, K & E</h2>
+                <p>Age-appropriate tasks for all children with proper supervision and guidance</p>
+            </div>
+
+            <div class="stories-grid">
+                <!-- KIDS Stories with varying levels of child participation -->
+                <div class="story-preview-card" data-story="GMLT-41">
+                    <div class="story-header">
+                        <span class="story-id">GMLT-41</span>
+                        <span class="story-status status-todo">TO DO</span>
+                    </div>
+                    <h4>[KIDS] Emergency Mattress Encasement Installation</h4>
+                    <p class="story-summary">Critical safety task for children's bedroom protection</p>
+                    <div class="story-meta">
+                        <span class="assigned-to">👤🏾 Adults Only</span>
+                        <span class="priority highest">🔴 Highest</span>
+                    </div>
+                    <button onclick="openStoryCard('GMLT-41')" class="view-story-btn">View Story Card</button>
+                </div>
+
+                <div class="story-preview-card" data-story="GMLT-47">
+                    <div class="story-header">
+                        <span class="story-id">GMLT-47</span>
+                        <span class="story-status status-todo">TO DO</span>
+                    </div>
+                    <h4>[KIDS] Room 2 Complete Area Clearance</h4>
+                    <p class="story-summary">Prepare Kid's Room 2 for comprehensive treatment</p>
+                    <div class="story-meta">
+                        <span class="assigned-to">👤🏾 Adults Lead + Kids Participate</span>
+                        <span class="priority high">🟡 High</span>
+                    </div>
+                    <button onclick="openStoryCard('GMLT-47')" class="view-story-btn">View Story Card</button>
+                </div>
+
+                <div class="story-preview-card" data-story="GMLT-48">
+                    <div class="story-header">
+                        <span class="story-id">GMLT-48</span>
+                        <span class="story-status status-todo">TO DO</span>
+                    </div>
+                    <h4>[KIDS] Room 2 Comprehensive Bed Bug Treatment</h4>
+                    <p class="story-summary">Professional treatment application for child safety</p>
+                    <div class="story-meta">
+                        <span class="assigned-to">👤🏾 Adults Only</span>
+                        <span class="priority high">🟡 High</span>
+                    </div>
+                    <button onclick="openStoryCard('GMLT-48')" class="view-story-btn">View Story Card</button>
+                </div>
+
+                <div class="story-preview-card" data-story="GMLT-49">
+                    <div class="story-header">
+                        <span class="story-id">GMLT-49</span>
+                        <span class="story-status status-todo">TO DO</span>
+                    </div>
+                    <h4>[KIDS] Shoe Storage Solution Implementation</h4>
+                    <p class="story-summary">Create organized storage that prevents pest harborage</p>
+                    <div class="story-meta">
+                        <span class="assigned-to">👤🏾 Adults Lead + Kids Participate</span>
+                        <span class="priority medium">🟠 Medium</span>
+                    </div>
+                    <button onclick="openStoryCard('GMLT-49')" class="view-story-btn">View Story Card</button>
+                </div>
+
+                <div class="story-preview-card" data-story="GMLT-90">
+                    <div class="story-header">
+                        <span class="story-id">GMLT-90</span>
+                        <span class="story-status status-todo">TO DO</span>
+                    </div>
+                    <h4>[KIDS] Room 1 Heat Treatment Item Removal and Tagging</h4>
+                    <p class="story-summary">Identify, tag, and safely remove all heat-sensitive items</p>
+                    <div class="story-meta">
+                        <span class="assigned-to">👤🏾 Adults Lead + Kids Participate</span>
+                        <span class="priority high">🟡 High</span>
+                    </div>
+                    <button onclick="openStoryCard('GMLT-90')" class="view-story-btn">View Story Card</button>
+                </div>
+
+                <div class="story-preview-card" data-story="GMLT-91">
+                    <div class="story-header">
+                        <span class="story-id">GMLT-91</span>
+                        <span class="story-status status-todo">TO DO</span>
+                    </div>
+                    <h4>[KIDS] Room 2 Heat Treatment Item Removal and Tagging</h4>
+                    <p class="story-summary">Systematically remove and protect all heat-sensitive belongings</p>
+                    <div class="story-meta">
+                        <span class="assigned-to">👤🏾 Adults Lead + Kids Participate</span>
+                        <span class="priority high">🟡 High</span>
+                    </div>
+                    <button onclick="openStoryCard('GMLT-91')" class="view-story-btn">View Story Card</button>
+                </div>
+
+                <div class="story-note">
+                    <div class="info-card">
+                        <h4>👧🏽👦🏾 Kids Learning Opportunities</h4>
+                        <p>These stories help all kids (DJ, Q, K & E) learn responsibility and life skills at age-appropriate levels. Teens can take more leadership while younger kids participate safely.</p>
+                        <div class="story-meta">
+                            <span class="assigned-to">👤🏾 Family Learning + Safety First</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- All Family Group -->
+        <div id="all-group" class="group-section">
+            <div class="group-header">
+                <h2>👨🏾‍👩🏽‍👧🏽‍👦🏾 All Family Stories</h2>
+                <p>Tasks where everyone can participate together safely</p>
+            </div>
+
+            <div class="stories-grid">
+                <!-- MSTR All Family Stories -->
+                <div class="story-preview-card" data-story="GMLT-23">
+                    <div class="story-header">
+                        <span class="story-id">GMLT-23</span>
+                        <span class="story-status status-todo">TO DO</span>
+                    </div>
+                    <h4>[MSTR] Complete Closet Cleanout and Organization</h4>
+                    <p class="story-summary">Comprehensive closet organization for the master bedroom</p>
+                    <div class="story-meta">
+                        <span class="assigned-to">👤🏾 All Family</span>
+                        <span class="priority high">🟡 High</span>
+                    </div>
+                    <button onclick="openStoryCard('GMLT-23')" class="view-story-btn">View Story Card</button>
+                </div>
+
+                <div class="story-preview-card" data-story="GMLT-24">
+                    <div class="story-header">
+                        <span class="story-id">GMLT-24</span>
+                        <span class="story-status status-todo">TO DO</span>
+                    </div>
+                    <h4>[MSTR] High-Heat Laundry Processing Schedule</h4>
+                    <p class="story-summary">Coordinated family laundry processing for bed bug elimination</p>
+                    <div class="story-meta">
+                        <span class="assigned-to">👤🏾 All Family</span>
+                        <span class="priority high">🟡 High</span>
+                    </div>
+                    <button onclick="openStoryCard('GMLT-24')" class="view-story-btn">View Story Card</button>
+                </div>
+
+                <div class="story-preview-card" data-story="GMLT-28">
+                    <div class="story-header">
+                        <span class="story-id">GMLT-28</span>
+                        <span class="story-status status-todo">TO DO</span>
+                    </div>
+                    <h4>[MSTR] Storage System Installation and Organization</h4>
+                    <p class="story-summary">Install long-term bedroom organization systems</p>
+                    <div class="story-meta">
+                        <span class="assigned-to">👤🏾 All Family</span>
+                        <span class="priority medium">🟠 Medium</span>
+                    </div>
+                    <button onclick="openStoryCard('GMLT-28')" class="view-story-btn">View Story Card</button>
+                </div>
+
+                <!-- KITCH All Family Stories -->
+                <div class="story-preview-card" data-story="GMLT-30">
+                    <div class="story-header">
+                        <span class="story-id">GMLT-30</span>
+                        <span class="story-status status-todo">TO DO</span>
+                    </div>
+                    <h4>[KITCH] Cabinet Contents Removal and Storage</h4>
+                    <p class="story-summary">Clear kitchen cabinets for comprehensive roach treatment</p>
+                    <div class="story-meta">
+                        <span class="assigned-to">👤🏾 All Family</span>
+                        <span class="priority highest">🔴 Highest</span>
+                    </div>
+                    <button onclick="openStoryCard('GMLT-30')" class="view-story-btn">View Story Card</button>
+                </div>
+
+                <div class="story-preview-card" data-story="GMLT-33">
+                    <div class="story-header">
+                        <span class="story-id">GMLT-33</span>
+                        <span class="story-status status-todo">TO DO</span>
+                    </div>
+                    <h4>[KITCH] Countertop Deep Cleaning and Decluttering</h4>
+                    <p class="story-summary">Create clean, organized kitchen workspace</p>
+                    <div class="story-meta">
+                        <span class="assigned-to">👤🏾 All Family</span>
+                        <span class="priority high">🟡 High</span>
+                    </div>
+                    <button onclick="openStoryCard('GMLT-33')" class="view-story-btn">View Story Card</button>
+                </div>
+
+                <div class="story-preview-card" data-story="GMLT-37">
+                    <div class="story-header">
+                        <span class="story-id">GMLT-37</span>
+                        <span class="story-status status-todo">TO DO</span>
+                    </div>
+                    <h4>[KITCH] Window Blinds Deep Cleaning</h4>
+                    <p class="story-summary">Remove dust and improve kitchen cleanliness</p>
+                    <div class="story-meta">
+                        <span class="assigned-to">👤🏾 All Family</span>
+                        <span class="priority low">🟢 Low</span>
+                    </div>
+                    <button onclick="openStoryCard('GMLT-37')" class="view-story-btn">View Story Card</button>
+                </div>
+
+                <!-- LIVING All Family Stories -->
+                <div class="story-preview-card" data-story="GMLT-55">
+                    <div class="story-header">
+                        <span class="story-id">GMLT-55</span>
+                        <span class="story-status status-todo">TO DO</span>
+                    </div>
+                    <h4>[LIVING] End Table and Surface Organization</h4>
+                    <p class="story-summary">Create organized living spaces</p>
+                    <div class="story-meta">
+                        <span class="assigned-to">👤🏾 All Family</span>
+                        <span class="priority high">🟡 High</span>
+                    </div>
+                    <button onclick="openStoryCard('GMLT-55')" class="view-story-btn">View Story Card</button>
+                </div>
+
+                <div class="story-preview-card" data-story="GMLT-57">
+                    <div class="story-header">
+                        <span class="story-id">GMLT-57</span>
+                        <span class="story-status status-todo">TO DO</span>
+                    </div>
+                    <h4>[LIVING] Play Area Deep Clean and Organization</h4>
+                    <p class="story-summary">Create safe, organized play space for children</p>
+                    <div class="story-meta">
+                        <span class="assigned-to">👤🏾 All Family</span>
+                        <span class="priority high">🟡 High</span>
+                    </div>
+                    <button onclick="openStoryCard('GMLT-57')" class="view-story-btn">View Story Card</button>
+                </div>
+
+                <div class="story-preview-card" data-story="GMLT-58">
+                    <div class="story-header">
+                        <span class="story-id">GMLT-58</span>
+                        <span class="story-status status-todo">TO DO</span>
+                    </div>
+                    <h4>[LIVING] Bookcase Repair and Treatment</h4>
+                    <p class="story-summary">Restore functional storage furniture</p>
+                    <div class="story-meta">
+                        <span class="assigned-to">👤🏾 Adults Lead + Kids Assist</span>
+                        <span class="priority medium">🟠 Medium</span>
+                    </div>
+                    <button onclick="openStoryCard('GMLT-58')" class="view-story-btn">View Story Card</button>
+                </div>
+
+                <div class="story-preview-card" data-story="GMLT-61">
+                    <div class="story-header">
+                        <span class="story-id">GMLT-61</span>
+                        <span class="story-status status-todo">TO DO</span>
+                    </div>
+                    <h4>[LIVING] Toy Kitchen Area Restoration</h4>
+                    <p class="story-summary">Create safe, clean play space for children</p>
+                    <div class="story-meta">
+                        <span class="assigned-to">👤🏾 All Family</span>
+                        <span class="priority medium">🟠 Medium</span>
+                    </div>
+                    <button onclick="openStoryCard('GMLT-61')" class="view-story-btn">View Story Card</button>
+                </div>
+
+                <!-- KIDS All Family Stories -->
+                <div class="story-preview-card" data-story="GMLT-42">
+                    <div class="story-header">
+                        <span class="story-id">GMLT-42</span>
+                        <span class="story-status status-todo">TO DO</span>
+                    </div>
+                    <h4>[KIDS] Children's Room 1 Clothing High-Heat Processing</h4>
+                    <p class="story-summary">Eliminate bed bugs from children's clothing</p>
+                    <div class="story-meta">
+                        <span class="assigned-to">👤🏾 All Family</span>
+                        <span class="priority high">🟡 High</span>
+                    </div>
+                    <button onclick="openStoryCard('GMLT-42')" class="view-story-btn">View Story Card</button>
+                </div>
+
+                <div class="story-note">
+                    <div class="info-card">
+                        <h4>👨🏾‍👩🏽‍👧🏽‍👦🏾 All Family Collaboration</h4>
+                        <p>These stories are designed for everyone to work together! Each task has age-appropriate roles for all family members to contribute safely and effectively.</p>
+                        <div class="story-meta">
+                            <span class="assigned-to">👤🏾 Family Teamwork</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Story Card Modal Template -->
+        <div id="story-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal" onclick="closeModal()">&times;</span>
+                <iframe id="story-frame" src="" width="100%" height="600px"></iframe>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><strong>GMLT Stories</strong> - Family-organized task management</p>
+            <p>"Plans fail for lack of counsel, but with many advisers they succeed." - Proverbs 15:22</p>
+            <div class="nav-links">
+                <a href="index.html">🏠 Dashboard</a> |
+                <a href="story-card-printable.html" target="_blank">📋 Story Template</a> |
+                <a href="analytics.html">📊 Analytics</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script>
+        // Group tab switching
+        function showGroup(groupName) {
+            // Hide all group sections
+            const sections = document.querySelectorAll('.group-section');
+            sections.forEach(section => section.classList.remove('active'));
+
+            // Remove active class from all tabs
+            const tabs = document.querySelectorAll('.tab-button');
+            tabs.forEach(tab => tab.classList.remove('active'));
+
+            // Show selected group
+            document.getElementById(groupName + '-group').classList.add('active');
+
+            // Activate clicked tab
+            event.target.classList.add('active');
+        }
+
+        // Open existing story card
+        function openStoryCard(storyId) {
+            // Check if story card file exists, otherwise open template
+            const storyCardUrl = `stories/${storyId}.html`;
+
+            // Try to open the specific story card, fallback to template with ID
+            const testUrl = fetch(storyCardUrl, { method: 'HEAD' })
+                .then(response => {
+                    if (response.ok) {
+                        window.open(storyCardUrl, '_blank');
+                    } else {
+                        // Fallback to template with story ID
+                        window.open(`story-card-printable.html?story=${storyId}`, '_blank');
+                    }
+                })
+                .catch(() => {
+                    // If fetch fails, try direct navigation
+                    window.open(storyCardUrl, '_blank');
+                });
+        }
+
+        // Modal functions
+        function closeModal() {
+            document.getElementById('story-modal').style.display = 'none';
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            const modal = document.getElementById('story-modal');
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        }
+    </script>
+
+    <style>
+        /* Group tabs styling */
+        .group-tabs {
+            display: flex;
+            gap: 10px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .tab-button {
+            background: #f0f8ff;
+            border: 2px solid #4a90e2;
+            border-radius: 10px;
+            padding: 12px 20px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            font-size: 14px;
+        }
+
+        .tab-button:hover {
+            background: #e6f3ff;
+            transform: translateY(-2px);
+        }
+
+        .tab-button.active {
+            background: #4a90e2;
+            color: white;
+        }
+
+        /* Group sections */
+        .group-section {
+            display: none;
+            margin: 20px 0;
+        }
+
+        .group-section.active {
+            display: block;
+        }
+
+        .group-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .group-header h2 {
+            margin: 0 0 10px 0;
+            font-size: 1.5em;
+        }
+
+        .group-header p {
+            margin: 0;
+            opacity: 0.9;
+        }
+
+        /* Stories grid */
+        .stories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .story-preview-card {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+
+        .story-preview-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+            border-color: #4a90e2;
+        }
+
+        .story-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .story-id {
+            background: #f0f8ff;
+            color: #4a90e2;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 12px;
+        }
+
+        .story-status {
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .status-todo { background: #fff3cd; color: #856404; }
+        .status-progress { background: #d4edda; color: #155724; }
+        .status-done { background: #d1ecf1; color: #0c5460; }
+        .status-planned { background: #f8d7da; color: #721c24; }
+
+        .story-preview-card h4 {
+            margin: 0 0 10px 0;
+            color: #333;
+            font-size: 1.1em;
+        }
+
+        .story-summary {
+            color: #666;
+            margin: 0 0 15px 0;
+            font-size: 0.95em;
+        }
+
+        .story-meta {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 15px;
+            font-size: 0.85em;
+        }
+
+        .assigned-to, .priority {
+            background: #f8f9fa;
+            padding: 4px 8px;
+            border-radius: 10px;
+        }
+
+        .priority.high { background: #ffe6e6; }
+        .priority.medium { background: #fff3e0; }
+        .priority.low { background: #e8f5e8; }
+
+        /* Story note styling */
+        .story-note {
+            grid-column: 1 / -1;
+            margin: 20px 0;
+        }
+
+        .info-card {
+            background: linear-gradient(135deg, #e3f2fd 0%, #f1f8e9 100%);
+            border: 2px solid #4a90e2;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .info-card h4 {
+            color: #4a90e2;
+            margin: 0 0 10px 0;
+        }
+
+        .info-card p {
+            color: #666;
+            margin: 0 0 15px 0;
+        }
+
+        .view-story-btn {
+            background: #4a90e2;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            width: 100%;
+            transition: background 0.3s ease;
+        }
+
+        .view-story-btn:hover {
+            background: #357abd;
+        }
+
+        /* Modal styling */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+        }
+
+        .modal-content {
+            background-color: white;
+            margin: 2% auto;
+            padding: 0;
+            border-radius: 15px;
+            width: 90%;
+            max-width: 1000px;
+            position: relative;
+        }
+
+        .close-modal {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .close-modal:hover {
+            color: black;
+        }
+
+        .nav-links {
+            margin-top: 15px;
+        }
+
+        .nav-links a {
+            color: #4a90e2;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .stories-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .group-tabs {
+                flex-direction: column;
+            }
+
+            .tab-button {
+                width: 100%;
+            }
+        }
+    </style>
+</body>
+</html>
