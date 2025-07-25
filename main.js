@@ -332,3 +332,28 @@ window.onclick = function (event) {
     modal.style.display = "none";
   }
 };
+
+// Analytics dashboard JavaScript functionality
+function initializeAnalytics() {
+  // Update the last updated timestamp for analytics page
+  const lastUpdatedElement = document.getElementById("lastUpdated");
+  if (lastUpdatedElement) {
+    lastUpdatedElement.textContent = new Date().toLocaleDateString();
+  }
+
+  // Add interactive functionality to epic cards
+  document.querySelectorAll(".epic-card").forEach((card) => {
+    card.addEventListener("click", function () {
+      // Could expand to show detailed story breakdown
+      console.log(
+        "Epic card clicked:",
+        this.querySelector(".epic-title").textContent
+      );
+    });
+  });
+}
+
+// Initialize analytics if we're on the analytics page
+if (window.location.pathname.includes("analytics.html")) {
+  document.addEventListener("DOMContentLoaded", initializeAnalytics);
+}

@@ -4,391 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GMLT Project Analytics | Detailed Progress Report</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: #333;
-            min-height: 100vh;
-        }
-
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        .header {
-            text-align: center;
-            background: linear-gradient(135deg, #FF6B35 0%, #F7931E 100%);
-            color: white;
-            padding: 30px;
-            border-radius: 20px;
-            margin-bottom: 30px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-        }
-
-        .header h1 {
-            margin: 0;
-            font-size: 42px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }
-
-        .header p {
-            margin: 15px 0 0 0;
-            font-size: 18px;
-            font-style: italic;
-        }
-
-        .nav-link {
-            display: inline-block;
-            background: rgba(255,255,255,0.2);
-            color: white;
-            padding: 10px 20px;
-            border-radius: 25px;
-            text-decoration: none;
-            margin: 10px 10px 0 0;
-            transition: background 0.3s;
-        }
-
-        .nav-link:hover {
-            background: rgba(255,255,255,0.3);
-        }
-
-        .metrics-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin-bottom: 30px;
-        }
-
-        .metric-card {
-            background: white;
-            padding: 25px;
-            border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-            text-align: center;
-            border: 3px solid;
-        }
-
-        .metric-card.primary {
-            border-color: #4CAF50;
-        }
-
-        .metric-card.secondary {
-            border-color: #2196F3;
-        }
-
-        .metric-card.warning {
-            border-color: #FF9800;
-        }
-
-        .metric-card.info {
-            border-color: #9C27B0;
-        }
-
-        .metric-value {
-            font-size: 48px;
-            font-weight: bold;
-            margin: 10px 0;
-            color: #2E7D32;
-        }
-
-        .metric-card.secondary .metric-value {
-            color: #1976D2;
-        }
-
-        .metric-card.warning .metric-value {
-            color: #F57C00;
-        }
-
-        .metric-card.info .metric-value {
-            color: #7B1FA2;
-        }
-
-        .metric-label {
-            font-size: 18px;
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-
-        .metric-subtitle {
-            font-size: 14px;
-            color: #666;
-        }
-
-        .section {
-            background: white;
-            border-radius: 20px;
-            padding: 25px;
-            margin-bottom: 30px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-
-        .section h2 {
-            margin: 0 0 20px 0;
-            color: #2E7D32;
-            border-bottom: 2px solid #4CAF50;
-            padding-bottom: 10px;
-        }
-
-        .epic-breakdown {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            margin-bottom: 20px;
-        }
-
-        .epic-card {
-            background: linear-gradient(145deg, #f8f9fa 0%, #ffffff 100%);
-            border: 2px solid #e0e0e0;
-            border-radius: 15px;
-            padding: 20px;
-            position: relative;
-        }
-
-        .epic-card.completed {
-            border-color: #4CAF50;
-            background: linear-gradient(145deg, #e8f5e8 0%, #ffffff 100%);
-        }
-
-        .epic-card.in-progress {
-            border-color: #FF9800;
-            background: linear-gradient(145deg, #fff3e0 0%, #ffffff 100%);
-        }
-
-        .epic-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 15px;
-        }
-
-        .epic-title {
-            font-size: 18px;
-            font-weight: bold;
-            color: #2E7D32;
-        }
-
-        .epic-status {
-            padding: 5px 10px;
-            border-radius: 15px;
-            font-size: 12px;
-            font-weight: bold;
-            color: white;
-        }
-
-        .epic-status.completed {
-            background: #4CAF50;
-        }
-
-        .epic-status.in-progress {
-            background: #FF9800;
-        }
-
-        .epic-status.todo {
-            background: #9E9E9E;
-        }
-
-        .epic-progress {
-            width: 100%;
-            height: 20px;
-            background: #e0e0e0;
-            border-radius: 10px;
-            overflow: hidden;
-            margin-bottom: 10px;
-        }
-
-        .epic-progress-fill {
-            height: 100%;
-            background: linear-gradient(90deg, #4CAF50 0%, #66BB6A 100%);
-            transition: width 0.3s ease;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 12px;
-            font-weight: bold;
-        }
-
-        .epic-stats {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
-            margin-top: 15px;
-        }
-
-        .stat-item {
-            text-align: center;
-            padding: 10px;
-            background: rgba(76, 175, 80, 0.1);
-            border-radius: 8px;
-        }
-
-        .stat-number {
-            font-size: 20px;
-            font-weight: bold;
-            color: #2E7D32;
-        }
-
-        .stat-label {
-            font-size: 12px;
-            color: #666;
-        }
-
-        .priority-chart {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
-        }
-
-        .priority-item {
-            background: #f8f9fa;
-            padding: 15px;
-            border-radius: 10px;
-            text-align: center;
-            border: 2px solid;
-        }
-
-        .priority-item.highest {
-            border-color: #F44336;
-            background: linear-gradient(145deg, #ffebee 0%, #ffffff 100%);
-        }
-
-        .priority-item.high {
-            border-color: #FF9800;
-            background: linear-gradient(145deg, #fff3e0 0%, #ffffff 100%);
-        }
-
-        .priority-item.medium {
-            border-color: #2196F3;
-            background: linear-gradient(145deg, #e3f2fd 0%, #ffffff 100%);
-        }
-
-        .priority-item.low {
-            border-color: #4CAF50;
-            background: linear-gradient(145deg, #e8f5e8 0%, #ffffff 100%);
-        }
-
-        .priority-count {
-            font-size: 32px;
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-
-        .priority-item.highest .priority-count {
-            color: #D32F2F;
-        }
-
-        .priority-item.high .priority-count {
-            color: #F57C00;
-        }
-
-        .priority-item.medium .priority-count {
-            color: #1976D2;
-        }
-
-        .priority-item.low .priority-count {
-            color: #2E7D32;
-        }
-
-        .timeline-analysis {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 30px;
-            margin-top: 20px;
-        }
-
-        .timeline-item {
-            background: #f8f9fa;
-            padding: 20px;
-            border-radius: 15px;
-            border-left: 5px solid;
-        }
-
-        .timeline-item.completed {
-            border-left-color: #4CAF50;
-        }
-
-        .timeline-item.current {
-            border-left-color: #FF9800;
-        }
-
-        .timeline-item.upcoming {
-            border-left-color: #9E9E9E;
-        }
-
-        .data-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-
-        .data-table th,
-        .data-table td {
-            padding: 12px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
-        }
-
-        .data-table th {
-            background: #f8f9fa;
-            font-weight: bold;
-            color: #2E7D32;
-        }
-
-        .data-table tr:hover {
-            background: #f8f9fa;
-        }
-
-        .status-badge {
-            padding: 4px 8px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: bold;
-            color: white;
-        }
-
-        .status-badge.done {
-            background: #4CAF50;
-        }
-
-        .status-badge.in-progress {
-            background: #FF9800;
-        }
-
-        .status-badge.todo {
-            background: #9E9E9E;
-        }
-
-        .footer {
-            text-align: center;
-            background: rgba(255,255,255,0.9);
-            padding: 20px;
-            border-radius: 15px;
-            margin-top: 30px;
-        }
-
-        @media (max-width: 768px) {
-            .metrics-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .epic-breakdown {
-                grid-template-columns: 1fr;
-            }
-
-            .timeline-analysis {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="analytics-container">
         <div class="header">
             <h1>📊 GMLT PROJECT ANALYTICS</h1>
             <p>Comprehensive Progress Analysis & Metrics Dashboard</p>
@@ -403,31 +22,31 @@
             </div>
 
             <div class="metric-card primary">
-                <div class="metric-value">9</div>
+                <div class="metric-value">13</div>
                 <div class="metric-label">Completed</div>
-                <div class="metric-subtitle">11.5% Complete</div>
+                <div class="metric-subtitle">16.7% Complete</div>
             </div>
 
             <div class="metric-card secondary">
-                <div class="metric-value">2</div>
+                <div class="metric-value">7</div>
                 <div class="metric-label">In Progress</div>
-                <div class="metric-subtitle">2.6% Active</div>
+                <div class="metric-subtitle">9.0% Active</div>
             </div>
 
             <div class="metric-card warning">
-                <div class="metric-value">67</div>
+                <div class="metric-value">57</div>
                 <div class="metric-label">Remaining</div>
-                <div class="metric-subtitle">85.9% To Do</div>
+                <div class="metric-subtitle">73.1% To Do</div>
             </div>
 
             <div class="metric-card info">
-                <div class="metric-value">0</div>
-                <div class="metric-label">Epics Done</div>
-                <div class="metric-subtitle">PREP In Progress</div>
+                <div class="metric-value">1</div>
+                <div class="metric-label">Blocked</div>
+                <div class="metric-subtitle">GMLT-47 Storage Issue</div>
             </div>
 
             <div class="metric-card info">
-                <div class="metric-value">10</div>
+                <div class="metric-value">13</div>
                 <div class="metric-label">Days Active</div>
                 <div class="metric-subtitle">Since July 12</div>
             </div>
@@ -463,22 +82,22 @@
                 <div class="epic-card in-progress">
                     <div class="epic-header">
                         <div class="epic-title">MSTR - Master Bedroom</div>
-                        <div class="epic-status in-progress">10% IN PROGRESS</div>
+                        <div class="epic-status in-progress">20% IN PROGRESS</div>
                     </div>
                     <div class="epic-progress">
-                        <div class="epic-progress-fill" style="width: 10%;">1 of 10</div>
+                        <div class="epic-progress-fill" style="width: 20%;">2 of 10</div>
                     </div>
                     <div class="epic-stats">
                         <div class="stat-item">
-                            <div class="stat-number">1</div>
+                            <div class="stat-number">2</div>
                             <div class="stat-label">Done</div>
                         </div>
                         <div class="stat-item">
-                            <div class="stat-number">1</div>
+                            <div class="stat-number">3</div>
                             <div class="stat-label">In Progress</div>
                         </div>
                         <div class="stat-item">
-                            <div class="stat-number">8</div>
+                            <div class="stat-number">5</div>
                             <div class="stat-label">To Do</div>
                         </div>
                     </div>
@@ -508,13 +127,13 @@
                     </div>
                 </div>
 
-                <div class="epic-card">
+                <div class="epic-card in-progress">
                     <div class="epic-header">
                         <div class="epic-title">KIDS - Children's Bedrooms</div>
-                        <div class="epic-status todo">TO DO</div>
+                        <div class="epic-status in-progress">IN PROGRESS</div>
                     </div>
                     <div class="epic-progress">
-                        <div class="epic-progress-fill" style="width: 0%;">0 of 13</div>
+                        <div class="epic-progress-fill" style="width: 0%;">0 of 14</div>
                     </div>
                     <div class="epic-stats">
                         <div class="stat-item">
@@ -522,11 +141,11 @@
                             <div class="stat-label">Done</div>
                         </div>
                         <div class="stat-item">
-                            <div class="stat-number">0</div>
+                            <div class="stat-number">4</div>
                             <div class="stat-label">In Progress</div>
                         </div>
                         <div class="stat-item">
-                            <div class="stat-number">13</div>
+                            <div class="stat-number">9</div>
                             <div class="stat-label">To Do</div>
                         </div>
                     </div>
@@ -556,17 +175,17 @@
                     </div>
                 </div>
 
-                <div class="epic-card">
+                <div class="epic-card in-progress">
                     <div class="epic-header">
                         <div class="epic-title">BATH - Bathroom Systems</div>
-                        <div class="epic-status todo">TO DO</div>
+                        <div class="epic-status in-progress">25% IN PROGRESS</div>
                     </div>
                     <div class="epic-progress">
-                        <div class="epic-progress-fill" style="width: 0%;">0 of 12</div>
+                        <div class="epic-progress-fill" style="width: 25%;">3 of 12</div>
                     </div>
                     <div class="epic-stats">
                         <div class="stat-item">
-                            <div class="stat-number">0</div>
+                            <div class="stat-number">3</div>
                             <div class="stat-label">Done</div>
                         </div>
                         <div class="stat-item">
@@ -574,7 +193,7 @@
                             <div class="stat-label">In Progress</div>
                         </div>
                         <div class="stat-item">
-                            <div class="stat-number">12</div>
+                            <div class="stat-number">9</div>
                             <div class="stat-label">To Do</div>
                         </div>
                     </div>
@@ -634,11 +253,11 @@
             <h2>🔥 Priority Analysis</h2>
             <div class="priority-chart">
                 <div class="priority-item highest">
-                    <div class="priority-count">7</div>
+                    <div class="priority-count">8</div>
                     <div>Highest Priority</div>
                 </div>
                 <div class="priority-item high">
-                    <div class="priority-count">16</div>
+                    <div class="priority-count">17</div>
                     <div>High Priority</div>
                 </div>
                 <div class="priority-item medium">
@@ -665,10 +284,11 @@
 
                 <div class="timeline-item current">
                     <h3>Week 3: Heat Treatment Preparation 🔥</h3>
-                    <p><strong>Status:</strong> TREATMENT PREP PHASE - LOCKED AND LOADED</p>
-                    <p><strong>MSTR Epic:</strong> 1 of 10 stories complete - Dad's dresser clearout FINISHED! ✅</p>
-                    <p><strong>Current Focus:</strong> Item removal and tagging for heat treatment preparation</p>
-                    <p><strong>Next Actions:</strong> $250 deposit payment July 24th, prepare for Aug 1st treatment</p>
+                    <p><strong>Status:</strong> DEPOSIT PAID ✅ - LOCKED AND LOADED</p>
+                    <p><strong>MSTR Epic:</strong> 2 of 10 stories complete - Dresser clearout & deep clean FINISHED! ✅</p>
+                    <p><strong>Current Focus:</strong> Multi-room item removal and tagging for heat treatment preparation</p>
+                    <p><strong>Blockers:</strong> GMLT-47 blocked - need new storage solutions (dresser) for kids room</p>
+                    <p><strong>Active Work:</strong> High heat laundry processing, closet organization, room 1 & 2 item tagging</p>
                 </div>
             </div>
         </div>
@@ -687,74 +307,74 @@
                 </thead>
                 <tbody>
                     <tr>
+                        <td>Refrigerator Deep Clean</td>
+                        <td>KITCH</td>
+                        <td><span class="status-badge todo">To Do</span></td>
+                        <td>High</td>
+                        <td>2025-07-25</td>
+                    </tr>
+                    <tr>
+                        <td>Room 1 Heat Treatment Item Removal and Tagging</td>
+                        <td>KIDS</td>
+                        <td><span class="status-badge in-progress">In Progress</span></td>
+                        <td>High</td>
+                        <td>2025-07-25</td>
+                    </tr>
+                    <tr>
+                        <td>Room 2 Heat Treatment Item Removal and Tagging</td>
+                        <td>KIDS</td>
+                        <td><span class="status-badge in-progress">In Progress</span></td>
+                        <td>High</td>
+                        <td>2025-07-25</td>
+                    </tr>
+                    <tr>
+                        <td>Room 2 Complete Area Clearance</td>
+                        <td>KIDS</td>
+                        <td><span class="status-badge blocked">BLOCKED</span></td>
+                        <td>High</td>
+                        <td>2025-07-25</td>
+                    </tr>
+                    <tr>
+                        <td>Kids' Bathroom Shower Head Installation</td>
+                        <td>BATH</td>
+                        <td><span class="status-badge done">Done</span></td>
+                        <td>Medium</td>
+                        <td>2025-07-25</td>
+                    </tr>
+                    <tr>
+                        <td>Kids' Bathroom Flush Master Replacement</td>
+                        <td>BATH</td>
+                        <td><span class="status-badge done">Done</span></td>
+                        <td>Medium</td>
+                        <td>2025-07-25</td>
+                    </tr>
+                    <tr>
+                        <td>Master Bathroom Plumbing Supplies Procurement</td>
+                        <td>BATH</td>
+                        <td><span class="status-badge done">Done</span></td>
+                        <td>Medium</td>
+                        <td>2025-07-25</td>
+                    </tr>
+                    <tr>
                         <td>Dresser Deep Clean and Treatment</td>
                         <td>MSTR</td>
-                        <td><span class="status-badge in-progress">In Progress</span></td>
+                        <td><span class="status-badge done">Done</span></td>
                         <td>High</td>
-                        <td>2025-07-20</td>
+                        <td>2025-07-25</td>
                     </tr>
                     <tr>
-                        <td>Dad's Dresser Contents Clearout and Sort</td>
+                        <td>High-Heat Laundry Processing Schedule</td>
                         <td>MSTR</td>
-                        <td><span class="status-badge done">Done</span></td>
-                        <td>High</td>
-                        <td>2025-07-20</td>
-                    </tr>
-                    <tr>
-                        <td>Professional Treatment Quote Research</td>
-                        <td>PREP</td>
                         <td><span class="status-badge in-progress">In Progress</span></td>
-                        <td>Medium</td>
-                        <td>2025-07-19</td>
+                        <td>High</td>
+                        <td>2025-07-25</td>
                     </tr>
                     <tr>
-                        <td>Treatment Decision Framework</td>
-                        <td>PREP</td>
-                        <td><span class="status-badge done">Done</span></td>
-                        <td>Medium</td>
-                        <td>2025-07-17</td>
-                    </tr>
-                    <tr>
-                        <td>Family Communication Plan</td>
-                        <td>PREP</td>
-                        <td><span class="status-badge done">Done</span></td>
-                        <td>Medium</td>
-                        <td>2025-07-17</td>
-                    </tr>
-                    <tr>
-                        <td>Treatment Financing Research</td>
-                        <td>PREP</td>
-                        <td><span class="status-badge done">Done</span></td>
-                        <td>Medium</td>
-                        <td>2025-07-17</td>
-                    </tr>
-                    <tr>
-                        <td>Emergency Bed Bug Supply Purchase</td>
-                        <td>PREP</td>
-                        <td><span class="status-badge done">Done</span></td>
-                        <td>Medium</td>
-                        <td>2025-07-17</td>
-                    </tr>
-                    <tr>
-                        <td>Kitchen Storage Container Procurement</td>
-                        <td>PREP</td>
-                        <td><span class="status-badge done">Done</span></td>
-                        <td>Medium</td>
-                        <td>2025-07-17</td>
-                    </tr>
-                    <tr>
-                        <td>Clothing Storage Bin Procurement</td>
-                        <td>PREP</td>
-                        <td><span class="status-badge done">Done</span></td>
-                        <td>Medium</td>
-                        <td>2025-07-17</td>
-                    </tr>
-                    <tr>
-                        <td>Roach Control Supply Purchase</td>
-                        <td>PREP</td>
-                        <td><span class="status-badge done">Done</span></td>
-                        <td>Medium</td>
-                        <td>2025-07-17</td>
+                        <td>Complete Closet Cleanout and Organization</td>
+                        <td>MSTR</td>
+                        <td><span class="status-badge in-progress">In Progress</span></td>
+                        <td>High</td>
+                        <td>2025-07-25</td>
                     </tr>
                 </tbody>
             </table>
@@ -770,15 +390,15 @@
                 </div>
 
                 <div class="metric-card secondary">
-                    <div class="metric-value">37%</div>
+                    <div class="metric-value">46%</div>
                     <div class="metric-label">Timeline</div>
                     <div class="metric-subtitle">Week 3 of 8</div>
                 </div>
 
                 <div class="metric-card warning">
-                    <div class="metric-value">$1500</div>
+                    <div class="metric-value">PAID!</div>
                     <div class="metric-label">Heat Treatment</div>
-                    <div class="metric-subtitle">LOCKED! Aug 1st 🔥</div>
+                    <div class="metric-subtitle">$250 Deposit ✅ Aug 1st 🔥</div>
                 </div>
 
                 <div class="metric-card info">
@@ -795,17 +415,6 @@
         </div>
     </div>
 
-    <script>
-        // Update the last updated timestamp
-        document.getElementById('lastUpdated').textContent = new Date().toLocaleDateString();
-
-        // Add some interactive functionality
-        document.querySelectorAll('.epic-card').forEach(card => {
-            card.addEventListener('click', function() {
-                // Could expand to show detailed story breakdown
-                console.log('Epic card clicked:', this.querySelector('.epic-title').textContent);
-            });
-        });
-    </script>
+    <script src="main.js"></script>
 </body>
 </html>
