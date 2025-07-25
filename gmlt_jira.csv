@@ -1,6 +1,6 @@
 Issue Type, Key, Summary, Status, Comments, Assignee, Due date, Priority, Labels, Created, Updated, Reporter
 Epic, GMLT-3, PREP - Emergency Pest Response & Treatment Planning, In Progress,   , HD Solutions, 2025-07-26, Highest,   , 2025-07-12, 2025-07-17, HD Solutions
-Story, GMLT-10, [PREP] Professional Treatment Quote Research, Done, 3, HD Solutions,   , Medium,   , 2025-07-12, 2025-07-21, HD Solutions
+Story, GMLT-10, [PREP] Professional Treatment Quote Research, Done, 4, HD Solutions,   , Medium,   , 2025-07-12, 2025-07-21, HD Solutions
 Story, GMLT-13, [PREP] Mattress Encasement Installation, To Do,   , HD Solutions,   , Medium,   , 2025-07-12, 2025-07-12, HD Solutions
 Story, GMLT-17, [PREP] Treatment Decision Framework, Done,   , HD Solutions,   , Medium,   , 2025-07-12, 2025-07-17, HD Solutions
 Story, GMLT-14, [PREP] Roach Control Supply Purchase, Done,   , HD Solutions,   , Medium,   , 2025-07-12, 2025-07-17, HD Solutions
@@ -10,17 +10,17 @@ Story, GMLT-16, [PREP] Clothing Storage Bin Procurement, Done,   , HD Solutions,
 Story, GMLT-18, [PREP] Family Communication Plan, Done,   , HD Solutions,   , Medium,   , 2025-07-12, 2025-07-17, HD Solutions
 Story, GMLT-11, [PREP] Treatment Financing Research, Done,   , HD Solutions,   , Medium,   , 2025-07-12, 2025-07-17, HD Solutions
 Epic, GMLT-4, MSTR - Master Bedroom Pest Elimination & Organization, In Progress,   , HD Solutions, 2025-08-15, High,   , 2025-07-12, 2025-07-17, HD Solutions
-Story, GMLT-21, [MSTR] Dresser Deep Clean and Treatment, In Progress,   , HD Solutions,   , High, adults-only, teen-assist, 2025-07-12, 2025-07-20, HD Solutions
 Story, GMLT-20, [MSTR] Dad's Dresser Contents Clearout and Sort, Done, 1, HD Solutions,   , High, all-family, 2025-07-12, 2025-07-20, HD Solutions
-Story, GMLT-19, [MSTR] Initial Bed Bug Treatment Application, To Do,   , HD Solutions,   , Highest, adults-only, 2025-07-12, 2025-07-12, HD Solutions
+Story, GMLT-21, [MSTR] Dresser Deep Clean and Treatment, Done,   , HD Solutions,   , High, adults-only, teen-assist, 2025-07-12, 2025-07-25, HD Solutions
+Story, GMLT-23, [MSTR] Complete Closet Cleanout and Organization, In Progress,   , HD Solutions,   , High, all-family, 2025-07-12, 2025-07-25, HD Solutions
+Story, GMLT-24, [MSTR] High-Heat Laundry Processing Schedule, In Progress,   , HD Solutions,   , High, all-family, 2025-07-12, 2025-07-25, HD Solutions
+Story, GMLT-27, [MSTR] Patio Door Screen and Handle Replacement, In Progress,   , HD Solutions,   , Low, adults-only, 2025-07-12, 2025-07-25, HD Solutions
 Story, GMLT-22, [MSTR] Mom's Side Room Clearance and Treatment, To Do,   , HD Solutions,   , High, adults-lead, family-input, 2025-07-12, 2025-07-12, HD Solutions
-Story, GMLT-23, [MSTR] Complete Closet Cleanout and Organization, To Do,   , HD Solutions,   , High, all-family, 2025-07-12, 2025-07-12, HD Solutions
-Story, GMLT-24, [MSTR] High-Heat Laundry Processing Schedule, To Do,   , HD Solutions,   , High, all-family, 2025-07-12, 2025-07-12, HD Solutions
 Story, GMLT-25, [MSTR] Bed Bug Monitoring System Setup, To Do,   , HD Solutions,   , Medium, adults-lead, teen-assist, 2025-07-12, 2025-07-12, HD Solutions
 Story, GMLT-26, [MSTR] Weekly Treatment Application Schedule, To Do,   , HD Solutions,   , Medium, adults-only, 2025-07-12, 2025-07-12, HD Solutions
-Story, GMLT-27, [MSTR] Patio Door Screen and Handle Replacement, To Do,   , HD Solutions,   , Low, adults-only, 2025-07-12, 2025-07-12, HD Solutions
 Story, GMLT-28, [MSTR] Storage System Installation and Organization, To Do,   , HD Solutions,   , Medium, all-family, 2025-07-12, 2025-07-12, HD Solutions
-Epic, GMLT-5, KITCH - Kitchen Pest Elimination & Deep Organization, To Do,   , HD Solutions, 2025-08-15, High,   , 2025-07-12, 2025-07-12, HD Solutions
+Story, GMLT-19, [MSTR] Initial Bed Bug Treatment Application, To Do,   , HD Solutions,   , Highest, adults-only, 2025-07-12, 2025-07-25, HD Solutions
+Epic, GMLT-5, KITCH - Kitchen Pest Elimination & Deep Organization, To Do,   , HD Solutions, 2025-08-15, High,   , 2025-07-12, 2025-07-21, HD Solutions
 Story, GMLT-30, [KITCH] Cabinet Contents Removal and Storage, To Do,   , HD Solutions,   , Highest, all-family, 2025-07-12, 2025-07-12, HD Solutions
 Story, GMLT-31, [KITCH] Initial Roach Control Treatment Application, To Do,   , HD Solutions,   , Highest, adults-only, 2025-07-12, 2025-07-12, HD Solutions
 Story, GMLT-32, [KITCH] Cabinet Interior Deep Cleaning, To Do,   , HD Solutions,   , High, all-family, 2025-07-12, 2025-07-12, HD Solutions
@@ -32,20 +32,23 @@ Story, GMLT-37, [KITCH] Window Blinds Deep Cleaning, To Do,   , HD Solutions,   
 Story, GMLT-38, [KITCH] Weekly Roach Treatment Routine Establishment, To Do,   , HD Solutions,   , High, adults-only, 2025-07-12, 2025-07-12, HD Solutions
 Story, GMLT-39, [KITCH] Clean Item Return and Organization, To Do,   , HD Solutions,   , Medium, all-family, 2025-07-12, 2025-07-12, HD Solutions
 Story, GMLT-40, [KITCH] Kitchen Storage Solution Installation, To Do,   , HD Solutions,   , Low, adults-lead, all-family, 2025-07-12, 2025-07-12, HD Solutions
+Story, GMLT-92, [KITCH] Refrigerator Deep Clean, To Do,   , HD Solutions,   , High, adults-lead, teen-assist, 2025-07-25, 2025-07-25, HD Solutions
 Epic, GMLT-6, KIDS - Children's Bedroom Safety & Organization, To Do,   , HD Solutions, 2025-08-19, High,   , 2025-07-12, 2025-07-12, HD Solutions
+Story, GMLT-42, [KIDS] Children's Room 1 Clothing High-Heat Processing, In Progress,   , HD Solutions,   , High, all-family, 2025-07-12, 2025-07-25, HD Solutions
+Story, GMLT-44, [KIDS] Room 1 Clothing and Toy Purge, In Progress,   , HD Solutions,   , High, adults-lead, child-participate, 2025-07-12, 2025-07-25, HD Solutions
 Story, GMLT-41, [KIDS] Emergency Mattress Encasement Installation, To Do,   , HD Solutions,   , Highest, adults-only, 2025-07-12, 2025-07-12, HD Solutions
-Story, GMLT-42, [KIDS] Children's Room 1 Clothing High-Heat Processing, To Do,   , HD Solutions,   , High, all-family, 2025-07-12, 2025-07-12, HD Solutions
 Story, GMLT-43, [KIDS] Room 1 Bed Bug Furniture Treatment, To Do,   , HD Solutions,   , High, adults-only, 2025-07-12, 2025-07-12, HD Solutions
-Story, GMLT-44, [KIDS] Room 1 Clothing and Toy Purge, To Do,   , HD Solutions,   , High, adults-lead, child-participate, 2025-07-12, 2025-07-12, HD Solutions
 Story, GMLT-45, [KIDS] Room 1 Deep Surface Cleaning and Treatment, To Do,   , HD Solutions,   , Medium, adults-lead, teen-assist, 2025-07-12, 2025-07-12, HD Solutions
 Story, GMLT-46, [KIDS] Room 1 Bed Bug Monitoring System Setup, To Do,   , HD Solutions,   , Medium, adults-lead, child-participate, 2025-07-12, 2025-07-12, HD Solutions
-Story, GMLT-47, [KIDS] Room 2 Complete Area Clearance, To Do,   , HD Solutions,   , High, adults-lead, child-participate, 2025-07-12, 2025-07-12, HD Solutions
+Story, GMLT-47, [KIDS] Room 2 Complete Area Clearance, BLOCKED/WAITING,   , HD Solutions,   , High, adults-lead, child-participate, 2025-07-12, 2025-07-25, HD Solutions
 Story, GMLT-48, [KIDS] Room 2 Comprehensive Bed Bug Treatment, To Do,   , HD Solutions,   , High, adults-only, 2025-07-12, 2025-07-12, HD Solutions
 Story, GMLT-49, [KIDS] Shoe Storage Solution Implementation, To Do,   , HD Solutions,   , Medium, adults-lead, child-participate, 2025-07-12, 2025-07-12, HD Solutions
 Story, GMLT-50, [KIDS] Hamper Placement and Laundry System Setup, To Do,   , HD Solutions,   , Medium, all-family, 2025-07-12, 2025-07-12, HD Solutions
 Story, GMLT-51, [KIDS] Twin Bed Layout Planning for Room 2, To Do,   , HD Solutions,   , Low, adults-only, 2025-07-12, 2025-07-12, HD Solutions
 Story, GMLT-52, [KIDS] Children's Organization Skills Training, To Do,   , HD Solutions,   , Medium, all-family, 2025-07-12, 2025-07-12, HD Solutions
 Story, GMLT-53, [KIDS] New Mattress Planning and Placement, To Do,   , HD Solutions,   , Low, adults-only, 2025-07-12, 2025-07-12, HD Solutions
+Story, GMLT-90, [KIDS] Room 1 Heat Treatment Item Removal and Tagging, In Progress,   , HD Solutions,   , High, adults-lead, child-participate, 2025-07-21, 2025-07-25, HD Solutions
+Story, GMLT-91, [KIDS] Room 2 Heat Treatment Item Removal and Tagging, In Progress,   , HD Solutions,   , High, adults-lead, child-participate, 2025-07-21, 2025-07-25, HD Solutions
 Epic, GMLT-7, LIVING - Common Area Pest Control & Family Organization, To Do,   , HD Solutions, 2025-08-14, Medium,   , 2025-07-12, 2025-07-12, HD Solutions
 Story, GMLT-54, [LIVING] Couch Assessment and Treatment Decision, To Do,   , HD Solutions,   , Highest, adults-only, 2025-07-12, 2025-07-12, HD Solutions
 Story, GMLT-55, [LIVING] End Table and Surface Organization, To Do,   , HD Solutions,   , High, all-family, 2025-07-12, 2025-07-12, HD Solutions
@@ -60,18 +63,18 @@ Story, GMLT-63, [LIVING] New Storage Solution Installation, To Do,   , HD Soluti
 Story, GMLT-64, [LIVING] Living Area Pest Monitoring Setup, To Do,   , HD Solutions,   , Medium, adults-lead, family-participate, 2025-07-12, 2025-07-12, HD Solutions
 Story, GMLT-65, [LIVING] Family Activity Space Optimization, To Do,   , HD Solutions,   , Low, all-family, 2025-07-12, 2025-07-12, HD Solutions
 Epic, GMLT-8, BATH - Bathroom Restoration & Maintenance Systems, To Do,   , HD Solutions, 2025-08-21, Medium,   , 2025-07-12, 2025-07-12, HD Solutions
-Story, GMLT-66, [BATH] Master Bathroom Plumbing Supplies Procurement, To Do,   , HD Solutions,   , Medium, adults-only, 2025-07-12, 2025-07-12, HD Solutions
-Story, GMLT-67, [BATH] Master Bathroom Sliding Door Repair, To Do,   , HD Solutions,   , Medium, adults-only, 2025-07-12, 2025-07-12, HD Solutions
+Story, GMLT-66, [BATH] Master Bathroom Plumbing Supplies Procurement, Done,   , HD Solutions,   , Medium, adults-only, 2025-07-12, 2025-07-25, HD Solutions
 Story, GMLT-68, [BATH] Master Bathroom Shower Head Installation, To Do,   , HD Solutions,   , Medium, adults-only, 2025-07-12, 2025-07-12, HD Solutions
 Story, GMLT-69, [BATH] Master Bathroom Pest Treatment Application, To Do,   , HD Solutions,   , High, adults-only, 2025-07-12, 2025-07-12, HD Solutions
 Story, GMLT-70, [BATH] Master Bathroom Deep Surface Cleaning, To Do,   , HD Solutions,   , Medium, all-family, 2025-07-12, 2025-07-12, HD Solutions
 Story, GMLT-71, [BATH] Kids' Bathroom Sink Deep Clean and Declutter, To Do,   , HD Solutions,   , High, adults-lead, child-participate, 2025-07-12, 2025-07-12, HD Solutions
-Story, GMLT-72, [BATH] Kids' Bathroom Flush Master Replacement, To Do,   , HD Solutions,   , Medium, adults-only, 2025-07-12, 2025-07-12, HD Solutions
-Story, GMLT-73, [BATH] Kids' Bathroom Shower Head Installation, To Do,   , HD Solutions,   , Medium, adults-only, 2025-07-12, 2025-07-12, HD Solutions
+Story, GMLT-72, [BATH] Kids' Bathroom Flush Master Replacement, Done,   , HD Solutions,   , Medium, adults-only, 2025-07-12, 2025-07-25, HD Solutions
+Story, GMLT-73, [BATH] Kids' Bathroom Shower Head Installation, Done,   , HD Solutions,   , Medium, adults-only, 2025-07-12, 2025-07-25, HD Solutions
 Story, GMLT-74, [BATH] Kids' Bathroom Tub and Counter Deep Clean, To Do,   , HD Solutions,   , Medium, adults-lead, teen-assist, 2025-07-12, 2025-07-12, HD Solutions
 Story, GMLT-75, [BATH] Kids' Bathroom Clutter Removal and Organization, To Do,   , HD Solutions,   , Medium, adults-lead, child-participate, 2025-07-12, 2025-07-12, HD Solutions
 Story, GMLT-76, [BATH] Bathroom Maintenance Schedule Creation, To Do,   , HD Solutions,   , Low, all-family, 2025-07-12, 2025-07-12, HD Solutions
 Story, GMLT-77, [BATH] Bathroom Safety and Hygiene Systems, To Do,   , HD Solutions,   , Low, adults-only, 2025-07-12, 2025-07-12, HD Solutions
+Story, GMLT-67, [BATH] Master Bathroom Sliding Door Repair, To Do,   , HD Solutions,   , Medium, adults-only, 2025-07-12, 2025-07-25, HD Solutions
 Epic, GMLT-9, MAINT - Sustainable Home Management Systems, To Do,   , HD Solutions, 2025-08-23, Medium,   , 2025-07-12, 2025-07-12, HD Solutions
 Story, GMLT-78, [MAINT] Weekly Pest Monitoring System Implementation, To Do,   , HD Solutions,   , Highest, adults-lead, family-participate, 2025-07-12, 2025-07-12, HD Solutions
 Story, GMLT-79, [MAINT] Daily 15-Minute Pickup Routine Establishment, To Do,   , HD Solutions,   , High, all-family, 2025-07-12, 2025-07-12, HD Solutions
